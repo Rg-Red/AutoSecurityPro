@@ -1,0 +1,1730 @@
+{
+  "scan_metadata": {
+    "tool_name": "AutoSecurityPro",
+    "version": "1.0.0",
+    "target": "library.aua.am",
+    "target_ip": "172.67.68.209",
+    "scan_started": "2026-10-07T04:47:07Z",
+    "scan_finished": "2026-10-07T05:25:38Z",
+    "tor_enabled": false
+  },
+  "attack_surface_recon": {
+    "server": "cloudflare",
+    "operating_system": null,
+    "detected_technologies": [
+      "Cloudflare",
+      "WordPress"
+    ],
+    "discovered_subdomains": [],
+    "dangling_subdomains": [],
+    "discovered_endpoints": [
+      "https://library.aua.am",
+      "https://library.aua.am/",
+      "https://library.aua.am/book-a-librarian/",
+      "https://library.aua.am/borrow-renew-return/",
+      "https://library.aua.am/history-mission/",
+      "https://library.aua.am/hours-facilities-and-visitor-information/",
+      "https://library.aua.am/interlibrary-loan/",
+      "https://library.aua.am/library-collections/",
+      "https://library.aua.am/policies-guidelines/",
+      "https://library.aua.am/robots.txt",
+      "https://library.aua.am/staff/",
+      "https://library.aua.am/strategic-plan/",
+      "https://library.aua.am/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=4.2.3",
+      "https://library.aua.am/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.2.4",
+      "https://library.aua.am/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.4",
+      "https://library.aua.am/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.4",
+      "https://library.aua.am/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.2.4",
+      "https://library.aua.am/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5",
+      "https://library.aua.am/wp-content/plugins/jet-elements/assets/css/jet-elements.css?ver=2.9.2.2",
+      "https://library.aua.am/wp-content/plugins/jet-engine/assets/css/frontend.css?ver=3.8.15.3",
+      "https://library.aua.am/wp-content/plugins/jet-menu/assets/public/css/public.css?ver=3.0.4",
+      "https://library.aua.am/wp-content/plugins/jet-popup/assets/css/jet-popup-frontend.css?ver=2.2.2",
+      "https://library.aua.am/wp-content/plugins/jet-search/assets/css/jet-search.css?ver=3.6.3.1",
+      "https://library.aua.am/wp-content/plugins/jet-search/assets/lib/chosen/chosen.min.css?ver=1.8.7",
+      "https://library.aua.am/wp-content/plugins/jet-tabs/assets/css/jet-tabs-frontend.css?ver=2.3.3.2",
+      "https://library.aua.am/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/themify.css?ver=1.2.0",
+      "https://library.aua.am/xmlrpc.php?rsd"
+    ],
+    "auxiliary_probe_targets": [],
+    "discovered_js_files": [
+      "https://library.aua.am/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "https://library.aua.am/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js",
+      "https://library.aua.am/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.2.3",
+      "https://library.aua.am/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.2.3",
+      "https://library.aua.am/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.2.3",
+      "https://library.aua.am/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1",
+      "https://library.aua.am/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.2.4",
+      "https://library.aua.am/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.2.4",
+      "https://library.aua.am/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.2.4",
+      "https://library.aua.am/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-6b04077d00f0d606ba42.js",
+      "https://library.aua.am/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=373fcf115e257ba62fdd1a205717b981",
+      "https://library.aua.am/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=d7e103405223e60d2719f4c330fd11cf",
+      "https://library.aua.am/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=0c901cb641ce64b99c20ea1a4d208cc9",
+      "https://library.aua.am/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=3.1.3",
+      "https://library.aua.am/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=3.1.3",
+      "https://library.aua.am/wp-content/plugins/jet-blocks/assets/js/jet-blocks.min.js?ver=1.5.2.1",
+      "https://library.aua.am/wp-content/plugins/jet-blocks/assets/js/lib/jsticky/jquery.jsticky.min.js?ver=1.1.0",
+      "https://library.aua.am/wp-content/plugins/jet-elements/assets/js/addons/jet-horizontal-timeline.min.js?ver=2.9.2.2",
+      "https://library.aua.am/wp-content/plugins/jet-elements/assets/js/addons/jet-table.min.js?ver=2.9.2.2",
+      "https://library.aua.am/wp-content/plugins/jet-elements/assets/js/jet-elements.min.js?ver=2.9.2.2",
+      "https://library.aua.am/wp-content/plugins/jet-elements/assets/js/lib/anime-js/anime.min.js?ver=2.2.0",
+      "https://library.aua.am/wp-content/plugins/jet-elements/assets/js/lib/tweenjs/tweenjs.min.js?ver=2.0.2",
+      "https://library.aua.am/wp-content/plugins/jet-engine/assets/js/frontend/frontend.js?ver=3.8.15.3",
+      "https://library.aua.am/wp-content/plugins/jet-engine/assets/js/frontend/modules/jet-popup.js?ver=3.8.15.3",
+      "https://library.aua.am/wp-content/plugins/jet-menu/assets/public/js/jet-menu-public-scripts.js?ver=3.0.4",
+      "https://library.aua.am/wp-content/plugins/jet-menu/includes/elementor/assets/public/js/widgets-scripts.js?ver=3.0.4",
+      "https://library.aua.am/wp-content/plugins/jet-popup/assets/js/jet-popup-frontend.js?ver=2.2.2",
+      "https://library.aua.am/wp-content/plugins/jet-popup/includes/elementor/assets/js/jet-popup-elementor-frontend.js?ver=2.2.2",
+      "https://library.aua.am/wp-content/plugins/jet-search/assets/js/jet-search.js?ver=3.6.3.1",
+      "https://library.aua.am/wp-content/plugins/jet-search/assets/lib/chosen/chosen.jquery.min.js?ver=1.8.7",
+      "https://library.aua.am/wp-content/plugins/jet-search/assets/lib/jet-plugins/jet-plugins.js?ver=1.0.0",
+      "https://library.aua.am/wp-content/plugins/jet-tabs/assets/js/jet-tabs-frontend.min.js?ver=2.3.3.2",
+      "https://library.aua.am/wp-content/plugins/jetformbuilder/assets/build/frontend/main.js?ver=b6ad40658d81b14a771d",
+      "https://library.aua.am/wp-content/plugins/jetformbuilder/modules/blocks-v2/text-field/assets/build/frontend/field.js?ver=c4f81b3c6552f155aeac",
+      "https://library.aua.am/wp-content/plugins/jetformbuilder/modules/blocks-v2/text-field/assets/build/frontend/field.mask.js?ver=f062467fb61706741649",
+      "https://library.aua.am/wp-content/plugins/jetformbuilder/modules/blocks-v2/text-field/assets/lib/jquery.inputmask.min.js?ver=f062467fb61706741649",
+      "https://library.aua.am/wp-content/plugins/jetformbuilder/modules/deprecated/assets/build/frontend.js?ver=120e75a68931b79be3f4",
+      "https://library.aua.am/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.4.1",
+      "https://library.aua.am/wp-content/themes/hello-theme-child-master/assets/js/additional.js?ver=1791348430",
+      "https://library.aua.am/wp-content/themes/hello-theme-child-master/assets/js/additional.js?ver=1791348475",
+      "https://library.aua.am/wp-content/themes/hello-theme-child-master/assets/js/additional.js?ver=1791348477",
+      "https://library.aua.am/wp-content/themes/hello-theme-child-master/assets/js/additional.js?ver=1791348500",
+      "https://library.aua.am/wp-content/themes/hello-theme-child-master/assets/js/additional.js?ver=1791348544",
+      "https://library.aua.am/wp-content/themes/hello-theme-child-master/assets/js/additional.js?ver=1791348545",
+      "https://library.aua.am/wp-content/themes/hello-theme-child-master/assets/js/additional.js?ver=1791348561",
+      "https://library.aua.am/wp-content/themes/hello-theme-child-master/assets/js/additional.js?ver=1791348584",
+      "https://library.aua.am/wp-content/themes/hello-theme-child-master/assets/js/additional.js?ver=1791348606",
+      "https://library.aua.am/wp-content/themes/hello-theme-child-master/assets/js/additional.js?ver=1791348608",
+      "https://library.aua.am/wp-content/themes/hello-theme-child-master/assets/js/additional.js?ver=1791348609",
+      "https://library.aua.am/wp-content/themes/hello-theme-child-master/assets/js/front-page-sliders.js?ver=1791348430",
+      "https://library.aua.am/wp-content/themes/hello-theme-child-master/assets/js/front-page-sliders.js?ver=1791348606",
+      "https://library.aua.am/wp-includes/js/dist/a11y.min.js?ver=31c6cec5a4ff7aff483d",
+      "https://library.aua.am/wp-includes/js/dist/dom-ready.min.js?ver=3fe927cab37bf38d6a23",
+      "https://library.aua.am/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255",
+      "https://library.aua.am/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216",
+      "https://library.aua.am/wp-includes/js/hoverIntent.min.js?ver=1.10.2",
+      "https://library.aua.am/wp-includes/js/imagesloaded.min.js?ver=7.1.3",
+      "https://library.aua.am/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "https://library.aua.am/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "https://library.aua.am/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+      "https://library.aua.am/wp-includes/js/underscore.min.js?ver=1.13.8",
+      "https://library.aua.am/wp-includes/js/wp-util.min.js?ver=7.1.3"
+    ],
+    "discovered_forms": [
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://aua.us6.list-manage.com/subscribe/post?u=af1b6dfae4&id=fd710b8a64&f_id=007bc3e1f0",
+        "method": "POST",
+        "parameters": [
+          "FNAME",
+          "LNAME",
+          "EMAIL",
+          "b_af1b6dfae4_fd710b8a64",
+          "subscribe"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jsearch"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jet_ajax_search_settings"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/interlibrary-loan/",
+        "method": "POST",
+        "parameters": [
+          "input_1",
+          "input_2",
+          "input_3",
+          "input_4",
+          "input_6",
+          "input_8",
+          "input_19",
+          "input_9",
+          "input_10",
+          "input_12",
+          "input_13",
+          "input_14",
+          "input_15",
+          "input_16",
+          "input_17",
+          "gform_submission_method",
+          "gform_theme",
+          "gform_style_settings",
+          "is_submit_1",
+          "gform_submit",
+          "gform_currency",
+          "gform_unique_id",
+          "state_1",
+          "gform_target_page_number_1",
+          "gform_source_page_number_1",
+          "gform_field_values"
+        ]
+      },
+      {
+        "action": "https://aua.us6.list-manage.com/subscribe/post?u=af1b6dfae4&id=fd710b8a64&f_id=007bc3e1f0",
+        "method": "POST",
+        "parameters": [
+          "FNAME",
+          "LNAME",
+          "EMAIL",
+          "b_af1b6dfae4_fd710b8a64",
+          "subscribe"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jsearch"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jet_ajax_search_settings"
+        ]
+      },
+      {
+        "action": "https://aua.us6.list-manage.com/subscribe/post?u=af1b6dfae4&id=fd710b8a64&f_id=007bc3e1f0",
+        "method": "POST",
+        "parameters": [
+          "FNAME",
+          "LNAME",
+          "EMAIL",
+          "b_af1b6dfae4_fd710b8a64",
+          "subscribe"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jsearch"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jet_ajax_search_settings"
+        ]
+      },
+      {
+        "action": "https://aua.us6.list-manage.com/subscribe/post?u=af1b6dfae4&id=fd710b8a64&f_id=007bc3e1f0",
+        "method": "POST",
+        "parameters": [
+          "FNAME",
+          "LNAME",
+          "EMAIL",
+          "b_af1b6dfae4_fd710b8a64",
+          "subscribe"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jsearch"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jet_ajax_search_settings"
+        ]
+      },
+      {
+        "action": "https://aua.us6.list-manage.com/subscribe/post?u=af1b6dfae4&id=fd710b8a64&f_id=007bc3e1f0",
+        "method": "POST",
+        "parameters": [
+          "FNAME",
+          "LNAME",
+          "EMAIL",
+          "b_af1b6dfae4_fd710b8a64",
+          "subscribe"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jsearch"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jet_ajax_search_settings"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jsearch"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jet_ajax_search_settings"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/hours-facilities-and-visitor-information/?1v74LF=13r9XTa04TV4&method=reload",
+        "method": "POST",
+        "parameters": [
+          "_wpnonce",
+          "_wp_http_referer",
+          "_jfb_current_render_states[]",
+          "_jet_engine_booking_form_id",
+          "_jet_engine_refer",
+          "__queried_post_id",
+          "first_name",
+          "last_name",
+          "phone_number",
+          "email",
+          "message"
+        ]
+      },
+      {
+        "action": "https://aua.us6.list-manage.com/subscribe/post?u=af1b6dfae4&id=fd710b8a64&f_id=007bc3e1f0",
+        "method": "POST",
+        "parameters": [
+          "FNAME",
+          "LNAME",
+          "EMAIL",
+          "b_af1b6dfae4_fd710b8a64",
+          "subscribe"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jsearch"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jet_ajax_search_settings"
+        ]
+      },
+      {
+        "action": "https://aua.us6.list-manage.com/subscribe/post?u=af1b6dfae4&id=fd710b8a64&f_id=007bc3e1f0",
+        "method": "POST",
+        "parameters": [
+          "FNAME",
+          "LNAME",
+          "EMAIL",
+          "b_af1b6dfae4_fd710b8a64",
+          "subscribe"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jsearch"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jet_ajax_search_settings"
+        ]
+      },
+      {
+        "action": "https://library.aua.am",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://aua.us6.list-manage.com/subscribe/post?u=af1b6dfae4&id=fd710b8a64&f_id=007bc3e1f0",
+        "method": "POST",
+        "parameters": [
+          "FNAME",
+          "LNAME",
+          "EMAIL",
+          "b_af1b6dfae4_fd710b8a64",
+          "subscribe"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jsearch"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jet_ajax_search_settings"
+        ]
+      },
+      {
+        "action": "https://aua.us6.list-manage.com/subscribe/post?u=af1b6dfae4&id=fd710b8a64&f_id=007bc3e1f0",
+        "method": "POST",
+        "parameters": [
+          "FNAME",
+          "LNAME",
+          "EMAIL",
+          "b_af1b6dfae4_fd710b8a64",
+          "subscribe"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jsearch"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jet_ajax_search_settings"
+        ]
+      },
+      {
+        "action": "https://aua.us6.list-manage.com/subscribe/post?u=af1b6dfae4&id=fd710b8a64&f_id=007bc3e1f0",
+        "method": "POST",
+        "parameters": [
+          "FNAME",
+          "LNAME",
+          "EMAIL",
+          "b_af1b6dfae4_fd710b8a64",
+          "subscribe"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jsearch"
+        ]
+      },
+      {
+        "action": "https://library.aua.am/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "jet_ajax_search_settings"
+        ]
+      }
+    ],
+    "graphql_schema_detected": false,
+    "google_dorks_found": [
+      {
+        "query": "site:library.aua.am inurl:admin",
+        "google_url": "https://www.google.com/search?q=site%3Alibrary.aua.am+inurl%3Aadmin",
+        "results": []
+      },
+      {
+        "query": "site:library.aua.am inurl:login",
+        "google_url": "https://www.google.com/search?q=site%3Alibrary.aua.am+inurl%3Alogin",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Flibrary.aua.am%2F&rut=9dcaa22762f76fddd45d445f1a6edc5df33c45b7ab37662d9e5fc7b3c0a79f51",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Flibrary.aua.am%2Fwp%2Dcontent%2Fuploads%2F2021%2F01%2FHow%2Dto%2DCreate%2DGrammarly%2DPremium%2DAccount.pdf&rut=422b4e2588fe0dc0f265e42ecda2bfbe8a02c17caebc20c318a1aa308417abb0",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Flibrary.aua.am%2Fe%2Dguide%2Dto%2Dauas%2Dagbu%2Dpapazian%2Dlibrary%2F&rut=c98afe043feeb0116440906220c4083e28d4da1b0ad63b53187f1deccda30e99",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Flibrary.aua.am%2Fresearch%2Dguides%2F&rut=1f53476eb791b7486a5c9805390668738e41154e5f233ecaa05a8c32d33e88f5",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Flibrary.aua.am%2Fuseful%2Dwebsites%2F&rut=02cae174bfdc54b49fd21d2517e45b146598f9e1b46b12e662a71f9f62bae60b"
+        ]
+      },
+      {
+        "query": "site:library.aua.am intitle:\"index of\"",
+        "google_url": "https://www.google.com/search?q=site%3Alibrary.aua.am+intitle%3A%22index+of%22",
+        "results": []
+      },
+      {
+        "query": "site:library.aua.am ext:sql",
+        "google_url": "https://www.google.com/search?q=site%3Alibrary.aua.am+ext%3Asql",
+        "results": []
+      },
+      {
+        "query": "site:library.aua.am ext:log",
+        "google_url": "https://www.google.com/search?q=site%3Alibrary.aua.am+ext%3Alog",
+        "results": []
+      },
+      {
+        "query": "site:library.aua.am ext:bak",
+        "google_url": "https://www.google.com/search?q=site%3Alibrary.aua.am+ext%3Abak",
+        "results": []
+      },
+      {
+        "query": "site:library.aua.am filetype:env",
+        "google_url": "https://www.google.com/search?q=site%3Alibrary.aua.am+filetype%3Aenv",
+        "results": []
+      },
+      {
+        "query": "site:library.aua.am inurl:wp-content",
+        "google_url": "https://www.google.com/search?q=site%3Alibrary.aua.am+inurl%3Awp-content",
+        "results": []
+      },
+      {
+        "query": "site:library.aua.am inurl:config",
+        "google_url": "https://www.google.com/search?q=site%3Alibrary.aua.am+inurl%3Aconfig",
+        "results": []
+      },
+      {
+        "query": "site:library.aua.am intext:\"sql syntax near\"",
+        "google_url": "https://www.google.com/search?q=site%3Alibrary.aua.am+intext%3A%22sql+syntax+near%22",
+        "results": []
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "id": "SEC-VULN-001",
+      "name": "Missing Security Header: Content-Security-Policy",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://library.aua.am/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Content-Security-Policy'.",
+      "remediation": "Missing Content-Security-Policy (CSP) header allows a broader attack surface for injection-based attacks such as XSS."
+    },
+    {
+      "id": "SEC-VULN-002",
+      "name": "Missing Security Header: Strict-Transport-Security",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 2.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "url": "https://library.aua.am/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Strict-Transport-Security'.",
+      "remediation": "Missing HTTP Strict-Transport-Security (HSTS) header exposes users to SSL-stripping / downgrade attacks."
+    },
+    {
+      "id": "SEC-VULN-003",
+      "name": "Missing Security Header: X-Frame-Options",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://library.aua.am/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'X-Frame-Options'.",
+      "remediation": "Missing X-Frame-Options header allows the page to be embedded in a frame, enabling clickjacking attacks."
+    },
+    {
+      "id": "SEC-VULN-004",
+      "name": "Missing Security Header: X-Content-Type-Options",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://library.aua.am/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'X-Content-Type-Options'.",
+      "remediation": "Missing X-Content-Type-Options header allows browsers to MIME-sniff responses, which can lead to content-type confusion attacks."
+    },
+    {
+      "id": "SEC-VULN-005",
+      "name": "SQL Injection (Time-Based Blind)",
+      "category": "OWASP A03:2021 - Injection",
+      "severity": "CRITICAL",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "url": "https://library.aua.am/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=%22+OR+SLEEP%285%29--+-",
+      "parameter": "ver",
+      "evidence_poc": "Baseline response time: 9.35s; payload response time: 23.62s (delta >= 3.0s threshold).",
+      "remediation": "Use parameterized queries / prepared statements and validate all user input server-side."
+    }
+  ],
+  "informational_observations": [
+    {
+      "name": "Public robots.txt Detected",
+      "category": "Informational",
+      "url": "https://library.aua.am/robots.txt",
+      "evidence": "HTTP 200 OK response received for '/robots.txt' with non-empty body content.",
+      "remediation": "No action required; this is a standard, benign publicly served file and its presence is not a vulnerability."
+    }
+  ],
+  "api_security": {
+    "documentation_targets": [
+      {
+        "requested_url": "https://library.aua.am/swagger",
+        "final_url": "https://library.aua.am/swagger",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5189,
+        "response_time_ms": 8926.76,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/swagger/",
+        "final_url": "https://library.aua.am/swagger/",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5188,
+        "response_time_ms": 8945.81,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/swagger/index.html",
+        "final_url": "https://library.aua.am/swagger/index.html",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1338,
+        "response_time_ms": 9023.03,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/swagger-ui",
+        "final_url": "https://library.aua.am/swagger-ui",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1338,
+        "response_time_ms": 9480.49,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/swagger-ui/",
+        "final_url": "https://library.aua.am/swagger-ui/",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1332,
+        "response_time_ms": 9096.38,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/swagger-ui.html",
+        "final_url": "https://library.aua.am/swagger-ui.html",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1338,
+        "response_time_ms": 9461.4,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/swagger.json",
+        "final_url": "https://library.aua.am/swagger.json",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1350,
+        "response_time_ms": 8944.6,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/swagger.yaml",
+        "final_url": "https://library.aua.am/swagger.yaml",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5189,
+        "response_time_ms": 8758.78,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/swagger/v1/swagger.json",
+        "final_url": "https://library.aua.am/swagger/v1/swagger.json",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5188,
+        "response_time_ms": 9344.05,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/swagger/v2/swagger.json",
+        "final_url": "https://library.aua.am/swagger/v2/swagger.json",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1332,
+        "response_time_ms": 9341.3,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/swagger/v3/swagger.json",
+        "final_url": "https://library.aua.am/swagger/v3/swagger.json",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5165,
+        "response_time_ms": 9410.02,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/openapi.json",
+        "final_url": "https://library.aua.am/openapi.json",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5189,
+        "response_time_ms": 9390.18,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/openapi.yaml",
+        "final_url": "https://library.aua.am/openapi.yaml",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1332,
+        "response_time_ms": 9209.79,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/openapi.yml",
+        "final_url": "https://library.aua.am/openapi.yml",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1328,
+        "response_time_ms": 9068.54,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/api-docs",
+        "final_url": "https://library.aua.am/api-docs",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5189,
+        "response_time_ms": 9004.95,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/api-docs/",
+        "final_url": "https://library.aua.am/api-docs/",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1332,
+        "response_time_ms": 9708.36,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/docs",
+        "final_url": "https://library.aua.am/docs",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1332,
+        "response_time_ms": 9045.49,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/docs/",
+        "final_url": "https://library.aua.am/docs/",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5169,
+        "response_time_ms": 8334.2,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/redoc",
+        "final_url": "https://library.aua.am/redoc",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5189,
+        "response_time_ms": 8694.41,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/redoc/",
+        "final_url": "https://library.aua.am/redoc/",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1327,
+        "response_time_ms": 8904.04,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/v2/api-docs",
+        "final_url": "https://library.aua.am/v2/api-docs",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1345,
+        "response_time_ms": 9467.03,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/v3/api-docs",
+        "final_url": "https://library.aua.am/v3/api-docs",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5189,
+        "response_time_ms": 8653.5,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/api/swagger.json",
+        "final_url": "https://library.aua.am/api/swagger.json",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5188,
+        "response_time_ms": 9340.15,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/api/openapi.json",
+        "final_url": "https://library.aua.am/api/openapi.json",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1326,
+        "response_time_ms": 8681.95,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/api/docs",
+        "final_url": "https://library.aua.am/api/docs",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5189,
+        "response_time_ms": 8896.53,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/api/docs/openapi.json",
+        "final_url": "https://library.aua.am/api/docs/openapi.json",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5188,
+        "response_time_ms": 9201.41,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/v1/swagger.json",
+        "final_url": "https://library.aua.am/v1/swagger.json",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5189,
+        "response_time_ms": 9154.42,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/v2/swagger.json",
+        "final_url": "https://library.aua.am/v2/swagger.json",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1345,
+        "response_time_ms": 8769.65,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/v3/swagger.json",
+        "final_url": "https://library.aua.am/v3/swagger.json",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5188,
+        "response_time_ms": 9084.21,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/v1/openapi.json",
+        "final_url": "https://library.aua.am/v1/openapi.json",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 1338,
+        "response_time_ms": 8953.55,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/v2/openapi.json",
+        "final_url": "https://library.aua.am/v2/openapi.json",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5189,
+        "response_time_ms": 9946.49,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/v3/openapi.json",
+        "final_url": "https://library.aua.am/v3/openapi.json",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5188,
+        "response_time_ms": 9385.66,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://library.aua.am/v1/api-docs",
+        "final_url": "https://library.aua.am/v1/api-docs",
+        "method": "GET",
+        "status_code": 403,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 5188,
+        "response_time_ms": 9436.73,
+        "redirect_chain": [],
+        "auth_challenge": true,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      }
+    ],
+    "openapi_schemas": [],
+    "endpoint_inventory": [
+      {
+        "method": "GET",
+        "path": "/",
+        "source_url": "https://library.aua.am",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/book-a-librarian/",
+        "source_url": "https://library.aua.am/book-a-librarian/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/borrow-renew-return/",
+        "source_url": "https://library.aua.am/borrow-renew-return/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/history-mission/",
+        "source_url": "https://library.aua.am/history-mission/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hours-facilities-and-visitor-information/",
+        "source_url": "https://library.aua.am/hours-facilities-and-visitor-information/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/interlibrary-loan/",
+        "source_url": "https://library.aua.am/interlibrary-loan/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/library-collections/",
+        "source_url": "https://library.aua.am/library-collections/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/policies-guidelines/",
+        "source_url": "https://library.aua.am/policies-guidelines/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/robots.txt",
+        "source_url": "https://library.aua.am/robots.txt",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/staff/",
+        "source_url": "https://library.aua.am/staff/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/strategic-plan/",
+        "source_url": "https://library.aua.am/strategic-plan/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css",
+        "source_url": "https://library.aua.am/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=4.2.3",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css",
+        "source_url": "https://library.aua.am/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.2.4",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/wp-content/plugins/elementor/assets/css/widget-heading.min.css",
+        "source_url": "https://library.aua.am/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.4",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/wp-content/plugins/elementor/assets/css/widget-image.min.css",
+        "source_url": "https://library.aua.am/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.4",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css",
+        "source_url": "https://library.aua.am/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.2.4",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css",
+        "source_url": "https://library.aua.am/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/wp-content/plugins/jet-elements/assets/css/jet-elements.css",
+        "source_url": "https://library.aua.am/wp-content/plugins/jet-elements/assets/css/jet-elements.css?ver=2.9.2.2",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/wp-content/plugins/jet-engine/assets/css/frontend.css",
+        "source_url": "https://library.aua.am/wp-content/plugins/jet-engine/assets/css/frontend.css?ver=3.8.15.3",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/wp-content/plugins/jet-menu/assets/public/css/public.css",
+        "source_url": "https://library.aua.am/wp-content/plugins/jet-menu/assets/public/css/public.css?ver=3.0.4",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/wp-content/plugins/jet-popup/assets/css/jet-popup-frontend.css",
+        "source_url": "https://library.aua.am/wp-content/plugins/jet-popup/assets/css/jet-popup-frontend.css?ver=2.2.2",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/wp-content/plugins/jet-search/assets/css/jet-search.css",
+        "source_url": "https://library.aua.am/wp-content/plugins/jet-search/assets/css/jet-search.css?ver=3.6.3.1",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/wp-content/plugins/jet-search/assets/lib/chosen/chosen.min.css",
+        "source_url": "https://library.aua.am/wp-content/plugins/jet-search/assets/lib/chosen/chosen.min.css?ver=1.8.7",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/wp-content/plugins/jet-tabs/assets/css/jet-tabs-frontend.css",
+        "source_url": "https://library.aua.am/wp-content/plugins/jet-tabs/assets/css/jet-tabs-frontend.css?ver=2.3.3.2",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/themify.css",
+        "source_url": "https://library.aua.am/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/themify.css?ver=1.2.0",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/xmlrpc.php",
+        "source_url": "https://library.aua.am/xmlrpc.php?rsd",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      }
+    ],
+    "authentication_analysis": [],
+    "rate_limit_observations": [
+      {
+        "endpoint": "/",
+        "method": "GET",
+        "status_codes": [
+          403,
+          403
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          9040.51,
+          8853.38
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/book-a-librarian/",
+        "method": "GET",
+        "status_codes": [
+          403,
+          403
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          9037.55,
+          9048.86
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/borrow-renew-return/",
+        "method": "GET",
+        "status_codes": [
+          403,
+          403
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          9175.07,
+          9595.23
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/history-mission/",
+        "method": "GET",
+        "status_codes": [
+          403,
+          403
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          9304.88,
+          8854.52
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/hours-facilities-and-visitor-information/",
+        "method": "GET",
+        "status_codes": [
+          403,
+          403
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          13179.07,
+          9059.88
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/interlibrary-loan/",
+        "method": "GET",
+        "status_codes": [
+          403,
+          403
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          9523.92,
+          8861.08
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/library-collections/",
+        "method": "GET",
+        "status_codes": [
+          403,
+          403
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          9421.94,
+          8904.2
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/policies-guidelines/",
+        "method": "GET",
+        "status_codes": [
+          403,
+          403
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          8751.7,
+          9283.81
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/robots.txt",
+        "method": "GET",
+        "status_codes": [
+          403,
+          403
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          9292.96,
+          9340.95
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/staff/",
+        "method": "GET",
+        "status_codes": [
+          403,
+          403
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          8747.39,
+          8521.51
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      }
+    ],
+    "findings": [],
+    "limitations": [
+      "Authorized safe BOLA comparison check was not enabled; only passive path-based indicators were analyzed."
+    ]
+  },
+  "metrics": {
+    "total_endpoints_scanned": 86,
+    "discovered_endpoints_count": 27,
+    "auxiliary_probe_targets_count": 0,
+    "vulnerabilities_by_severity": {
+      "critical": 1,
+      "high": 0,
+      "medium": 0,
+      "low": 4,
+      "info": 0
+    },
+    "overall_security_score": 63,
+    "coverage_percent": 30.1,
+    "confidence_score": 30,
+    "scan_quality": "LOW_CONFIDENCE",
+    "total_requests": 1158,
+    "successful_requests": 348,
+    "failed_requests": 1,
+    "timeout_count": 1
+  }
+}

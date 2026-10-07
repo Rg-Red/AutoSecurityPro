@@ -1,0 +1,3087 @@
+{
+  "scan_metadata": {
+    "tool_name": "AutoSecurityPro",
+    "version": "1.0.0",
+    "target": "qizegypt.gov.eg",
+    "target_ip": "52.166.247.173",
+    "scan_started": "2026-10-07T06:39:54Z",
+    "scan_finished": "2026-10-07T06:44:08Z",
+    "tor_enabled": false
+  },
+  "attack_surface_recon": {
+    "server": "Microsoft-IIS/8.5",
+    "operating_system": "Windows Server (heuristic)",
+    "detected_technologies": [
+      "ASP.NET",
+      "WordPress"
+    ],
+    "discovered_subdomains": [],
+    "dangling_subdomains": [],
+    "discovered_endpoints": [
+      "http://qizegypt.gov.eg/",
+      "http://qizegypt.gov.eg/Account/Login",
+      "http://qizegypt.gov.eg/Home/Language/ar?url=http://qizegypt.gov.eg/",
+      "http://qizegypt.gov.eg/Home/Language/en?url=http://qizegypt.gov.eg/",
+      "http://qizegypt.gov.eg/Home/index",
+      "http://qizegypt.gov.eg/Page/Advantages",
+      "http://qizegypt.gov.eg/Page/AllNews",
+      "http://qizegypt.gov.eg/Page/Announcements",
+      "http://qizegypt.gov.eg/Page/Events",
+      "http://qizegypt.gov.eg/Page/Faqs",
+      "http://qizegypt.gov.eg/Page/Gallery",
+      "http://qizegypt.gov.eg/Page/ImportandExport",
+      "http://qizegypt.gov.eg/Page/Library",
+      "http://qizegypt.gov.eg/Page/Locations",
+      "http://qizegypt.gov.eg/Page/Overview",
+      "http://qizegypt.gov.eg/Page/Press",
+      "http://qizegypt.gov.eg/Page/Proclamations",
+      "http://qizegypt.gov.eg/Page/Protocol",
+      "http://qizegypt.gov.eg/Page/QualifiedCompanies",
+      "http://qizegypt.gov.eg/Page/QuarterlyReview",
+      "http://qizegypt.gov.eg/Page/Registration",
+      "http://qizegypt.gov.eg/Page/Statistics",
+      "http://qizegypt.gov.eg/Page/Suppliers",
+      "http://qizegypt.gov.eg/Page/Surveys",
+      "http://qizegypt.gov.eg/Page/Unit",
+      "http://qizegypt.gov.eg/page/news/65",
+      "http://qizegypt.gov.eg/page/news/76",
+      "http://qizegypt.gov.eg/page/news/77",
+      "http://qizegypt.gov.eg/page/news/82",
+      "http://www.qizegypt.gov.eg/Page/Announcements",
+      "http://www.qizegypt.gov.eg/Page/Procedures",
+      "http://www.qizegypt.gov.eg/page/news/73",
+      "http://www.qizegypt.gov.eg/page/news/76",
+      "http://www.qizegypt.gov.eg/page/news/77"
+    ],
+    "auxiliary_probe_targets": [],
+    "discovered_js_files": [
+      "http://qizegypt.gov.eg/Content/jQuery-News-Ticker-master/includes/jquery.ticker.js",
+      "http://qizegypt.gov.eg/Scripts/accounting.min.js",
+      "http://qizegypt.gov.eg/Scripts/bootstrap.js",
+      "http://qizegypt.gov.eg/Scripts/charitable.min.js",
+      "http://qizegypt.gov.eg/Scripts/custom.js",
+      "http://qizegypt.gov.eg/Scripts/emailvalidation.js",
+      "http://qizegypt.gov.eg/Scripts/give.all.min.js",
+      "http://qizegypt.gov.eg/Scripts/greensock.js",
+      "http://qizegypt.gov.eg/Scripts/jquery-1.10.2.js",
+      "http://qizegypt.gov.eg/Scripts/jquery-migrate.min.js",
+      "http://qizegypt.gov.eg/Scripts/jquery.accordion.js",
+      "http://qizegypt.gov.eg/Scripts/jquery.bxslider.min.js",
+      "http://qizegypt.gov.eg/Scripts/jquery.flexslider-min.js",
+      "http://qizegypt.gov.eg/Scripts/jquery.flexslider.js",
+      "http://qizegypt.gov.eg/Scripts/jquery.isotope.js",
+      "http://qizegypt.gov.eg/Scripts/jquery.mCustomScrollbar.concat.min.js",
+      "http://qizegypt.gov.eg/Scripts/jquery.plugin.js",
+      "http://qizegypt.gov.eg/Scripts/jquery.prettyPhoto.js",
+      "http://qizegypt.gov.eg/Scripts/jquery.sticky.js",
+      "http://qizegypt.gov.eg/Scripts/jquery.validate-vsdoc.js",
+      "http://qizegypt.gov.eg/Scripts/jquery.validate.js",
+      "http://qizegypt.gov.eg/Scripts/jquery.validate.unobtrusive.js",
+      "http://qizegypt.gov.eg/Scripts/js_composer_front.min.js",
+      "http://qizegypt.gov.eg/Scripts/layerslider.kreaturamedia.jquery.js",
+      "http://qizegypt.gov.eg/Scripts/layerslider.transitions.js",
+      "http://qizegypt.gov.eg/Scripts/marquee-ar.js",
+      "http://qizegypt.gov.eg/Scripts/marquee.js",
+      "http://qizegypt.gov.eg/Scripts/modernizr-2.6.2.js",
+      "http://qizegypt.gov.eg/Scripts/owl.carousel.min.ar.js",
+      "http://qizegypt.gov.eg/Scripts/owl.carousel.min.js",
+      "http://qizegypt.gov.eg/Scripts/respond.js",
+      "http://qizegypt.gov.eg/Scripts/scripts.js",
+      "http://qizegypt.gov.eg/Scripts/sorting.js",
+      "http://qizegypt.gov.eg/Scripts/wp-a11y.min.js",
+      "http://www.qizegypt.gov.eg/Scripts/accounting.min.js",
+      "http://www.qizegypt.gov.eg/Scripts/bootstrap.js",
+      "http://www.qizegypt.gov.eg/Scripts/charitable.min.js",
+      "http://www.qizegypt.gov.eg/Scripts/custom.js",
+      "http://www.qizegypt.gov.eg/Scripts/emailvalidation.js",
+      "http://www.qizegypt.gov.eg/Scripts/give.all.min.js",
+      "http://www.qizegypt.gov.eg/Scripts/greensock.js",
+      "http://www.qizegypt.gov.eg/Scripts/jquery-1.10.2.js",
+      "http://www.qizegypt.gov.eg/Scripts/jquery-migrate.min.js",
+      "http://www.qizegypt.gov.eg/Scripts/jquery.accordion.js",
+      "http://www.qizegypt.gov.eg/Scripts/jquery.bxslider.min.js",
+      "http://www.qizegypt.gov.eg/Scripts/jquery.flexslider-min.js",
+      "http://www.qizegypt.gov.eg/Scripts/jquery.flexslider.js",
+      "http://www.qizegypt.gov.eg/Scripts/jquery.isotope.js",
+      "http://www.qizegypt.gov.eg/Scripts/jquery.mCustomScrollbar.concat.min.js",
+      "http://www.qizegypt.gov.eg/Scripts/jquery.plugin.js",
+      "http://www.qizegypt.gov.eg/Scripts/jquery.prettyPhoto.js",
+      "http://www.qizegypt.gov.eg/Scripts/jquery.sticky.js",
+      "http://www.qizegypt.gov.eg/Scripts/jquery.validate-vsdoc.js",
+      "http://www.qizegypt.gov.eg/Scripts/jquery.validate.js",
+      "http://www.qizegypt.gov.eg/Scripts/jquery.validate.unobtrusive.js",
+      "http://www.qizegypt.gov.eg/Scripts/js_composer_front.min.js",
+      "http://www.qizegypt.gov.eg/Scripts/layerslider.kreaturamedia.jquery.js",
+      "http://www.qizegypt.gov.eg/Scripts/layerslider.transitions.js",
+      "http://www.qizegypt.gov.eg/Scripts/modernizr-2.6.2.js",
+      "http://www.qizegypt.gov.eg/Scripts/owl.carousel.min.js",
+      "http://www.qizegypt.gov.eg/Scripts/respond.js",
+      "http://www.qizegypt.gov.eg/Scripts/scripts.js",
+      "http://www.qizegypt.gov.eg/Scripts/sorting.js",
+      "http://www.qizegypt.gov.eg/Scripts/wp-a11y.min.js"
+    ],
+    "discovered_forms": [
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Unit",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Faqs",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Library",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Proclamations",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/AllNews",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Overview",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/Page/Procedures",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/page/news/77",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/page/news/76",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/page/news/82",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Statistics",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/QuarterlyReview",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Events",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Account/Login",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Account/Login",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "username",
+          "Password",
+          "RememberMe",
+          "RememberMe"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Advantages",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Locations",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/page/news/77",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Language/en?url=http://qizegypt.gov.eg/",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Announcements",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/Page/Announcements",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/ImportandExport",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/page/news/73",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Gallery",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/QualifiedCompanies",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Protocol",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Surveys",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/index",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/SearchAr",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/Language/ar?url=http://qizegypt.gov.eg/",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/SearchAr",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/page/news/65",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/SearchAr",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Press",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/Home/Search",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/page/news/76",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://www.qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/SearchAr",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Suppliers",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Account/Login?ReturnUrl=%2FPage%2FSuppliers",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "username",
+          "Password",
+          "RememberMe",
+          "RememberMe"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Home/SearchAr",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Page/Registration",
+        "method": "GET",
+        "parameters": [
+          "searchname"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/VisitorMessages/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "contact",
+          "message",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      },
+      {
+        "action": "http://qizegypt.gov.eg/Subscribes/Create",
+        "method": "POST",
+        "parameters": [
+          "__RequestVerificationToken",
+          "name",
+          "email",
+          "CaptchaDeText",
+          "CaptchaInputText"
+        ]
+      }
+    ],
+    "graphql_schema_detected": false,
+    "google_dorks_found": [
+      {
+        "query": "site:qizegypt.gov.eg inurl:admin",
+        "google_url": "https://www.google.com/search?q=site%3Aqizegypt.gov.eg+inurl%3Aadmin",
+        "results": []
+      },
+      {
+        "query": "site:qizegypt.gov.eg inurl:login",
+        "google_url": "https://www.google.com/search?q=site%3Aqizegypt.gov.eg+inurl%3Alogin",
+        "results": []
+      },
+      {
+        "query": "site:qizegypt.gov.eg intitle:\"index of\"",
+        "google_url": "https://www.google.com/search?q=site%3Aqizegypt.gov.eg+intitle%3A%22index+of%22",
+        "results": []
+      },
+      {
+        "query": "site:qizegypt.gov.eg ext:sql",
+        "google_url": "https://www.google.com/search?q=site%3Aqizegypt.gov.eg+ext%3Asql",
+        "results": []
+      },
+      {
+        "query": "site:qizegypt.gov.eg ext:log",
+        "google_url": "https://www.google.com/search?q=site%3Aqizegypt.gov.eg+ext%3Alog",
+        "results": []
+      },
+      {
+        "query": "site:qizegypt.gov.eg ext:bak",
+        "google_url": "https://www.google.com/search?q=site%3Aqizegypt.gov.eg+ext%3Abak",
+        "results": []
+      },
+      {
+        "query": "site:qizegypt.gov.eg filetype:env",
+        "google_url": "https://www.google.com/search?q=site%3Aqizegypt.gov.eg+filetype%3Aenv",
+        "results": []
+      },
+      {
+        "query": "site:qizegypt.gov.eg inurl:wp-content",
+        "google_url": "https://www.google.com/search?q=site%3Aqizegypt.gov.eg+inurl%3Awp-content",
+        "results": []
+      },
+      {
+        "query": "site:qizegypt.gov.eg inurl:config",
+        "google_url": "https://www.google.com/search?q=site%3Aqizegypt.gov.eg+inurl%3Aconfig",
+        "results": []
+      },
+      {
+        "query": "site:qizegypt.gov.eg intext:\"sql syntax near\"",
+        "google_url": "https://www.google.com/search?q=site%3Aqizegypt.gov.eg+intext%3A%22sql+syntax+near%22",
+        "results": []
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "id": "SEC-VULN-001",
+      "name": "Missing Security Header: Content-Security-Policy",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "http://qizegypt.gov.eg/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Content-Security-Policy'.",
+      "remediation": "Missing Content-Security-Policy (CSP) header allows a broader attack surface for injection-based attacks such as XSS."
+    },
+    {
+      "id": "SEC-VULN-002",
+      "name": "Missing Security Header: Strict-Transport-Security",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 2.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "url": "http://qizegypt.gov.eg/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Strict-Transport-Security'.",
+      "remediation": "Missing HTTP Strict-Transport-Security (HSTS) header exposes users to SSL-stripping / downgrade attacks."
+    },
+    {
+      "id": "SEC-VULN-003",
+      "name": "Missing Security Header: X-Content-Type-Options",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "http://qizegypt.gov.eg/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'X-Content-Type-Options'.",
+      "remediation": "Missing X-Content-Type-Options header allows browsers to MIME-sniff responses, which can lead to content-type confusion attacks."
+    },
+    {
+      "id": "SEC-VULN-004",
+      "name": "Potentially Unsafe HTTP Methods Exposed",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "http://qizegypt.gov.eg/",
+      "parameter": null,
+      "evidence_poc": "OPTIONS response advertised method(s): TRACE.",
+      "remediation": "Disable unused HTTP methods (e.g. PUT, DELETE, TRACE) at the web server or framework routing layer unless explicitly required and properly authorized."
+    }
+  ],
+  "informational_observations": [],
+  "api_security": {
+    "documentation_targets": [
+      {
+        "requested_url": "http://qizegypt.gov.eg/swagger",
+        "final_url": "http://qizegypt.gov.eg/swagger",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 3274,
+        "response_time_ms": 315.39,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/swagger/",
+        "final_url": "http://qizegypt.gov.eg/swagger/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 3276,
+        "response_time_ms": 528.42,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/swagger/index.html",
+        "final_url": "http://qizegypt.gov.eg/swagger/index.html",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 599.03,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/swagger-ui",
+        "final_url": "http://qizegypt.gov.eg/swagger-ui",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 3280,
+        "response_time_ms": 664.05,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/swagger-ui/",
+        "final_url": "http://qizegypt.gov.eg/swagger-ui/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 2548,
+        "response_time_ms": 703.15,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/swagger-ui.html",
+        "final_url": "http://qizegypt.gov.eg/swagger-ui.html",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 472.97,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/swagger.json",
+        "final_url": "http://qizegypt.gov.eg/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1228,
+        "response_time_ms": 656.49,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/swagger.yaml",
+        "final_url": "http://qizegypt.gov.eg/swagger.yaml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 431.78,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/swagger/v1/swagger.json",
+        "final_url": "http://qizegypt.gov.eg/swagger/v1/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 651.2,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/swagger/v2/swagger.json",
+        "final_url": "http://qizegypt.gov.eg/swagger/v2/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 537.82,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/swagger/v3/swagger.json",
+        "final_url": "http://qizegypt.gov.eg/swagger/v3/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 650.55,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/openapi.json",
+        "final_url": "http://qizegypt.gov.eg/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 620.42,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/openapi.yaml",
+        "final_url": "http://qizegypt.gov.eg/openapi.yaml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 354.59,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/openapi.yml",
+        "final_url": "http://qizegypt.gov.eg/openapi.yml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 291.81,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/api-docs",
+        "final_url": "http://qizegypt.gov.eg/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 3276,
+        "response_time_ms": 366.4,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/api-docs/",
+        "final_url": "http://qizegypt.gov.eg/api-docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 3278,
+        "response_time_ms": 519.08,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/docs",
+        "final_url": "http://qizegypt.gov.eg/docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 1160,
+        "response_time_ms": 660.37,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/docs/",
+        "final_url": "http://qizegypt.gov.eg/docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 3270,
+        "response_time_ms": 240.4,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/redoc",
+        "final_url": "http://qizegypt.gov.eg/redoc",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 3270,
+        "response_time_ms": 328.63,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/redoc/",
+        "final_url": "http://qizegypt.gov.eg/redoc/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 1160,
+        "response_time_ms": 689.59,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/v2/api-docs",
+        "final_url": "http://qizegypt.gov.eg/v2/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 3282,
+        "response_time_ms": 662.2,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/v3/api-docs",
+        "final_url": "http://qizegypt.gov.eg/v3/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 3282,
+        "response_time_ms": 352.62,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/api/swagger.json",
+        "final_url": "http://qizegypt.gov.eg/api/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 542.0,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/api/openapi.json",
+        "final_url": "http://qizegypt.gov.eg/api/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 833.97,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/api/docs",
+        "final_url": "http://qizegypt.gov.eg/api/docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 3276,
+        "response_time_ms": 498.13,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/api/docs/openapi.json",
+        "final_url": "http://qizegypt.gov.eg/api/docs/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 707.36,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/v1/swagger.json",
+        "final_url": "http://qizegypt.gov.eg/v1/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 390.63,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/v2/swagger.json",
+        "final_url": "http://qizegypt.gov.eg/v2/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 523.35,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/v3/swagger.json",
+        "final_url": "http://qizegypt.gov.eg/v3/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 500.02,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/v1/openapi.json",
+        "final_url": "http://qizegypt.gov.eg/v1/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 438.05,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/v2/openapi.json",
+        "final_url": "http://qizegypt.gov.eg/v2/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 626.73,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/v3/openapi.json",
+        "final_url": "http://qizegypt.gov.eg/v3/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 1245,
+        "response_time_ms": 475.31,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "http://qizegypt.gov.eg/v1/api-docs",
+        "final_url": "http://qizegypt.gov.eg/v1/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=utf-8",
+        "content_length": 3282,
+        "response_time_ms": 467.61,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      }
+    ],
+    "openapi_schemas": [],
+    "endpoint_inventory": [
+      {
+        "method": "GET",
+        "path": "/",
+        "source_url": "http://qizegypt.gov.eg/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Account/Login",
+        "source_url": "http://qizegypt.gov.eg/Account/Login",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "account"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/Home/Language/ar",
+        "source_url": "http://qizegypt.gov.eg/Home/Language/ar?url=http://qizegypt.gov.eg/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Home/Language/en",
+        "source_url": "http://qizegypt.gov.eg/Home/Language/en?url=http://qizegypt.gov.eg/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Home/index",
+        "source_url": "http://qizegypt.gov.eg/Home/index",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Advantages",
+        "source_url": "http://qizegypt.gov.eg/Page/Advantages",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/AllNews",
+        "source_url": "http://qizegypt.gov.eg/Page/AllNews",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Announcements",
+        "source_url": "http://qizegypt.gov.eg/Page/Announcements",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Events",
+        "source_url": "http://qizegypt.gov.eg/Page/Events",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Faqs",
+        "source_url": "http://qizegypt.gov.eg/Page/Faqs",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Gallery",
+        "source_url": "http://qizegypt.gov.eg/Page/Gallery",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/ImportandExport",
+        "source_url": "http://qizegypt.gov.eg/Page/ImportandExport",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Library",
+        "source_url": "http://qizegypt.gov.eg/Page/Library",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Locations",
+        "source_url": "http://qizegypt.gov.eg/Page/Locations",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Overview",
+        "source_url": "http://qizegypt.gov.eg/Page/Overview",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Press",
+        "source_url": "http://qizegypt.gov.eg/Page/Press",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Proclamations",
+        "source_url": "http://qizegypt.gov.eg/Page/Proclamations",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Protocol",
+        "source_url": "http://qizegypt.gov.eg/Page/Protocol",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/QualifiedCompanies",
+        "source_url": "http://qizegypt.gov.eg/Page/QualifiedCompanies",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/QuarterlyReview",
+        "source_url": "http://qizegypt.gov.eg/Page/QuarterlyReview",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Registration",
+        "source_url": "http://qizegypt.gov.eg/Page/Registration",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Statistics",
+        "source_url": "http://qizegypt.gov.eg/Page/Statistics",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Suppliers",
+        "source_url": "http://qizegypt.gov.eg/Page/Suppliers",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Surveys",
+        "source_url": "http://qizegypt.gov.eg/Page/Surveys",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/Page/Unit",
+        "source_url": "http://qizegypt.gov.eg/Page/Unit",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/page/news/65",
+        "source_url": "http://qizegypt.gov.eg/page/news/65",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/page/news/76",
+        "source_url": "http://qizegypt.gov.eg/page/news/76",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/page/news/77",
+        "source_url": "http://qizegypt.gov.eg/page/news/77",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/page/news/82",
+        "source_url": "http://qizegypt.gov.eg/page/news/82",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/http://www.qizegypt.gov.eg/Page/Announcements",
+        "source_url": "http://www.qizegypt.gov.eg/Page/Announcements",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/http://www.qizegypt.gov.eg/Page/Procedures",
+        "source_url": "http://www.qizegypt.gov.eg/Page/Procedures",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/http://www.qizegypt.gov.eg/page/news/73",
+        "source_url": "http://www.qizegypt.gov.eg/page/news/73",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/http://www.qizegypt.gov.eg/page/news/76",
+        "source_url": "http://www.qizegypt.gov.eg/page/news/76",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/http://www.qizegypt.gov.eg/page/news/77",
+        "source_url": "http://www.qizegypt.gov.eg/page/news/77",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      }
+    ],
+    "authentication_analysis": [],
+    "rate_limit_observations": [
+      {
+        "endpoint": "/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          795.2,
+          393.35
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/Account/Login",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          974.72,
+          364.12
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/Home/Language/ar",
+        "method": "GET",
+        "status_codes": [
+          500,
+          500
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          515.81,
+          242.01
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/Home/Language/en",
+        "method": "GET",
+        "status_codes": [
+          500,
+          500
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          327.99,
+          595.54
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/Home/index",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          683.25,
+          587.4
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/Page/Advantages",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          877.83,
+          745.64
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/Page/AllNews",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          731.46,
+          641.66
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/Page/Announcements",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          781.25,
+          1136.29
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/Page/Events",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          442.0,
+          1165.76
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/Page/Faqs",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          750.6,
+          842.09
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      }
+    ],
+    "findings": [
+      {
+        "id": "API-BOLA-001",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /page/news/65",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "http://qizegypt.gov.eg/page/news/65",
+        "evidence": [
+          "Path contains an object identifier segment: /page/news/65"
+        ],
+        "affected_endpoints": [
+          "/page/news/65"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:43:54Z"
+      },
+      {
+        "id": "API-BOLA-002",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /page/news/76",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "http://qizegypt.gov.eg/page/news/76",
+        "evidence": [
+          "Path contains an object identifier segment: /page/news/76"
+        ],
+        "affected_endpoints": [
+          "/page/news/76"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:43:54Z"
+      },
+      {
+        "id": "API-BOLA-003",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /page/news/77",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "http://qizegypt.gov.eg/page/news/77",
+        "evidence": [
+          "Path contains an object identifier segment: /page/news/77"
+        ],
+        "affected_endpoints": [
+          "/page/news/77"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:43:54Z"
+      },
+      {
+        "id": "API-BOLA-004",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /page/news/82",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "http://qizegypt.gov.eg/page/news/82",
+        "evidence": [
+          "Path contains an object identifier segment: /page/news/82"
+        ],
+        "affected_endpoints": [
+          "/page/news/82"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:43:54Z"
+      },
+      {
+        "id": "API-BOLA-005",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /http://www.qizegypt.gov.eg/page/news/73",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "http://www.qizegypt.gov.eg/page/news/73",
+        "evidence": [
+          "Path contains an object identifier segment: /http://www.qizegypt.gov.eg/page/news/73"
+        ],
+        "affected_endpoints": [
+          "/http://www.qizegypt.gov.eg/page/news/73"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:43:54Z"
+      },
+      {
+        "id": "API-BOLA-006",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /http://www.qizegypt.gov.eg/page/news/76",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "http://www.qizegypt.gov.eg/page/news/76",
+        "evidence": [
+          "Path contains an object identifier segment: /http://www.qizegypt.gov.eg/page/news/76"
+        ],
+        "affected_endpoints": [
+          "/http://www.qizegypt.gov.eg/page/news/76"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:43:54Z"
+      },
+      {
+        "id": "API-BOLA-007",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /http://www.qizegypt.gov.eg/page/news/77",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "http://www.qizegypt.gov.eg/page/news/77",
+        "evidence": [
+          "Path contains an object identifier segment: /http://www.qizegypt.gov.eg/page/news/77"
+        ],
+        "affected_endpoints": [
+          "/http://www.qizegypt.gov.eg/page/news/77"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:43:54Z"
+      }
+    ],
+    "limitations": [
+      "Authorized safe BOLA comparison check was not enabled; only passive path-based indicators were analyzed."
+    ]
+  },
+  "metrics": {
+    "total_endpoints_scanned": 94,
+    "discovered_endpoints_count": 34,
+    "auxiliary_probe_targets_count": 0,
+    "vulnerabilities_by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 4,
+      "info": 0
+    },
+    "overall_security_score": 78,
+    "coverage_percent": 85.0,
+    "confidence_score": 84,
+    "scan_quality": "PARTIAL",
+    "total_requests": 214,
+    "successful_requests": 182,
+    "failed_requests": 32,
+    "timeout_count": 8
+  }
+}

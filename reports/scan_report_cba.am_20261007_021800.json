@@ -1,0 +1,2588 @@
+{
+  "scan_metadata": {
+    "tool_name": "AutoSecurityPro",
+    "version": "1.0.0",
+    "target": "cba.am",
+    "target_ip": "212.73.73.131",
+    "scan_started": "2026-10-07T06:03:44Z",
+    "scan_finished": "2026-10-07T06:18:00Z",
+    "tor_enabled": false
+  },
+  "attack_surface_recon": {
+    "server": null,
+    "operating_system": null,
+    "detected_technologies": [],
+    "discovered_subdomains": [],
+    "dangling_subdomains": [],
+    "discovered_endpoints": [
+      "https://cba.am/",
+      "https://cba.am/hy/exchange-rates-archive/",
+      "https://www.cba.am/en",
+      "https://www.cba.am/hy",
+      "https://www.cba.am/hy/",
+      "https://www.cba.am/hy/Announcements/",
+      "https://www.cba.am/hy/Board-decisions/",
+      "https://www.cba.am/hy/Chairman's-decisions/",
+      "https://www.cba.am/hy/Chairman's-decisions/10569/",
+      "https://www.cba.am/hy/Combating-money-laundering-and-terrorism-financing/",
+      "https://www.cba.am/hy/Publications/",
+      "https://www.cba.am/hy/Reports/",
+      "https://www.cba.am/hy/Subscription/",
+      "https://www.cba.am/hy/about_us/",
+      "https://www.cba.am/hy/analytical-materials/",
+      "https://www.cba.am/hy/articles-and-speeches/",
+      "https://www.cba.am/hy/circulars-notices/",
+      "https://www.cba.am/hy/consumer-rights-protection/",
+      "https://www.cba.am/hy/contact-us/",
+      "https://www.cba.am/hy/event/",
+      "https://www.cba.am/hy/exchange-rates-archive/",
+      "https://www.cba.am/hy/faq/",
+      "https://www.cba.am/hy/financial-markets/",
+      "https://www.cba.am/hy/financial-operations/",
+      "https://www.cba.am/hy/financial-stability/",
+      "https://www.cba.am/hy/financial-system-regulation-and-supervision/",
+      "https://www.cba.am/hy/fmoliquiditymanagement/",
+      "https://www.cba.am/hy/gb-indexes/",
+      "https://www.cba.am/hy/international-reserves/",
+      "https://www.cba.am/hy/licensed-banks/",
+      "https://www.cba.am/hy/market/",
+      "https://www.cba.am/hy/money-circulation/",
+      "https://www.cba.am/hy/mpmain/",
+      "https://www.cba.am/hy/news/",
+      "https://www.cba.am/hy/news/data-template-on-international-reserves-and-foreign-currency-liquidity-has-been-published/650/",
+      "https://www.cba.am/hy/news/issuance-of-a-new-collector-coin-of-the-republic-of-armenia/651/",
+      "https://www.cba.am/hy/our-governance/",
+      "https://www.cba.am/hy/our-historyy/",
+      "https://www.cba.am/hy/our-partners/",
+      "https://www.cba.am/hy/our-price-stability-objective",
+      "https://www.cba.am/hy/our-work/",
+      "https://www.cba.am/hy/payment-systems/",
+      "https://www.cba.am/hy/press-releases/10079/",
+      "https://www.cba.am/hy/press-releases/10355/",
+      "https://www.cba.am/hy/punishments-archive/",
+      "https://www.cba.am/hy/punishments/",
+      "https://www.cba.am/hy/statistics/",
+      "https://www.cba.am/hy/strategy/",
+      "https://www.cba.am/hy/unlicensed-organizations/",
+      "https://www.cba.am/hy/warning/",
+      "https://www.cba.am/hy/warning/warning-my-fin-uco/56/",
+      "https://www.cba.am/hy/yield-curves-of-gb/",
+      "https://www.cba.am/hy/օperational-regulation/"
+    ],
+    "auxiliary_probe_targets": [],
+    "discovered_js_files": [
+      "https://cba.am/client.ns.js",
+      "https://cba.am/js/app-top.js?id=b86a7f3d828da875e07c",
+      "https://cba.am/js/app.js?id=d0cd58c0b418de11f634",
+      "https://cba.am/js/pages/home.js?v=1",
+      "https://cba.am/js/pages/static.js?v=1",
+      "https://cba.am/js/pages/subscribe.js?v=1",
+      "https://www.cba.am/client.ns.js",
+      "https://www.cba.am/js/app-top.js?id=b86a7f3d828da875e07c",
+      "https://www.cba.am/js/app.js?id=d0cd58c0b418de11f634",
+      "https://www.cba.am/js/pages/contact-us.js?v=1",
+      "https://www.cba.am/js/pages/datepicker.js?v=1",
+      "https://www.cba.am/js/pages/fancybox-slider.js?v=1",
+      "https://www.cba.am/js/pages/fancybox.js?v=1",
+      "https://www.cba.am/js/pages/home.js?v=1",
+      "https://www.cba.am/js/pages/owl-carousel.js?v=1",
+      "https://www.cba.am/js/pages/share.js?v=1",
+      "https://www.cba.am/js/pages/static.js?v=1",
+      "https://www.cba.am/js/pages/subscribe.js?v=1"
+    ],
+    "discovered_forms": [
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/punishments/",
+        "method": "GET",
+        "parameters": [
+          "publication_sphere_id",
+          "publication_category_id",
+          "keyword",
+          "start_date",
+          "end_date",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/exchange-rates-archive/",
+        "method": "GET",
+        "parameters": [
+          "date-from",
+          "date-to",
+          "currencies[0]",
+          "currencies[1]",
+          "currencies[2]",
+          "currencies[3]",
+          "currencies[4]",
+          "currencies[5]",
+          "currencies[6]",
+          "currencies[7]",
+          "currencies[8]",
+          "currencies[9]",
+          "currencies[10]",
+          "currencies[11]",
+          "currencies[12]",
+          "currencies[13]",
+          "currencies[14]",
+          "currencies[15]",
+          "currencies[16]",
+          "currencies[17]",
+          "currencies[18]",
+          "currencies[19]",
+          "currencies[20]",
+          "currencies[21]",
+          "currencies[22]",
+          "currencies[23]",
+          "currencies[24]",
+          "currencies[25]",
+          "currencies[26]",
+          "currencies[27]",
+          "currencies[28]",
+          "currencies[29]",
+          "currencies[30]",
+          "currencies[31]",
+          "currencies[32]",
+          "currencies[33]",
+          "currencies[34]",
+          "currencies[35]",
+          "currencies[36]",
+          "currencies[37]",
+          "currencies[38]",
+          "currencies[39]",
+          "currencies[40]",
+          "currencies[41]",
+          "currencies[42]",
+          "currencies[43]",
+          "currencies[44]",
+          "currencies[45]",
+          "currencies[46]",
+          "currencies[47]",
+          "currencies[48]",
+          "currencies[49]",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/analytical-materials/",
+        "method": "GET",
+        "parameters": [
+          "publication_sphere_id",
+          "publication_category_id",
+          "keyword",
+          "start_date",
+          "end_date",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/event/",
+        "method": "GET",
+        "parameters": [
+          "date_from",
+          "date_to",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/contact-us/",
+        "method": "POST",
+        "parameters": [
+          "person_type",
+          "company",
+          "first_name",
+          "last_name",
+          "email",
+          "phone",
+          "title",
+          "content",
+          "attachment",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/news/",
+        "method": "GET",
+        "parameters": [
+          "date_from",
+          "date_to",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/subscription/",
+        "method": "POST",
+        "parameters": [
+          "email",
+          "data[publication][]",
+          "data[publication][]",
+          "data[publication][]",
+          "data[publication][]",
+          "data[publication][]",
+          "data[publication][]",
+          "data[publication][]",
+          "data[publication][]",
+          "data[publication][]",
+          "data[with_currency]",
+          "data[filtered_data][publication_ids]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][category_ids][]",
+          "data[filtered_data][publication_spheres][]",
+          "data[filtered_data][publication_spheres][]",
+          "data[filtered_data][publication_spheres][]",
+          "data[filtered_data][publication_spheres][]",
+          "data[filtered_data][publication_spheres][]",
+          "data[filtered_data][publication_spheres][]",
+          "data[filtered_data][publication_spheres][]",
+          "data[filtered_data][publication_spheres][]",
+          "data[filtered_data][publication_spheres][]",
+          "data[filtered_data][periods]",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/en/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/Reports/",
+        "method": "GET",
+        "parameters": [
+          "publication_sphere_id",
+          "publication_category_id",
+          "keyword",
+          "start_date",
+          "end_date",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/Board-decisions/",
+        "method": "GET",
+        "parameters": [
+          "publication_sphere_id",
+          "publication_category_id",
+          "keyword",
+          "start_date",
+          "end_date",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/articles-and-speeches/",
+        "method": "GET",
+        "parameters": [
+          "publication_sphere_id",
+          "publication_category_id",
+          "keyword",
+          "start_date",
+          "end_date",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/Chairman's-decisions/",
+        "method": "GET",
+        "parameters": [
+          "publication_sphere_id",
+          "publication_category_id",
+          "keyword",
+          "start_date",
+          "end_date",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/Announcements/",
+        "method": "GET",
+        "parameters": [
+          "publication_sphere_id",
+          "publication_category_id",
+          "keyword",
+          "start_date",
+          "end_date",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/Publications/",
+        "method": "GET",
+        "parameters": [
+          "publication_menu_id",
+          "publication_category_id",
+          "publication_sphere_id",
+          "keyword",
+          "start_date",
+          "end_date",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/circulars-notices/",
+        "method": "GET",
+        "parameters": [
+          "publication_sphere_id",
+          "publication_category_id",
+          "keyword",
+          "start_date",
+          "end_date",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/warning/",
+        "method": "GET",
+        "parameters": [
+          "date_from",
+          "date_to",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "as_sfid",
+          "as_fid"
+        ]
+      },
+      {
+        "action": "https://www.cba.am/hy/exchange-rates-archive/",
+        "method": "GET",
+        "parameters": [
+          "date-from",
+          "date-to",
+          "currencies[0]",
+          "currencies[1]",
+          "currencies[2]",
+          "currencies[3]",
+          "currencies[4]",
+          "currencies[5]",
+          "currencies[6]",
+          "currencies[7]",
+          "currencies[8]",
+          "currencies[9]",
+          "currencies[10]",
+          "currencies[11]",
+          "currencies[12]",
+          "currencies[13]",
+          "currencies[14]",
+          "currencies[15]",
+          "currencies[16]",
+          "currencies[17]",
+          "currencies[18]",
+          "currencies[19]",
+          "currencies[20]",
+          "currencies[21]",
+          "currencies[22]",
+          "currencies[23]",
+          "currencies[24]",
+          "currencies[25]",
+          "currencies[26]",
+          "currencies[27]",
+          "currencies[28]",
+          "currencies[29]",
+          "currencies[30]",
+          "currencies[31]",
+          "currencies[32]",
+          "currencies[33]",
+          "currencies[34]",
+          "currencies[35]",
+          "currencies[36]",
+          "currencies[37]",
+          "currencies[38]",
+          "currencies[39]",
+          "currencies[40]",
+          "currencies[41]",
+          "currencies[42]",
+          "currencies[43]",
+          "currencies[44]",
+          "currencies[45]",
+          "currencies[46]",
+          "currencies[47]",
+          "currencies[48]",
+          "currencies[49]",
+          "as_sfid",
+          "as_fid"
+        ]
+      }
+    ],
+    "graphql_schema_detected": false,
+    "google_dorks_found": [
+      {
+        "query": "site:cba.am inurl:admin",
+        "google_url": "https://www.google.com/search?q=site%3Acba.am+inurl%3Aadmin",
+        "results": []
+      },
+      {
+        "query": "site:cba.am inurl:login",
+        "google_url": "https://www.google.com/search?q=site%3Acba.am+inurl%3Alogin",
+        "results": []
+      },
+      {
+        "query": "site:cba.am intitle:\"index of\"",
+        "google_url": "https://www.google.com/search?q=site%3Acba.am+intitle%3A%22index+of%22",
+        "results": []
+      },
+      {
+        "query": "site:cba.am ext:sql",
+        "google_url": "https://www.google.com/search?q=site%3Acba.am+ext%3Asql",
+        "results": []
+      },
+      {
+        "query": "site:cba.am ext:log",
+        "google_url": "https://www.google.com/search?q=site%3Acba.am+ext%3Alog",
+        "results": []
+      },
+      {
+        "query": "site:cba.am ext:bak",
+        "google_url": "https://www.google.com/search?q=site%3Acba.am+ext%3Abak",
+        "results": []
+      },
+      {
+        "query": "site:cba.am filetype:env",
+        "google_url": "https://www.google.com/search?q=site%3Acba.am+filetype%3Aenv",
+        "results": []
+      },
+      {
+        "query": "site:cba.am inurl:wp-content",
+        "google_url": "https://www.google.com/search?q=site%3Acba.am+inurl%3Awp-content",
+        "results": []
+      },
+      {
+        "query": "site:cba.am inurl:config",
+        "google_url": "https://www.google.com/search?q=site%3Acba.am+inurl%3Aconfig",
+        "results": []
+      },
+      {
+        "query": "site:cba.am intext:\"sql syntax near\"",
+        "google_url": "https://www.google.com/search?q=site%3Acba.am+intext%3A%22sql+syntax+near%22",
+        "results": []
+      }
+    ]
+  },
+  "vulnerabilities": [],
+  "informational_observations": [],
+  "api_security": {
+    "documentation_targets": [
+      {
+        "requested_url": "https://cba.am/swagger",
+        "final_url": "https://cba.am/swagger",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16920.53,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/swagger/",
+        "final_url": "https://cba.am/swagger/",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16734.99,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/swagger/index.html",
+        "final_url": "https://cba.am/swagger/index.html",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 17759.37,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/swagger-ui",
+        "final_url": "https://cba.am/swagger-ui",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 15982.83,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/swagger-ui/",
+        "final_url": "https://cba.am/swagger-ui/",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16482.62,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/swagger-ui.html",
+        "final_url": "https://cba.am/swagger-ui.html",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16552.54,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/swagger.json",
+        "final_url": "https://cba.am/swagger.json",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16600.85,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/swagger.yaml",
+        "final_url": "https://cba.am/swagger.yaml",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16846.54,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/swagger/v1/swagger.json",
+        "final_url": "https://cba.am/swagger/v1/swagger.json",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16716.75,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/swagger/v2/swagger.json",
+        "final_url": "https://cba.am/swagger/v2/swagger.json",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16692.36,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/swagger/v3/swagger.json",
+        "final_url": "https://cba.am/swagger/v3/swagger.json",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16930.83,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/openapi.json",
+        "final_url": "https://cba.am/openapi.json",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 17349.91,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/openapi.yaml",
+        "final_url": "https://cba.am/openapi.yaml",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 24753.72,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/openapi.yml",
+        "final_url": "https://cba.am/openapi.yml",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 15993.79,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/api-docs",
+        "final_url": "https://cba.am/api-docs",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16321.84,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/api-docs/",
+        "final_url": "https://cba.am/api-docs/",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 17343.22,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/docs",
+        "final_url": "https://cba.am/docs",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16426.47,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/docs/",
+        "final_url": "https://cba.am/docs/",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16630.25,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/redoc",
+        "final_url": "https://cba.am/redoc",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16836.27,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/redoc/",
+        "final_url": "https://cba.am/redoc/",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16765.63,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/v2/api-docs",
+        "final_url": "https://cba.am/v2/api-docs",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 15944.73,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/v3/api-docs",
+        "final_url": "https://cba.am/v3/api-docs",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16734.76,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/api/swagger.json",
+        "final_url": "https://cba.am/api/swagger.json",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16790.88,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/api/openapi.json",
+        "final_url": "https://cba.am/api/openapi.json",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 15703.86,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/api/docs",
+        "final_url": "https://cba.am/api/docs",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16695.72,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/api/docs/openapi.json",
+        "final_url": "https://cba.am/api/docs/openapi.json",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16998.62,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/v1/swagger.json",
+        "final_url": "https://cba.am/v1/swagger.json",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16175.77,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/v2/swagger.json",
+        "final_url": "https://cba.am/v2/swagger.json",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16922.08,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/v3/swagger.json",
+        "final_url": "https://cba.am/v3/swagger.json",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16936.92,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/v1/openapi.json",
+        "final_url": "https://cba.am/v1/openapi.json",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 17437.18,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/v2/openapi.json",
+        "final_url": "https://cba.am/v2/openapi.json",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16126.29,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/v3/openapi.json",
+        "final_url": "https://cba.am/v3/openapi.json",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 16415.17,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      },
+      {
+        "requested_url": "https://cba.am/v1/api-docs",
+        "final_url": "https://cba.am/v1/api-docs",
+        "method": "GET",
+        "status_code": null,
+        "content_type": "",
+        "content_length": 0,
+        "response_time_ms": 17002.78,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": "No response (connection error, timeout, or blocked request)."
+      }
+    ],
+    "openapi_schemas": [],
+    "endpoint_inventory": [
+      {
+        "method": "GET",
+        "path": "/",
+        "source_url": "https://cba.am/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/exchange-rates-archive/",
+        "source_url": "https://cba.am/hy/exchange-rates-archive/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/en",
+        "source_url": "https://www.cba.am/en",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy",
+        "source_url": "https://www.cba.am/hy",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/",
+        "source_url": "https://www.cba.am/hy/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/Announcements/",
+        "source_url": "https://www.cba.am/hy/Announcements/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/Board-decisions/",
+        "source_url": "https://www.cba.am/hy/Board-decisions/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/Chairman's-decisions/",
+        "source_url": "https://www.cba.am/hy/Chairman's-decisions/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/Chairman's-decisions/10569/",
+        "source_url": "https://www.cba.am/hy/Chairman's-decisions/10569/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/Combating-money-laundering-and-terrorism-financing/",
+        "source_url": "https://www.cba.am/hy/Combating-money-laundering-and-terrorism-financing/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/Publications/",
+        "source_url": "https://www.cba.am/hy/Publications/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/Reports/",
+        "source_url": "https://www.cba.am/hy/Reports/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/Subscription/",
+        "source_url": "https://www.cba.am/hy/Subscription/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/about_us/",
+        "source_url": "https://www.cba.am/hy/about_us/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/analytical-materials/",
+        "source_url": "https://www.cba.am/hy/analytical-materials/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/articles-and-speeches/",
+        "source_url": "https://www.cba.am/hy/articles-and-speeches/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/circulars-notices/",
+        "source_url": "https://www.cba.am/hy/circulars-notices/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/consumer-rights-protection/",
+        "source_url": "https://www.cba.am/hy/consumer-rights-protection/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/contact-us/",
+        "source_url": "https://www.cba.am/hy/contact-us/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/event/",
+        "source_url": "https://www.cba.am/hy/event/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/exchange-rates-archive/",
+        "source_url": "https://www.cba.am/hy/exchange-rates-archive/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/faq/",
+        "source_url": "https://www.cba.am/hy/faq/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/financial-markets/",
+        "source_url": "https://www.cba.am/hy/financial-markets/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/financial-operations/",
+        "source_url": "https://www.cba.am/hy/financial-operations/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/financial-stability/",
+        "source_url": "https://www.cba.am/hy/financial-stability/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/financial-system-regulation-and-supervision/",
+        "source_url": "https://www.cba.am/hy/financial-system-regulation-and-supervision/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/fmoliquiditymanagement/",
+        "source_url": "https://www.cba.am/hy/fmoliquiditymanagement/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/gb-indexes/",
+        "source_url": "https://www.cba.am/hy/gb-indexes/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/international-reserves/",
+        "source_url": "https://www.cba.am/hy/international-reserves/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/licensed-banks/",
+        "source_url": "https://www.cba.am/hy/licensed-banks/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/market/",
+        "source_url": "https://www.cba.am/hy/market/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/money-circulation/",
+        "source_url": "https://www.cba.am/hy/money-circulation/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/mpmain/",
+        "source_url": "https://www.cba.am/hy/mpmain/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/news/",
+        "source_url": "https://www.cba.am/hy/news/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/news/data-template-on-international-reserves-and-foreign-currency-liquidity-has-been-published/650/",
+        "source_url": "https://www.cba.am/hy/news/data-template-on-international-reserves-and-foreign-currency-liquidity-has-been-published/650/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/news/issuance-of-a-new-collector-coin-of-the-republic-of-armenia/651/",
+        "source_url": "https://www.cba.am/hy/news/issuance-of-a-new-collector-coin-of-the-republic-of-armenia/651/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/our-governance/",
+        "source_url": "https://www.cba.am/hy/our-governance/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/our-historyy/",
+        "source_url": "https://www.cba.am/hy/our-historyy/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/our-partners/",
+        "source_url": "https://www.cba.am/hy/our-partners/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/our-price-stability-objective",
+        "source_url": "https://www.cba.am/hy/our-price-stability-objective",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/our-work/",
+        "source_url": "https://www.cba.am/hy/our-work/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/payment-systems/",
+        "source_url": "https://www.cba.am/hy/payment-systems/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "payment"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/press-releases/10079/",
+        "source_url": "https://www.cba.am/hy/press-releases/10079/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/press-releases/10355/",
+        "source_url": "https://www.cba.am/hy/press-releases/10355/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/punishments-archive/",
+        "source_url": "https://www.cba.am/hy/punishments-archive/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/punishments/",
+        "source_url": "https://www.cba.am/hy/punishments/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/statistics/",
+        "source_url": "https://www.cba.am/hy/statistics/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/strategy/",
+        "source_url": "https://www.cba.am/hy/strategy/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/unlicensed-organizations/",
+        "source_url": "https://www.cba.am/hy/unlicensed-organizations/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/warning/",
+        "source_url": "https://www.cba.am/hy/warning/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/warning/warning-my-fin-uco/56/",
+        "source_url": "https://www.cba.am/hy/warning/warning-my-fin-uco/56/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/yield-curves-of-gb/",
+        "source_url": "https://www.cba.am/hy/yield-curves-of-gb/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.cba.am/hy/օperational-regulation/",
+        "source_url": "https://www.cba.am/hy/օperational-regulation/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      }
+    ],
+    "authentication_analysis": [],
+    "rate_limit_observations": [],
+    "findings": [
+      {
+        "id": "API-BOLA-001",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /https://www.cba.am/hy/Chairman's-decisions/10569/",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "https://www.cba.am/hy/Chairman's-decisions/10569/",
+        "evidence": [
+          "Path contains an object identifier segment: /https://www.cba.am/hy/Chairman's-decisions/10569/"
+        ],
+        "affected_endpoints": [
+          "/https://www.cba.am/hy/Chairman's-decisions/10569/"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:12:11Z"
+      },
+      {
+        "id": "API-BOLA-002",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /https://www.cba.am/hy/news/data-template-on-international-reserves-and-foreign-currency-liquidity-has-been-published/650/",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "https://www.cba.am/hy/news/data-template-on-international-reserves-and-foreign-currency-liquidity-has-been-published/650/",
+        "evidence": [
+          "Path contains an object identifier segment: /https://www.cba.am/hy/news/data-template-on-international-reserves-and-foreign-currency-liquidity-has-been-published/650/"
+        ],
+        "affected_endpoints": [
+          "/https://www.cba.am/hy/news/data-template-on-international-reserves-and-foreign-currency-liquidity-has-been-published/650/"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:12:11Z"
+      },
+      {
+        "id": "API-BOLA-003",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /https://www.cba.am/hy/news/issuance-of-a-new-collector-coin-of-the-republic-of-armenia/651/",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "https://www.cba.am/hy/news/issuance-of-a-new-collector-coin-of-the-republic-of-armenia/651/",
+        "evidence": [
+          "Path contains an object identifier segment: /https://www.cba.am/hy/news/issuance-of-a-new-collector-coin-of-the-republic-of-armenia/651/"
+        ],
+        "affected_endpoints": [
+          "/https://www.cba.am/hy/news/issuance-of-a-new-collector-coin-of-the-republic-of-armenia/651/"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:12:11Z"
+      },
+      {
+        "id": "API-BOLA-004",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /https://www.cba.am/hy/press-releases/10079/",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "https://www.cba.am/hy/press-releases/10079/",
+        "evidence": [
+          "Path contains an object identifier segment: /https://www.cba.am/hy/press-releases/10079/"
+        ],
+        "affected_endpoints": [
+          "/https://www.cba.am/hy/press-releases/10079/"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:12:11Z"
+      },
+      {
+        "id": "API-BOLA-005",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /https://www.cba.am/hy/press-releases/10355/",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "https://www.cba.am/hy/press-releases/10355/",
+        "evidence": [
+          "Path contains an object identifier segment: /https://www.cba.am/hy/press-releases/10355/"
+        ],
+        "affected_endpoints": [
+          "/https://www.cba.am/hy/press-releases/10355/"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:12:11Z"
+      },
+      {
+        "id": "API-BOLA-006",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /https://www.cba.am/hy/warning/warning-my-fin-uco/56/",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "https://www.cba.am/hy/warning/warning-my-fin-uco/56/",
+        "evidence": [
+          "Path contains an object identifier segment: /https://www.cba.am/hy/warning/warning-my-fin-uco/56/"
+        ],
+        "affected_endpoints": [
+          "/https://www.cba.am/hy/warning/warning-my-fin-uco/56/"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:12:11Z"
+      }
+    ],
+    "limitations": [
+      "Authorized safe BOLA comparison check was not enabled; only passive path-based indicators were analyzed."
+    ]
+  },
+  "metrics": {
+    "total_endpoints_scanned": 113,
+    "discovered_endpoints_count": 53,
+    "auxiliary_probe_targets_count": 0,
+    "vulnerabilities_by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "info": 0
+    },
+    "overall_security_score": 91,
+    "coverage_percent": 16.3,
+    "confidence_score": 16,
+    "scan_quality": "LOW_CONFIDENCE",
+    "total_requests": 411,
+    "successful_requests": 67,
+    "failed_requests": 344,
+    "timeout_count": 3
+  }
+}

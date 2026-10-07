@@ -1,0 +1,2212 @@
+{
+  "scan_metadata": {
+    "tool_name": "AutoSecurityPro",
+    "version": "1.0.0",
+    "target": "playstation.com",
+    "target_ip": "3.101.3.40",
+    "scan_started": "2026-09-01T16:49:12Z",
+    "scan_finished": "2026-09-01T16:53:05Z",
+    "tor_enabled": false
+  },
+  "attack_surface_recon": {
+    "server": null,
+    "operating_system": null,
+    "detected_technologies": [],
+    "discovered_subdomains": [],
+    "dangling_subdomains": [],
+    "discovered_endpoints": [
+      "https://direct.playstation.com/en-us/buy-accessories/access-controller",
+      "https://direct.playstation.com/en-us/buy-accessories/dualsense-wireless-controller-white-for-ps5-pc-mac-mobile",
+      "https://direct.playstation.com/en-us/collections/wolverine",
+      "https://gmedia.playstation.com/is/image/SIEPDC/ps-logo-favicon?$icon-16-16--t$",
+      "https://gmedia.playstation.com/is/image/SIEPDC/ps-logo-favicon?$icon-196-196--t$",
+      "https://gmedia.playstation.com/is/image/SIEPDC/ps-logo-favicon?$icon-96-96--t$",
+      "https://playstation.com/",
+      "https://playstation.com/en-us/corporate/about-us/",
+      "https://playstation.com/en-us/corporate/playstation-careers/",
+      "https://playstation.com/en-us/editorial/",
+      "https://playstation.com/en-us/games/ea-sports-fc/",
+      "https://playstation.com/en-us/games/halo-campaign-evolved/",
+      "https://playstation.com/en-us/games/horizon-hunters-gathering/",
+      "https://playstation.com/en-us/games/marvels-wolverine/",
+      "https://playstation.com/en-us/games/saros/",
+      "https://playstation.com/en-us/legal/psn-terms-of-service/",
+      "https://playstation.com/en-us/legal/third-party-ads/",
+      "https://playstation.com/en-us/official-licensing-program/",
+      "https://playstation.com/en-us/playstation-productions/",
+      "https://playstation.com/en-us/privacy-security-safety/",
+      "https://playstation.com/en-us/ps-plus/",
+      "https://playstation.com/en-us/ps5/",
+      "https://playstation.com/en-us/ps5/marvels-wolverine-limited-edition-console-bundle-and-accessories/",
+      "https://playstation.com/en-us/support/",
+      "https://playstation.com/en-us/support/account/age-ratings-playstation/",
+      "https://playstation.com/en-us/support/hardware/manuals/",
+      "https://playstation.com/en-us/support/safety/",
+      "https://research.playstation.com/",
+      "https://www.playstation.com/ar-bh/",
+      "https://www.playstation.com/ar-om/",
+      "https://www.playstation.com/ar-qa/",
+      "https://www.playstation.com/beta-program-at-playstation/",
+      "https://www.playstation.com/cs-cz/",
+      "https://www.playstation.com/de-ch/",
+      "https://www.playstation.com/el-gr/",
+      "https://www.playstation.com/en-ca/",
+      "https://www.playstation.com/en-cz/",
+      "https://www.playstation.com/en-gb/",
+      "https://www.playstation.com/en-hu/",
+      "https://www.playstation.com/en-id/",
+      "https://www.playstation.com/en-in/",
+      "https://www.playstation.com/en-nz/",
+      "https://www.playstation.com/en-ph/",
+      "https://www.playstation.com/en-sa/",
+      "https://www.playstation.com/es-co/",
+      "https://www.playstation.com/es-mx/",
+      "https://www.playstation.com/es-pa/",
+      "https://www.playstation.com/es-pe/",
+      "https://www.playstation.com/fr-be/",
+      "https://www.playstation.com/fr-lu/",
+      "https://www.playstation.com/he-il/",
+      "https://www.playstation.com/ko-kr/",
+      "https://www.playstation.com/nl-nl/",
+      "https://www.playstation.com/no-no/",
+      "https://www.playstation.com/site-map/",
+      "https://www.playstation.com/sl-si/",
+      "https://www.playstation.com/sv-se/",
+      "https://www.playstation.com/zh-hant-tw/"
+    ],
+    "auxiliary_probe_targets": [
+      "https://playstation.com/docs",
+      "https://playstation.com/swagger.json"
+    ],
+    "discovered_js_files": [
+      "https://direct.playstation.com/etc.clientlibs/clientlibs/granite/jquery.min.cf5bdf053ce8fb11dd5d95ebdc71b234.js",
+      "https://direct.playstation.com/etc.clientlibs/clientlibs/granite/utils.min.899004cc02c33efc1f6694b1aee587fd.js",
+      "https://direct.playstation.com/psd-libs/am/clientlibs/react-vendor.bundle.min.js?v=357f8ba1-7f73-4459-b375-01ce853a072f",
+      "https://direct.playstation.com/psd-libs/am/clientlibs/react-vendor.bundle.min.js?v=3c2eec31-2256-4a96-825b-1198b30db5d7",
+      "https://direct.playstation.com/psd-libs/am/clientlibs/react-vendor.bundle.min.js?v=7b61d421-0220-4e6b-b612-d21426da38e8",
+      "https://direct.playstation.com/psd-libs/am/clientlibs/react.bundle.min.js?v=357f8ba1-7f73-4459-b375-01ce853a072f",
+      "https://direct.playstation.com/psd-libs/am/clientlibs/react.bundle.min.js?v=3c2eec31-2256-4a96-825b-1198b30db5d7",
+      "https://direct.playstation.com/psd-libs/am/clientlibs/react.bundle.min.js?v=7b61d421-0220-4e6b-b612-d21426da38e8",
+      "https://direct.playstation.com/psd-libs/am/clientlibs/sony-ps-app.min.js?v=357f8ba1-7f73-4459-b375-01ce853a072f",
+      "https://direct.playstation.com/psd-libs/am/clientlibs/sony-ps-app.min.js?v=3c2eec31-2256-4a96-825b-1198b30db5d7",
+      "https://direct.playstation.com/psd-libs/am/clientlibs/sony-ps-app.min.js?v=7b61d421-0220-4e6b-b612-d21426da38e8",
+      "https://direct.playstation.com/psd-libs/am/clientlibs/sony-ps-vendor.min.js?v=357f8ba1-7f73-4459-b375-01ce853a072f",
+      "https://direct.playstation.com/psd-libs/am/clientlibs/sony-ps-vendor.min.js?v=3c2eec31-2256-4a96-825b-1198b30db5d7",
+      "https://direct.playstation.com/psd-libs/am/clientlibs/sony-ps-vendor.min.js?v=7b61d421-0220-4e6b-b612-d21426da38e8",
+      "https://direct.playstation.com/zD_Kmd/-/I/1uu8IP_RDA/uiw3mkDLVSrfckYV/A19V/NCBRc0Z/kQXcB",
+      "https://playstation.com/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+      "https://playstation.com/Flip.js",
+      "https://playstation.com/ScrollTrigger.js",
+      "https://playstation.com/all.js",
+      "https://playstation.com/animation.js",
+      "https://playstation.com/carousel.js",
+      "https://playstation.com/content/dam/global_pdc/site-furniture/marvels-wolverine/whisky-pdp-micropod/code/v26/project-whisky-pdp.js",
+      "https://playstation.com/content/dam/global_pdc/site-furniture/saros/guest-pdpto/code/v2/project-guest.js",
+      "https://playstation.com/embla-carousel-auto-scroll.js",
+      "https://playstation.com/embla-carousel-autoplay.js",
+      "https://playstation.com/embla-carousel-class-names.js",
+      "https://playstation.com/embla-carousel-fade.js",
+      "https://playstation.com/embla-carousel.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.accordions.lc-940f54501290333f8a4d28aec2b69047-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.banners.lc-e41fd24505fee0fb0f871031ade2f793-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.contact-us.lc-8aa19e22817e54dffbdb2187c9b6accf-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.customer-experience.lc-416a859ae754f81e163d64c172441b27-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.designkit.lc-0af48e45bd40cfdd08dfaacb1c27ebcb-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.feedback.lc-9a3562062b87dfda7fb9c15b65cccf4b-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.game-grid.lc-09ff7149435e05630fa157b949525fe9-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.games.lc-1d1a6c5af52fccc2869ce0639544f14c-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.homepage.lc-67d0ad4f1e979494698175d477f199d9-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.interactive-wizard.lc-528bc6f9ba1b17efa44ea38490c688af-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.jquery.lc-cf2fbbf84281d9ecbffb4993203d543b-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.modals.lc-de4eb8d81d4cfd5d79e388469c30923a-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.prelaunch.lc-a35fed6b2a46c7bf198392dca6ea93c1-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.preload.lc-47fdd998d6a731f86470a1b08314e103-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.scroll-motion.lc-f78ed099c9c28d94fa818fb4d971ec50-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.search-integration.lc-c0fa3b03d62b0ed245d2889049fd1c22-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.search-vendor.lc-b95972eab461304cb8321c6db90eb3dd-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.social-feed.lc-a1838c6a625697fcc3d3c0249a677077-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.spin-set.lc-757eb3cf18114973ae09bbb0cded1279-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.tabs.lc-2fab4ff308765deeff6f6cf302d74759-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.vendor.lc-2dda815ad00141feb831600b777f8e2c-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.videojs-vendor.lc-609dff5d36b24e87f82792ba92bddc8e-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/clientlibs-inaemvendor.lc-1906b6b40eb1af2d785c3c0a27a22596-lc.min.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/clientlibs/clientlibs-jetstream.js",
+      "https://playstation.com/etc.clientlibs/global_pdc/components/functional/contact-channel-container/clientlibs/publish.lc-9fc91c2982d38fde61167b3a35048a74-lc.min.js",
+      "https://playstation.com/gsap.js",
+      "https://playstation.com/index.js",
+      "https://playstation.com/jquery-371.js",
+      "https://playstation.com/magnific-popup.js",
+      "https://playstation.com/spoiler.js",
+      "https://research.playstation.com/packs/js/application-5fca9cd808fd29d75cd2.js",
+      "https://static.playstation.com/wca/v2/js/common.4b6f07882ae0f3810b9e.js",
+      "https://static.playstation.com/wca/v2/js/main.629c89434783c2672372.js",
+      "https://static.playstation.com/wca/v2/js/network.b1879194c0097faac638.js",
+      "https://static.playstation.com/wca/v2/js/telemetry.1d4b4480611b5e73f003.js",
+      "https://static.playstation.com/wca/v2/js/ui-components.61c619ec95e5f5b047a9.js",
+      "https://static.playstation.com/wca/v2/js/ui-framework.bd035bc40395e37076b1.js",
+      "https://www.playstation.com/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+      "https://www.playstation.com/assets/2a7b97576b324dd0ee368927216f5c3137b73ac28b8",
+      "https://www.playstation.com/assets/telemetry/loader/latest/unified-datadog-loader.js",
+      "https://www.playstation.com/assets/telemetry/loader/latest/unified-datadog-loader.js?v=0e3d4210-1bb2-474b-a33f-0ec37e3d2569",
+      "https://www.playstation.com/assets/telemetry/loader/latest/unified-datadog-loader.js?v=8b172587-65dd-4980-bcce-1e240ad9a1c9",
+      "https://www.playstation.com/assets/telemetry/loader/latest/unified-datadog-loader.js?v=e8bffdad-4ac0-42e5-b261-f81fd69a6ebe",
+      "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.accordions.lc-940f54501290333f8a4d28aec2b69047-lc.min.js",
+      "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.banners.lc-e41fd24505fee0fb0f871031ade2f793-lc.min.js",
+      "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.designkit.lc-0af48e45bd40cfdd08dfaacb1c27ebcb-lc.min.js",
+      "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.game-grid.lc-09ff7149435e05630fa157b949525fe9-lc.min.js",
+      "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.homepage.lc-67d0ad4f1e979494698175d477f199d9-lc.min.js",
+      "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.jquery.lc-cf2fbbf84281d9ecbffb4993203d543b-lc.min.js",
+      "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.prelaunch.lc-a35fed6b2a46c7bf198392dca6ea93c1-lc.min.js",
+      "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.preload.lc-47fdd998d6a731f86470a1b08314e103-lc.min.js",
+      "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.ps-beta.lc-dd0d67934ab4f23ca930689958f9d3f0-lc.min.js",
+      "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.tabs.lc-2fab4ff308765deeff6f6cf302d74759-lc.min.js",
+      "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/auto-clientlibs/pdc.vendor.lc-2dda815ad00141feb831600b777f8e2c-lc.min.js",
+      "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/clientlibs-inaemvendor.lc-1906b6b40eb1af2d785c3c0a27a22596-lc.min.js",
+      "https://www.playstation.com/etc.clientlibs/global_pdc/clientlibs/clientlibs-jetstream.js"
+    ],
+    "discovered_forms": [
+      {
+        "action": "https://direct.playstation.com/en-us/buy-accessories/dualsense-wireless-controller-white-for-ps5-pc-mac-mobile#",
+        "method": "GET",
+        "parameters": [
+          "restrictedElgibility",
+          "month",
+          "date",
+          "year"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/marvels-wolverine/",
+        "method": "GET",
+        "parameters": [
+          "group",
+          "group",
+          "group",
+          "group",
+          "group"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/marvels-wolverine/",
+        "method": "GET",
+        "parameters": [
+          "textarea0"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/marvels-wolverine/",
+        "method": "GET",
+        "parameters": [
+          "rating",
+          "rating",
+          "rating",
+          "rating",
+          "rating"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/marvels-wolverine/",
+        "method": "GET",
+        "parameters": [
+          "text0",
+          "textarea0",
+          "checkbox1",
+          "checkbox2"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/saros/",
+        "method": "GET",
+        "parameters": [
+          "group",
+          "group",
+          "group",
+          "group",
+          "group"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/saros/",
+        "method": "GET",
+        "parameters": [
+          "textarea0"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/saros/",
+        "method": "GET",
+        "parameters": [
+          "rating",
+          "rating",
+          "rating",
+          "rating",
+          "rating"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/saros/",
+        "method": "GET",
+        "parameters": [
+          "text0",
+          "textarea0",
+          "checkbox1",
+          "checkbox2"
+        ]
+      },
+      {
+        "action": "https://direct.playstation.com/en-us/collections/wolverine#",
+        "method": "GET",
+        "parameters": [
+          "restrictedElgibility",
+          "month",
+          "date",
+          "year"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/ea-sports-fc/",
+        "method": "GET",
+        "parameters": [
+          "group",
+          "group",
+          "group",
+          "group",
+          "group"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/ea-sports-fc/",
+        "method": "GET",
+        "parameters": [
+          "textarea0"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/ea-sports-fc/",
+        "method": "GET",
+        "parameters": [
+          "rating",
+          "rating",
+          "rating",
+          "rating",
+          "rating"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/ea-sports-fc/",
+        "method": "GET",
+        "parameters": [
+          "text0",
+          "textarea0",
+          "checkbox1",
+          "checkbox2"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/search/",
+        "method": "GET",
+        "parameters": [
+          "q",
+          "category"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/horizon-hunters-gathering/",
+        "method": "GET",
+        "parameters": [
+          "group",
+          "group",
+          "group",
+          "group",
+          "group"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/horizon-hunters-gathering/",
+        "method": "GET",
+        "parameters": [
+          "textarea0"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/horizon-hunters-gathering/",
+        "method": "GET",
+        "parameters": [
+          "rating",
+          "rating",
+          "rating",
+          "rating",
+          "rating"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/horizon-hunters-gathering/",
+        "method": "GET",
+        "parameters": [
+          "text0",
+          "textarea0",
+          "checkbox1",
+          "checkbox2"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/halo-campaign-evolved/",
+        "method": "GET",
+        "parameters": [
+          "group",
+          "group",
+          "group",
+          "group",
+          "group"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/halo-campaign-evolved/",
+        "method": "GET",
+        "parameters": [
+          "textarea0"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/halo-campaign-evolved/",
+        "method": "GET",
+        "parameters": [
+          "rating",
+          "rating",
+          "rating",
+          "rating",
+          "rating"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/games/halo-campaign-evolved/",
+        "method": "GET",
+        "parameters": [
+          "text0",
+          "textarea0",
+          "checkbox1",
+          "checkbox2"
+        ]
+      },
+      {
+        "action": "https://playstation.com/en-us/support/account/age-ratings-playstation/",
+        "method": "GET",
+        "parameters": [
+          "group1",
+          "group1",
+          "group",
+          "group",
+          "group"
+        ]
+      },
+      {
+        "action": "https://direct.playstation.com/en-us/buy-accessories/access-controller#",
+        "method": "GET",
+        "parameters": [
+          "restrictedElgibility",
+          "month",
+          "date",
+          "year"
+        ]
+      }
+    ],
+    "graphql_schema_detected": false,
+    "google_dorks_found": [
+      {
+        "query": "site:playstation.com inurl:admin",
+        "google_url": "https://www.google.com/search?q=site%3Aplaystation.com+inurl%3Aadmin",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.playstation.com%2Fen%2Dus%2Fyour%2Daccount%2Dfor%2Dplaystation%2F&rut=ce3b204bd574cc88e903e6e38357320ff2f625a2de952913dc81af6d5be015fa",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.playstation.com%2Fen%2Dus%2Fsupport%2Faccount%2F&rut=8ceef43a43c510bdc6db1d10b00206e8f26685808e5cc833921e54268dff1916",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fstatus.playstation.com%2F%3Fsmcid%3Dpdc%253Ade%2Dde%253Aps5%253Aprimary%2520nav%253Amsg%2Dsupport%253Apsnstatus&rut=98699bea012df375c0eb04e9f609fd42965d0fee0fa42ce134fdc79d19cd8577",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fstatus.playstation.com%2Ffrfr%2F&rut=0e2ed8e73ee45dd428f64c9663bc02e94e5141517b07f5259891229f72e80d60",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fhelldivers2supermerch.playstation.com%2Fhome%2Dpage&rut=dd357d51aaa23cb2497c933311e1d2e1fd7e3b3f83234609cd1f3286a4bdc29d"
+        ]
+      },
+      {
+        "query": "site:playstation.com inurl:login",
+        "google_url": "https://www.google.com/search?q=site%3Aplaystation.com+inurl%3Alogin",
+        "results": [
+          "https://www.playstation.com/en-us/your-account-for-playstation/",
+          "https://store.playstation.com/en-us/pages/auth/login/",
+          "https://www.playstation.com/en-us/support/account/sign-in/",
+          "https://psin.playstation.com/validate-login",
+          "https://ps.playstation.com/psn/"
+        ]
+      },
+      {
+        "query": "site:playstation.com intitle:\"index of\"",
+        "google_url": "https://www.google.com/search?q=site%3Aplaystation.com+intitle%3A%22index+of%22",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fio.playstation.com%2F&rut=71efdea633c685e611d2a29bb5fe258467c62bd761d76d3dbdb810275ed86808",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fstore.playstation.com%2Fen%2Dus%2F&rut=96deaa41c4c092b5706f4c91bad2f6bf828c7906f1e7cadcc7c1c4e771d52cdb",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fstore.playstation.com%2Fen%2Dus%2Fpages%2Fbrowse&rut=93915cc206d138303d599dda3a8ea330bdece155237478bf71e71d0db0ae46e1",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fdirect.playstation.com%2Fen%2Dus%2Fplaystation%2Dstore&rut=e3485d756f066e18de95f5b042566a4c1a21814cc87f47bec59859ef5485e8dc",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.playstation.com%2Fen%2Dus%2Fps%2Dplus%2Fgames%2F&rut=af8cf22ca674d66c83ef35a3f2793ab84393dfb343122d4e43e9ad8d645daef4"
+        ]
+      },
+      {
+        "query": "site:playstation.com ext:sql",
+        "google_url": "https://www.google.com/search?q=site%3Aplaystation.com+ext%3Asql",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.playstation.com%2Fen%2Dus%2Faccessories%2Fstorage%2Dsolutions%2F&rut=af2db4e326ea57b7de3d2dbb9ff651927da7e0522af5196a619ced004a828e27",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fcareers.playstation.com%2F&rut=120de661ff77f0095539fb67dfed58bebc3cdc682c1cd975a22512d345a08670",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.playstation.com%2Fen%2Dmy%2Fps4%2F&rut=757f950d019fa0f5b48102ccaf9d4135a96c55610bbfb8aa7f4512860a59cbae",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fps.playstation.com%2Fpsn%2F&rut=6c082d16bde21c7deab019d4fac1596992e46644df20cc25b43bbd2f127958fe",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fblog.zh%2Dhant.playstation.com%2F2026%2F09%2F01%2F20260901%2Dsop%2F&rut=b1d703eab7a579d8ec19be54cc77ebb41aa5e664df7ea3301ae1d8955f94bad4"
+        ]
+      },
+      {
+        "query": "site:playstation.com ext:log",
+        "google_url": "https://www.google.com/search?q=site%3Aplaystation.com+ext%3Alog",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fprofile.playstation.com%2F%25E3%2580%258E%2520%25E3%2580%258F&rut=4a0814a61b0560b559551edcbffc2adc1d6af5740982950f485fab6a09c7e06b",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fps.playstation.com%2Fpsn%2F&rut=6c082d16bde21c7deab019d4fac1596992e46644df20cc25b43bbd2f127958fe",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fstatus.playstation.com%2Fen_EN%2F&rut=991a6ea0fd977c07ee4038ceaee72633d964bcf8a5a5536e7eb020716772dde9",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fstatus.playstation.com%2Fen%2DIN&rut=222d0b988979e7f0a59baea3f20f1ae844bcf8ed755e612783db4b1cd2fb9909",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fcareers.playstation.com%2F&rut=120de661ff77f0095539fb67dfed58bebc3cdc682c1cd975a22512d345a08670"
+        ]
+      },
+      {
+        "query": "site:playstation.com ext:bak",
+        "google_url": "https://www.google.com/search?q=site%3Aplaystation.com+ext%3Abak",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fstore.playstation.com%2Fzh%2Dhant%2Dhk%2F&rut=243f2d40f29722553263f38f8d3849c52bcec8235b04eb31d36d791ac58af5bb",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fstore.playstation.com%2Fen%2Dhk%2F&rut=5445b8caab7f44d370862c6f8e1c98563895ca2b0bcd84af78c1a2dc104cc5ac",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fdirect.playstation.com%2Fen%2Dus%2Fdeals%2Fblack%2Dfriday&rut=c18659cea8611bf5c44ada49f3beadbdff66615a252c30868f1b3a548ca4a1df",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.playstation.com%2Fen%2Dca%2Fdeals%2Fblack%2Dfriday%2F&rut=472888f893c0fe43b29f9118268cc0a9b4cdb8a9744eaf14a9b361123e89d53a",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.playstation.com%2Fen%2Dus%2Fdeals%2Dand%2Devents%2F&rut=5d9d30b384ea5ee7ceafce1a27041d7d7fb33a63c49c198d6ebcd47b0570a841"
+        ]
+      },
+      {
+        "query": "site:playstation.com filetype:env",
+        "google_url": "https://www.google.com/search?q=site%3Aplaystation.com+filetype%3Aenv",
+        "results": []
+      },
+      {
+        "query": "site:playstation.com inurl:wp-content",
+        "google_url": "https://www.google.com/search?q=site%3Aplaystation.com+inurl%3Awp-content",
+        "results": []
+      },
+      {
+        "query": "site:playstation.com inurl:config",
+        "google_url": "https://www.google.com/search?q=site%3Aplaystation.com+inurl%3Aconfig",
+        "results": []
+      },
+      {
+        "query": "site:playstation.com intext:\"sql syntax near\"",
+        "google_url": "https://www.google.com/search?q=site%3Aplaystation.com+intext%3A%22sql+syntax+near%22",
+        "results": []
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "id": "SEC-VULN-001",
+      "name": "Missing Security Header: Content-Security-Policy",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://playstation.com/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Content-Security-Policy'.",
+      "remediation": "Missing Content-Security-Policy (CSP) header allows a broader attack surface for injection-based attacks such as XSS."
+    },
+    {
+      "id": "SEC-VULN-002",
+      "name": "Potentially Unsafe HTTP Methods Exposed",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://playstation.com/",
+      "parameter": null,
+      "evidence_poc": "OPTIONS response advertised method(s): TRACE.",
+      "remediation": "Disable unused HTTP methods (e.g. PUT, DELETE, TRACE) at the web server or framework routing layer unless explicitly required and properly authorized."
+    }
+  ],
+  "informational_observations": [],
+  "api_security": {
+    "documentation_targets": [
+      {
+        "requested_url": "https://playstation.com/swagger",
+        "final_url": "https://www.playstation.com/de-de/swagger/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 72053,
+        "response_time_ms": 4591.46,
+        "redirect_chain": [
+          "https://playstation.com/swagger",
+          "https://www.playstation.com/swagger",
+          "https://www.playstation.com/de-de/swagger"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/swagger/",
+        "final_url": "https://www.playstation.com/en-us/swagger/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 73893,
+        "response_time_ms": 2673.33,
+        "redirect_chain": [
+          "https://playstation.com/swagger/",
+          "https://www.playstation.com/swagger/"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/swagger/index.html",
+        "final_url": "https://www.playstation.com/en-gb/swagger/index/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 74003,
+        "response_time_ms": 3352.7,
+        "redirect_chain": [
+          "https://playstation.com/swagger/index.html",
+          "https://www.playstation.com/swagger/index.html",
+          "https://www.playstation.com/en-gb/swagger/index.html"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/swagger-ui",
+        "final_url": "https://www.playstation.com/en-us/swagger-ui/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 73893,
+        "response_time_ms": 3509.64,
+        "redirect_chain": [
+          "https://playstation.com/swagger-ui",
+          "https://www.playstation.com/swagger-ui",
+          "https://www.playstation.com/en-us/swagger-ui"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/swagger-ui/",
+        "final_url": "https://www.playstation.com/en-hk/swagger-ui/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 72262,
+        "response_time_ms": 3201.21,
+        "redirect_chain": [
+          "https://playstation.com/swagger-ui/",
+          "https://www.playstation.com/swagger-ui/"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/swagger-ui.html",
+        "final_url": "https://www.playstation.com/zh-hans-cn/swagger-ui/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 68947,
+        "response_time_ms": 3896.95,
+        "redirect_chain": [
+          "https://playstation.com/swagger-ui.html",
+          "https://www.playstation.com/swagger-ui.html",
+          "https://www.playstation.com/zh-hans-cn/swagger-ui.html"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/swagger.json",
+        "final_url": "https://www.playstation.com/country-selector/index.html",
+        "method": "GET",
+        "status_code": 200,
+        "content_type": "text/html",
+        "content_length": 14600,
+        "response_time_ms": 2323.66,
+        "redirect_chain": [
+          "https://playstation.com/swagger.json",
+          "https://www.playstation.com/swagger.json"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": true,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/swagger.yaml",
+        "final_url": "https://www.playstation.com/en-us/swagger.yaml/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 73893,
+        "response_time_ms": 2482.43,
+        "redirect_chain": [
+          "https://playstation.com/swagger.yaml",
+          "https://www.playstation.com/swagger.yaml",
+          "https://www.playstation.com/en-us/swagger.yaml"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/swagger/v1/swagger.json",
+        "final_url": "https://www.playstation.com/en-us/swagger/v1/swagger.json/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 73893,
+        "response_time_ms": 3737.1,
+        "redirect_chain": [
+          "https://playstation.com/swagger/v1/swagger.json",
+          "https://www.playstation.com/swagger/v1/swagger.json",
+          "https://www.playstation.com/en-us/swagger/v1/swagger.json"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/swagger/v2/swagger.json",
+        "final_url": "https://www.playstation.com/en-ie/swagger/v2/swagger.json/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 73360,
+        "response_time_ms": 4195.81,
+        "redirect_chain": [
+          "https://playstation.com/swagger/v2/swagger.json",
+          "https://www.playstation.com/swagger/v2/swagger.json",
+          "https://www.playstation.com/en-ie/swagger/v2/swagger.json"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/openapi.json",
+        "final_url": "https://www.playstation.com/it-it/openapi.json/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 121170,
+        "response_time_ms": 3259.61,
+        "redirect_chain": [
+          "https://playstation.com/openapi.json",
+          "https://www.playstation.com/openapi.json",
+          "https://www.playstation.com/it-it/openapi.json"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/openapi.yaml",
+        "final_url": "https://www.playstation.com/fr-fr/openapi.yaml/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 72238,
+        "response_time_ms": 2816.28,
+        "redirect_chain": [
+          "https://playstation.com/openapi.yaml",
+          "https://www.playstation.com/openapi.yaml",
+          "https://www.playstation.com/fr-fr/openapi.yaml"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/openapi.yml",
+        "final_url": "https://www.playstation.com/fr-fr/openapi.yml/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 121956,
+        "response_time_ms": 3348.46,
+        "redirect_chain": [
+          "https://playstation.com/openapi.yml",
+          "https://www.playstation.com/openapi.yml",
+          "https://www.playstation.com/fr-fr/openapi.yml"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/api-docs",
+        "final_url": "https://www.playstation.com/en-us/api-docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 73893,
+        "response_time_ms": 2713.13,
+        "redirect_chain": [
+          "https://playstation.com/api-docs",
+          "https://www.playstation.com/api-docs",
+          "https://www.playstation.com/en-us/api-docs"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/docs",
+        "final_url": "https://www.playstation.com/nl-be/docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 72177,
+        "response_time_ms": 3901.71,
+        "redirect_chain": [
+          "https://playstation.com/docs",
+          "https://www.playstation.com/docs",
+          "https://www.playstation.com/nl-be/docs"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/docs/",
+        "final_url": "https://www.playstation.com/en-us/docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 73893,
+        "response_time_ms": 2081.13,
+        "redirect_chain": [
+          "https://playstation.com/docs/",
+          "https://www.playstation.com/docs/"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/redoc",
+        "final_url": "https://www.playstation.com/en-us/redoc/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 73893,
+        "response_time_ms": 2457.98,
+        "redirect_chain": [
+          "https://playstation.com/redoc",
+          "https://www.playstation.com/redoc",
+          "https://www.playstation.com/en-us/redoc"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/v2/api-docs",
+        "final_url": "https://www.playstation.com/en-us/v2/api-docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 73893,
+        "response_time_ms": 2642.19,
+        "redirect_chain": [
+          "https://playstation.com/v2/api-docs",
+          "https://www.playstation.com/v2/api-docs",
+          "https://www.playstation.com/en-us/v2/api-docs"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/v3/api-docs",
+        "final_url": "https://www.playstation.com/ko-kr/v3/api-docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 71560,
+        "response_time_ms": 3001.11,
+        "redirect_chain": [
+          "https://playstation.com/v3/api-docs",
+          "https://www.playstation.com/v3/api-docs",
+          "https://www.playstation.com/ko-kr/v3/api-docs"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/api/swagger.json",
+        "final_url": "https://www.playstation.com/en-gb/api/swagger.json/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 122864,
+        "response_time_ms": 2771.43,
+        "redirect_chain": [
+          "https://playstation.com/api/swagger.json",
+          "https://www.playstation.com/api/swagger.json",
+          "https://www.playstation.com/en-gb/api/swagger.json"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/api/openapi.json",
+        "final_url": "https://www.playstation.com/es-co/api/openapi.json/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 72550,
+        "response_time_ms": 3361.99,
+        "redirect_chain": [
+          "https://playstation.com/api/openapi.json",
+          "https://www.playstation.com/api/openapi.json",
+          "https://www.playstation.com/es-co/api/openapi.json"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/api/docs",
+        "final_url": "https://www.playstation.com/es-uy/api/docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 72527,
+        "response_time_ms": 2904.77,
+        "redirect_chain": [
+          "https://playstation.com/api/docs",
+          "https://www.playstation.com/api/docs",
+          "https://www.playstation.com/es-uy/api/docs"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/api/docs/openapi.json",
+        "final_url": "https://www.playstation.com/ru-ua/api/docs/openapi.json/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 71545,
+        "response_time_ms": 3852.09,
+        "redirect_chain": [
+          "https://playstation.com/api/docs/openapi.json",
+          "https://www.playstation.com/api/docs/openapi.json",
+          "https://www.playstation.com/ru-ua/api/docs/openapi.json"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/v2/swagger.json",
+        "final_url": "https://www.playstation.com/en-us/v2/swagger.json/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 73209,
+        "response_time_ms": 2699.25,
+        "redirect_chain": [
+          "https://playstation.com/v2/swagger.json",
+          "https://www.playstation.com/v2/swagger.json",
+          "https://www.playstation.com/en-us/v2/swagger.json"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/v3/swagger.json",
+        "final_url": "https://www.playstation.com/zh-hans-cn/v3/swagger.json/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 68947,
+        "response_time_ms": 2593.18,
+        "redirect_chain": [
+          "https://playstation.com/v3/swagger.json",
+          "https://www.playstation.com/v3/swagger.json",
+          "https://www.playstation.com/zh-hans-cn/v3/swagger.json"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/v1/openapi.json",
+        "final_url": "https://www.playstation.com/en-us/v1/openapi.json/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 73893,
+        "response_time_ms": 3451.16,
+        "redirect_chain": [
+          "https://playstation.com/v1/openapi.json",
+          "https://www.playstation.com/v1/openapi.json",
+          "https://www.playstation.com/en-us/v1/openapi.json"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/v2/openapi.json",
+        "final_url": "https://www.playstation.com/en-us/v2/openapi.json/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 73255,
+        "response_time_ms": 3367.43,
+        "redirect_chain": [
+          "https://playstation.com/v2/openapi.json",
+          "https://www.playstation.com/v2/openapi.json",
+          "https://www.playstation.com/en-us/v2/openapi.json"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://playstation.com/v1/api-docs",
+        "final_url": "https://www.playstation.com/en-us/v1/api-docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html;charset=utf-8",
+        "content_length": 73893,
+        "response_time_ms": 2720.58,
+        "redirect_chain": [
+          "https://playstation.com/v1/api-docs",
+          "https://www.playstation.com/v1/api-docs",
+          "https://www.playstation.com/en-us/v1/api-docs"
+        ],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      }
+    ],
+    "openapi_schemas": [],
+    "endpoint_inventory": [
+      {
+        "method": "GET",
+        "path": "/https://direct.playstation.com/en-us/buy-accessories/access-controller",
+        "source_url": "https://direct.playstation.com/en-us/buy-accessories/access-controller",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://direct.playstation.com/en-us/buy-accessories/dualsense-wireless-controller-white-for-ps5-pc-mac-mobile",
+        "source_url": "https://direct.playstation.com/en-us/buy-accessories/dualsense-wireless-controller-white-for-ps5-pc-mac-mobile",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://direct.playstation.com/en-us/collections/wolverine",
+        "source_url": "https://direct.playstation.com/en-us/collections/wolverine",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://gmedia.playstation.com/is/image/SIEPDC/ps-logo-favicon",
+        "source_url": "https://gmedia.playstation.com/is/image/SIEPDC/ps-logo-favicon?$icon-16-16--t$",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/",
+        "source_url": "https://playstation.com/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/docs",
+        "source_url": "https://playstation.com/docs",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/corporate/about-us/",
+        "source_url": "https://playstation.com/en-us/corporate/about-us/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/corporate/playstation-careers/",
+        "source_url": "https://playstation.com/en-us/corporate/playstation-careers/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/editorial/",
+        "source_url": "https://playstation.com/en-us/editorial/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/games/ea-sports-fc/",
+        "source_url": "https://playstation.com/en-us/games/ea-sports-fc/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/games/halo-campaign-evolved/",
+        "source_url": "https://playstation.com/en-us/games/halo-campaign-evolved/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/games/horizon-hunters-gathering/",
+        "source_url": "https://playstation.com/en-us/games/horizon-hunters-gathering/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/games/marvels-wolverine/",
+        "source_url": "https://playstation.com/en-us/games/marvels-wolverine/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/games/saros/",
+        "source_url": "https://playstation.com/en-us/games/saros/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/legal/psn-terms-of-service/",
+        "source_url": "https://playstation.com/en-us/legal/psn-terms-of-service/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/legal/third-party-ads/",
+        "source_url": "https://playstation.com/en-us/legal/third-party-ads/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/official-licensing-program/",
+        "source_url": "https://playstation.com/en-us/official-licensing-program/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/playstation-productions/",
+        "source_url": "https://playstation.com/en-us/playstation-productions/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/privacy-security-safety/",
+        "source_url": "https://playstation.com/en-us/privacy-security-safety/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/ps-plus/",
+        "source_url": "https://playstation.com/en-us/ps-plus/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/ps5/",
+        "source_url": "https://playstation.com/en-us/ps5/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/ps5/marvels-wolverine-limited-edition-console-bundle-and-accessories/",
+        "source_url": "https://playstation.com/en-us/ps5/marvels-wolverine-limited-edition-console-bundle-and-accessories/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/support/",
+        "source_url": "https://playstation.com/en-us/support/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/support/account/age-ratings-playstation/",
+        "source_url": "https://playstation.com/en-us/support/account/age-ratings-playstation/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "account"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/support/hardware/manuals/",
+        "source_url": "https://playstation.com/en-us/support/hardware/manuals/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/en-us/support/safety/",
+        "source_url": "https://playstation.com/en-us/support/safety/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/swagger.json",
+        "source_url": "https://playstation.com/swagger.json",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://research.playstation.com/",
+        "source_url": "https://research.playstation.com/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/ar-bh/",
+        "source_url": "https://www.playstation.com/ar-bh/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/ar-om/",
+        "source_url": "https://www.playstation.com/ar-om/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/ar-qa/",
+        "source_url": "https://www.playstation.com/ar-qa/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/beta-program-at-playstation/",
+        "source_url": "https://www.playstation.com/beta-program-at-playstation/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/cs-cz/",
+        "source_url": "https://www.playstation.com/cs-cz/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/de-ch/",
+        "source_url": "https://www.playstation.com/de-ch/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/el-gr/",
+        "source_url": "https://www.playstation.com/el-gr/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/en-ca/",
+        "source_url": "https://www.playstation.com/en-ca/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/en-cz/",
+        "source_url": "https://www.playstation.com/en-cz/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/en-gb/",
+        "source_url": "https://www.playstation.com/en-gb/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/en-hu/",
+        "source_url": "https://www.playstation.com/en-hu/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/en-id/",
+        "source_url": "https://www.playstation.com/en-id/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/en-in/",
+        "source_url": "https://www.playstation.com/en-in/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/en-nz/",
+        "source_url": "https://www.playstation.com/en-nz/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/en-ph/",
+        "source_url": "https://www.playstation.com/en-ph/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/en-sa/",
+        "source_url": "https://www.playstation.com/en-sa/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/es-co/",
+        "source_url": "https://www.playstation.com/es-co/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/es-mx/",
+        "source_url": "https://www.playstation.com/es-mx/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/es-pa/",
+        "source_url": "https://www.playstation.com/es-pa/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/es-pe/",
+        "source_url": "https://www.playstation.com/es-pe/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/fr-be/",
+        "source_url": "https://www.playstation.com/fr-be/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/fr-lu/",
+        "source_url": "https://www.playstation.com/fr-lu/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/he-il/",
+        "source_url": "https://www.playstation.com/he-il/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/ko-kr/",
+        "source_url": "https://www.playstation.com/ko-kr/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/nl-nl/",
+        "source_url": "https://www.playstation.com/nl-nl/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/no-no/",
+        "source_url": "https://www.playstation.com/no-no/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/site-map/",
+        "source_url": "https://www.playstation.com/site-map/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/sl-si/",
+        "source_url": "https://www.playstation.com/sl-si/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/sv-se/",
+        "source_url": "https://www.playstation.com/sv-se/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://www.playstation.com/zh-hant-tw/",
+        "source_url": "https://www.playstation.com/zh-hant-tw/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      }
+    ],
+    "authentication_analysis": [],
+    "rate_limit_observations": [
+      {
+        "endpoint": "/https://direct.playstation.com/en-us/buy-accessories/access-controller",
+        "method": "GET",
+        "status_codes": [
+          404,
+          404
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          4171.95,
+          3298.72
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/https://direct.playstation.com/en-us/buy-accessories/dualsense-wireless-controller-white-for-ps5-pc-mac-mobile",
+        "method": "GET",
+        "status_codes": [
+          404,
+          404
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          3330.43,
+          3550.5
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/https://direct.playstation.com/en-us/collections/wolverine",
+        "method": "GET",
+        "status_codes": [
+          404,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          4484.97,
+          1534.67
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/https://gmedia.playstation.com/is/image/SIEPDC/ps-logo-favicon",
+        "method": "GET",
+        "status_codes": [
+          404,
+          404
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          2788.99,
+          2680.75
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1637.98,
+          1380.77
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/docs",
+        "method": "GET",
+        "status_codes": [
+          404,
+          404
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          3415.26,
+          3319.73
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/en-us/corporate/about-us/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1278.5,
+          1235.66
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/en-us/corporate/playstation-careers/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          2454.29,
+          1907.13
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/en-us/editorial/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1763.53,
+          1360.52
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/en-us/games/ea-sports-fc/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1646.72,
+          1246.03
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      }
+    ],
+    "findings": [],
+    "limitations": [
+      "Authorized safe BOLA comparison check was not enabled; only passive path-based indicators were analyzed."
+    ]
+  },
+  "metrics": {
+    "total_endpoints_scanned": 118,
+    "discovered_endpoints_count": 58,
+    "auxiliary_probe_targets_count": 2,
+    "vulnerabilities_by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 2,
+      "info": 0
+    },
+    "overall_security_score": 94,
+    "coverage_percent": 93.3,
+    "confidence_score": 93,
+    "scan_quality": "COMPLETE",
+    "total_requests": 165,
+    "successful_requests": 154,
+    "failed_requests": 1,
+    "timeout_count": 0
+  }
+}

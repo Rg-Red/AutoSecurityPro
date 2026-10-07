@@ -1,0 +1,88 @@
+{
+  "scan_metadata": {
+    "tool_name": "AutoSecurityPro",
+    "version": "1.0.0",
+    "target": "example.com",
+    "target_ip": "104.20.23.154",
+    "scan_started": "2026-08-31T00:49:52Z",
+    "scan_finished": "2026-08-31T00:50:44Z",
+    "tor_enabled": false
+  },
+  "attack_surface_recon": {
+    "server": "cloudflare",
+    "operating_system": null,
+    "detected_technologies": [
+      "Cloudflare"
+    ],
+    "discovered_subdomains": [],
+    "dangling_subdomains": [],
+    "discovered_endpoints": [
+      "https://example.com/"
+    ],
+    "discovered_js_files": [],
+    "discovered_forms": [],
+    "graphql_schema_detected": false,
+    "google_dorks_found": []
+  },
+  "vulnerabilities": [
+    {
+      "id": "SEC-VULN-001",
+      "name": "Missing Security Header: Content-Security-Policy",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://example.com/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Content-Security-Policy'.",
+      "remediation": "Missing Content-Security-Policy (CSP) header allows a broader attack surface for injection-based attacks such as XSS."
+    },
+    {
+      "id": "SEC-VULN-002",
+      "name": "Missing Security Header: Strict-Transport-Security",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 2.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "url": "https://example.com/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Strict-Transport-Security'.",
+      "remediation": "Missing HTTP Strict-Transport-Security (HSTS) header exposes users to SSL-stripping / downgrade attacks."
+    },
+    {
+      "id": "SEC-VULN-003",
+      "name": "Missing Security Header: X-Frame-Options",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://example.com/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'X-Frame-Options'.",
+      "remediation": "Missing X-Frame-Options header allows the page to be embedded in a frame, enabling clickjacking attacks."
+    },
+    {
+      "id": "SEC-VULN-004",
+      "name": "Missing Security Header: X-Content-Type-Options",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://example.com/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'X-Content-Type-Options'.",
+      "remediation": "Missing X-Content-Type-Options header allows browsers to MIME-sniff responses, which can lead to content-type confusion attacks."
+    }
+  ],
+  "metrics": {
+    "total_endpoints_scanned": 28,
+    "vulnerabilities_by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 4,
+      "info": 0
+    },
+    "overall_security_score": 88
+  }
+}

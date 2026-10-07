@@ -1,0 +1,2521 @@
+{
+  "scan_metadata": {
+    "tool_name": "AutoSecurityPro",
+    "version": "1.0.0",
+    "target": "otetmarkets.com",
+    "target_ip": "172.67.172.100",
+    "scan_started": "2026-09-08T12:36:35Z",
+    "scan_finished": "2026-09-08T12:42:41Z",
+    "tor_enabled": false
+  },
+  "attack_surface_recon": {
+    "server": "cloudflare",
+    "operating_system": null,
+    "detected_technologies": [
+      "Cloudflare",
+      "WordPress"
+    ],
+    "discovered_subdomains": [
+      "2a57j78bmywop3pb3si452d76953xun.hub.otetmarkets.com",
+      "academy.otetmarkets.com",
+      "admin-propia.otetmarkets.com",
+      "api-auth.otetmarkets.com",
+      "api-new.otetmarkets.com",
+      "api-propia.otetmarkets.com",
+      "api.otetmarkets.com",
+      "app.otetmarkets.com",
+      "axsfbt5g7oo1n3rf26bc8zrbc085naw.fx.otetmarkets.com",
+      "call.otetmarkets.com",
+      "campaign.otetmarkets.com",
+      "cdn.otetmarkets.com",
+      "client.otetmarkets.com",
+      "config-api-office.otetmarkets.com",
+      "cpanel.campaign.otetmarkets.com",
+      "cpanel.knowledge.otetmarkets.com",
+      "cpanel.otetmarkets.com",
+      "cpanel.tickets.otetmarkets.com",
+      "cpcalendars.campaign.otetmarkets.com",
+      "cpcalendars.knowledge.otetmarkets.com",
+      "cpcalendars.otetmarkets.com",
+      "cpcalendars.tickets.otetmarkets.com",
+      "cpcontacts.campaign.otetmarkets.com",
+      "cpcontacts.knowledge.otetmarkets.com",
+      "cpcontacts.otetmarkets.com",
+      "cpcontacts.tickets.otetmarkets.com",
+      "ct.otetmarkets.com",
+      "cup-manage.otetmarkets.com",
+      "df7sxpjs8.otetmarkets.com",
+      "email.otetmarkets.com",
+      "fx.otetmarkets.com",
+      "help.otetmarkets.com",
+      "helpdesk.otetmarkets.com",
+      "hub.otetmarkets.com",
+      "ib.otetmarkets.com",
+      "id-app.otetmarkets.com",
+      "id-ct.otetmarkets.com",
+      "knowledge.otetmarkets.com",
+      "knwl.otetmarkets.com",
+      "mail.campaign.otetmarkets.com",
+      "mail.knowledge.otetmarkets.com",
+      "mail.otetmarkets.com",
+      "mail.tickets.otetmarkets.com",
+      "mt5web.otetmarkets.com",
+      "my-demo.otetmarkets.com",
+      "my-old.otetmarkets.com",
+      "my.otetmarkets.com",
+      "new.otetmarkets.com",
+      "operator-resolve.otetmarkets.com",
+      "panel.otetmarkets.com",
+      "plus.otetmarkets.com",
+      "portal.otetmarkets.com",
+      "propia.otetmarkets.com",
+      "proxy.otetmarkets.com",
+      "resolve.otetmarkets.com",
+      "tickets.otetmarkets.com",
+      "tools.otetmarkets.com",
+      "webdisk.campaign.otetmarkets.com",
+      "webdisk.knowledge.otetmarkets.com",
+      "webdisk.otetmarkets.com",
+      "webdisk.tickets.otetmarkets.com",
+      "webmail.campaign.otetmarkets.com",
+      "webmail.knowledge.otetmarkets.com",
+      "webmail.otetmarkets.com",
+      "webmail.tickets.otetmarkets.com",
+      "www.call.otetmarkets.com",
+      "www.campaign.otetmarkets.com",
+      "www.knowledge.otetmarkets.com",
+      "www.knwl.otetmarkets.com",
+      "www.mt5web.otetmarkets.com",
+      "www.otetmarkets.com",
+      "www.tickets.otetmarkets.com"
+    ],
+    "dangling_subdomains": [
+      "admin-propia.otetmarkets.com",
+      "cpanel.campaign.otetmarkets.com",
+      "cpanel.knowledge.otetmarkets.com",
+      "cpanel.otetmarkets.com",
+      "cpanel.tickets.otetmarkets.com",
+      "cpcalendars.knowledge.otetmarkets.com",
+      "cpcalendars.tickets.otetmarkets.com",
+      "cpcontacts.campaign.otetmarkets.com",
+      "cpcontacts.otetmarkets.com",
+      "fx.otetmarkets.com",
+      "helpdesk.otetmarkets.com",
+      "hub.otetmarkets.com",
+      "knowledge.otetmarkets.com",
+      "mail.knowledge.otetmarkets.com",
+      "mail.otetmarkets.com",
+      "panel.otetmarkets.com",
+      "propia.otetmarkets.com",
+      "webdisk.campaign.otetmarkets.com",
+      "webdisk.tickets.otetmarkets.com",
+      "webmail.campaign.otetmarkets.com",
+      "webmail.knowledge.otetmarkets.com",
+      "webmail.otetmarkets.com",
+      "webmail.tickets.otetmarkets.com",
+      "www.knwl.otetmarkets.com",
+      "www.tickets.otetmarkets.com"
+    ],
+    "discovered_endpoints": [
+      "https://mt5web.otetmarkets.com/terminal",
+      "https://my.otetmarkets.com/register",
+      "https://otetmarkets.com/",
+      "https://otetmarkets.com/about-us/",
+      "https://otetmarkets.com/accounts/",
+      "https://otetmarkets.com/assets-crypto",
+      "https://otetmarkets.com/assets-crypto/",
+      "https://otetmarkets.com/assets-energy",
+      "https://otetmarkets.com/assets-energy/",
+      "https://otetmarkets.com/assets-eustocks",
+      "https://otetmarkets.com/assets-eustocks/",
+      "https://otetmarkets.com/assets-usstocks",
+      "https://otetmarkets.com/assets-usstocks/",
+      "https://otetmarkets.com/assets/",
+      "https://otetmarkets.com/blog/",
+      "https://otetmarkets.com/blog/articles/forex-execution-models/",
+      "https://otetmarkets.com/blog/articles/how-do-forex-brokers-make-money/",
+      "https://otetmarkets.com/blog/news/general-economic-news/jp-morgan-sp500-ai/",
+      "https://otetmarkets.com/blog/news/gold-market-news/gold-rises-hormuz-fed/",
+      "https://otetmarkets.com/blog/news/oil-market-news/oil-prices-hormuz-tensions-2/",
+      "https://otetmarkets.com/cdn-cgi/l/email-protection",
+      "https://otetmarkets.com/contact/",
+      "https://otetmarkets.com/ctrader/",
+      "https://otetmarkets.com/deposit/",
+      "https://otetmarkets.com/ecn-account/",
+      "https://otetmarkets.com/ecn-plus-account/",
+      "https://otetmarkets.com/festival-account/",
+      "https://otetmarkets.com/forex-assets",
+      "https://otetmarkets.com/forex-assets/",
+      "https://otetmarkets.com/ib",
+      "https://otetmarkets.com/ib/",
+      "https://otetmarkets.com/indexes-assets",
+      "https://otetmarkets.com/indexes-assets/",
+      "https://otetmarkets.com/join-us/",
+      "https://otetmarkets.com/metals-assets",
+      "https://otetmarkets.com/metals-assets/",
+      "https://otetmarkets.com/mission/",
+      "https://otetmarkets.com/otet-plus-account/",
+      "https://otetmarkets.com/platform-ctrader/",
+      "https://otetmarkets.com/platform-metatrader/",
+      "https://otetmarkets.com/platforms/",
+      "https://otetmarkets.com/regulations/",
+      "https://otetmarkets.com/robots.txt",
+      "https://otetmarkets.com/social-trade-account/",
+      "https://otetmarkets.com/terms-and-conditions/",
+      "https://otetmarkets.com/values/",
+      "https://otetmarkets.com/vision/",
+      "https://portal.otetmarkets.com/"
+    ],
+    "auxiliary_probe_targets": [],
+    "discovered_js_files": [
+      "https://mt5web.otetmarkets.com/terminal/Cg-Y2_dA.js",
+      "https://my.otetmarkets.com/assets/index-DHNTgDpV.js",
+      "https://otetmarkets.com/blog/wp-content/themes/otet-blog/js/bootstrap.bundle.min.js?ver=7.1",
+      "https://otetmarkets.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "https://otetmarkets.com/wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js?ver=3.5.4",
+      "https://otetmarkets.com/wp-content/themes/beta3/bundle/app.js?ver=1788791091",
+      "https://otetmarkets.com/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255",
+      "https://otetmarkets.com/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216",
+      "https://portal.otetmarkets.com/assets/index-DHNTgDpV.js"
+    ],
+    "discovered_forms": [
+      {
+        "action": "https://otetmarkets.com/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/deposit/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/forex-assets",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/assets-energy/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/assets-usstocks",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/assets-crypto/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/ib/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/accounts/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/terms-and-conditions/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/about-us/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/blog/",
+        "method": "GET",
+        "parameters": [
+          "s"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-comments-post.php",
+        "method": "POST",
+        "parameters": [
+          "author",
+          "email",
+          "comment",
+          "wp-comment-cookies-consent",
+          "comment_post_ID",
+          "comment_parent"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "email"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/",
+        "method": "GET",
+        "parameters": [
+          "s"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-comments-post.php",
+        "method": "POST",
+        "parameters": [
+          "author",
+          "email",
+          "comment",
+          "wp-comment-cookies-consent",
+          "comment_post_ID",
+          "comment_parent"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "email"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/assets-usstocks/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/ecn-plus-account/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/festival-account/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/ecn-account/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/social-trade-account/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/assets-eustocks/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/indexes-assets/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/ib",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/blog/",
+        "method": "GET",
+        "parameters": [
+          "s"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-comments-post.php",
+        "method": "POST",
+        "parameters": [
+          "author",
+          "email",
+          "comment",
+          "wp-comment-cookies-consent",
+          "comment_post_ID",
+          "comment_parent"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "email"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/values/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/regulations/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/assets/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/ctrader/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/vision/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/assets-energy",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/blog/",
+        "method": "GET",
+        "parameters": [
+          "s"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-comments-post.php",
+        "method": "POST",
+        "parameters": [
+          "author",
+          "email",
+          "comment",
+          "wp-comment-cookies-consent",
+          "comment_post_ID",
+          "comment_parent"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "email"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/metals-assets/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/blog/",
+        "method": "GET",
+        "parameters": [
+          "s"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-comments-post.php",
+        "method": "POST",
+        "parameters": [
+          "author",
+          "email",
+          "comment",
+          "wp-comment-cookies-consent",
+          "comment_post_ID",
+          "comment_parent"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "email"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/indexes-assets",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/blog/",
+        "method": "GET",
+        "parameters": [
+          "s"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "email"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/mission/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "full_name",
+          "email",
+          "message"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/contact/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/forex-assets/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/assets-crypto",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/platforms/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/platform-metatrader/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/platform-ctrader/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/otet-plus-account/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/assets-eustocks",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "return_url",
+          "partner_application_nonce",
+          "_wp_http_referer",
+          "company_website",
+          "full_name",
+          "email",
+          "website_url",
+          "traffic_type",
+          "monthly_audience",
+          "traffic_details"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/join-us/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/metals-assets",
+        "method": "GET",
+        "parameters": []
+      }
+    ],
+    "graphql_schema_detected": false,
+    "google_dorks_found": [
+      {
+        "query": "site:otetmarkets.com inurl:admin",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+inurl%3Aadmin",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2Flogin&rut=68d785a3538cb0092d934abc073db195bb858e8f7060c0425616021763436e07",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2Fdashboard&rut=650c12ee937646501c52978ce2ede9be3152998259eb39100e1dd336fbb4b98b",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2F&rut=c260dd20bba738c23cf2e8a5394ffebfda4eb811a148d53b0a889cf3127babda",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmy.otetmarkets.com%2Fregister%3Fpartner%3D01934e39%2D95cc%2D73ea%2Db17e%2D38162337c6be&rut=dc53b631bdf2142975835d48c342d210d0c2ab583ba1f8a784d0680bf964c6df",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmy.otetmarkets.com%2Fregister%3Fpartner%3D0192be9d%2Defa6%2D715b%2D99c7%2Dd8a8c31ffc41&rut=6ad3aa7a8e3464ecf81324690e6722031bdd005238469bcf08d616c787838924"
+        ]
+      },
+      {
+        "query": "site:otetmarkets.com inurl:login",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+inurl%3Alogin",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2Fdashboard&rut=650c12ee937646501c52978ce2ede9be3152998259eb39100e1dd336fbb4b98b",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2Flogin&rut=68d785a3538cb0092d934abc073db195bb858e8f7060c0425616021763436e07",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2F&rut=c260dd20bba738c23cf2e8a5394ffebfda4eb811a148d53b0a889cf3127babda",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmt5web.otetmarkets.com%2Fterminal&rut=a9fb39a22f878788b1699585c8e3478f167597304eeb55e9b08ad24bb19cbe24",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2Faccounts%2F&rut=982adf711ff844cbe8a1a8720568e665a37325fe99a6c090c9aee0e77ae386c3"
+        ]
+      },
+      {
+        "query": "site:otetmarkets.com intitle:\"index of\"",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+intitle%3A%22index+of%22",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2F&rut=c260dd20bba738c23cf2e8a5394ffebfda4eb811a148d53b0a889cf3127babda",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2Fplatforms%2F&rut=4daaed41ea4a108e25d9f06be8de1ffc20107f5ac12b9cbcec1f335a79cae877",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2Fdashboard&rut=650c12ee937646501c52978ce2ede9be3152998259eb39100e1dd336fbb4b98b",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmt5web.otetmarkets.com%2Fterminal&rut=a9fb39a22f878788b1699585c8e3478f167597304eeb55e9b08ad24bb19cbe24"
+        ]
+      },
+      {
+        "query": "site:otetmarkets.com ext:sql",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+ext%3Asql",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2F&rut=c260dd20bba738c23cf2e8a5394ffebfda4eb811a148d53b0a889cf3127babda",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2Fassets%2F&rut=fb007b3bb04a9653d3c644c90f77bfab751e2dcdef72c1eb794d7f9e9c50adc2",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmt5web.otetmarkets.com%2Fterminal&rut=a9fb39a22f878788b1699585c8e3478f167597304eeb55e9b08ad24bb19cbe24",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2F&rut=1b135c1d479696ac3e21fa0376bbe464b139033d71b998628a2c554df23ed1b1",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2Fplatforms%2F&rut=4daaed41ea4a108e25d9f06be8de1ffc20107f5ac12b9cbcec1f335a79cae877"
+        ]
+      },
+      {
+        "query": "site:otetmarkets.com ext:log",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+ext%3Alog",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2F&rut=c260dd20bba738c23cf2e8a5394ffebfda4eb811a148d53b0a889cf3127babda",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2F&rut=1b135c1d479696ac3e21fa0376bbe464b139033d71b998628a2c554df23ed1b1",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmt5web.otetmarkets.com%2Fterminal&rut=a9fb39a22f878788b1699585c8e3478f167597304eeb55e9b08ad24bb19cbe24",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2Fplatforms%2F&rut=4daaed41ea4a108e25d9f06be8de1ffc20107f5ac12b9cbcec1f335a79cae877",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2Fassets%2F&rut=fb007b3bb04a9653d3c644c90f77bfab751e2dcdef72c1eb794d7f9e9c50adc2"
+        ]
+      },
+      {
+        "query": "site:otetmarkets.com ext:bak",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+ext%3Abak",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2F&rut=c260dd20bba738c23cf2e8a5394ffebfda4eb811a148d53b0a889cf3127babda",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmt5web.otetmarkets.com%2Fterminal&rut=a9fb39a22f878788b1699585c8e3478f167597304eeb55e9b08ad24bb19cbe24",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2Fplatforms%2F&rut=4daaed41ea4a108e25d9f06be8de1ffc20107f5ac12b9cbcec1f335a79cae877",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2F&rut=1b135c1d479696ac3e21fa0376bbe464b139033d71b998628a2c554df23ed1b1",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2Fassets%2F&rut=fb007b3bb04a9653d3c644c90f77bfab751e2dcdef72c1eb794d7f9e9c50adc2"
+        ]
+      },
+      {
+        "query": "site:otetmarkets.com filetype:env",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+filetype%3Aenv",
+        "results": []
+      },
+      {
+        "query": "site:otetmarkets.com inurl:wp-content",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+inurl%3Awp-content",
+        "results": []
+      },
+      {
+        "query": "site:otetmarkets.com inurl:config",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+inurl%3Aconfig",
+        "results": []
+      },
+      {
+        "query": "site:otetmarkets.com intext:\"sql syntax near\"",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+intext%3A%22sql+syntax+near%22",
+        "results": []
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "id": "SEC-VULN-001",
+      "name": "Potentially Dangling Subdomain: admin-propia.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://admin-propia.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'admin-propia.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-002",
+      "name": "Potentially Dangling Subdomain: cpanel.campaign.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://cpanel.campaign.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'cpanel.campaign.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-003",
+      "name": "Potentially Dangling Subdomain: cpanel.knowledge.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://cpanel.knowledge.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'cpanel.knowledge.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-004",
+      "name": "Potentially Dangling Subdomain: cpanel.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://cpanel.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'cpanel.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-005",
+      "name": "Potentially Dangling Subdomain: cpanel.tickets.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://cpanel.tickets.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'cpanel.tickets.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-006",
+      "name": "Potentially Dangling Subdomain: cpcalendars.knowledge.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://cpcalendars.knowledge.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'cpcalendars.knowledge.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-007",
+      "name": "Potentially Dangling Subdomain: cpcalendars.tickets.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://cpcalendars.tickets.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'cpcalendars.tickets.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-008",
+      "name": "Potentially Dangling Subdomain: cpcontacts.campaign.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://cpcontacts.campaign.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'cpcontacts.campaign.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-009",
+      "name": "Potentially Dangling Subdomain: cpcontacts.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://cpcontacts.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'cpcontacts.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-010",
+      "name": "Potentially Dangling Subdomain: fx.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://fx.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'fx.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-011",
+      "name": "Potentially Dangling Subdomain: helpdesk.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://helpdesk.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'helpdesk.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-012",
+      "name": "Potentially Dangling Subdomain: hub.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://hub.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'hub.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-013",
+      "name": "Potentially Dangling Subdomain: knowledge.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://knowledge.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'knowledge.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-014",
+      "name": "Potentially Dangling Subdomain: mail.knowledge.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://mail.knowledge.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'mail.knowledge.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-015",
+      "name": "Potentially Dangling Subdomain: mail.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://mail.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'mail.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-016",
+      "name": "Potentially Dangling Subdomain: panel.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://panel.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'panel.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-017",
+      "name": "Potentially Dangling Subdomain: propia.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://propia.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'propia.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-018",
+      "name": "Potentially Dangling Subdomain: webdisk.campaign.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://webdisk.campaign.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'webdisk.campaign.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-019",
+      "name": "Potentially Dangling Subdomain: webdisk.tickets.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://webdisk.tickets.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'webdisk.tickets.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-020",
+      "name": "Potentially Dangling Subdomain: webmail.campaign.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://webmail.campaign.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'webmail.campaign.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-021",
+      "name": "Potentially Dangling Subdomain: webmail.knowledge.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://webmail.knowledge.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'webmail.knowledge.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-022",
+      "name": "Potentially Dangling Subdomain: webmail.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://webmail.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'webmail.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-023",
+      "name": "Potentially Dangling Subdomain: webmail.tickets.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://webmail.tickets.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'webmail.tickets.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-024",
+      "name": "Potentially Dangling Subdomain: www.knwl.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://www.knwl.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'www.knwl.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-025",
+      "name": "Potentially Dangling Subdomain: www.tickets.otetmarkets.com",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://www.tickets.otetmarkets.com",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'www.tickets.otetmarkets.com', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-026",
+      "name": "Missing Security Header: Content-Security-Policy",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://otetmarkets.com/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Content-Security-Policy'.",
+      "remediation": "Missing Content-Security-Policy (CSP) header allows a broader attack surface for injection-based attacks such as XSS."
+    },
+    {
+      "id": "SEC-VULN-027",
+      "name": "Missing Security Header: Strict-Transport-Security",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 2.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "url": "https://otetmarkets.com/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Strict-Transport-Security'.",
+      "remediation": "Missing HTTP Strict-Transport-Security (HSTS) header exposes users to SSL-stripping / downgrade attacks."
+    },
+    {
+      "id": "SEC-VULN-028",
+      "name": "Missing Security Header: X-Frame-Options",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://otetmarkets.com/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'X-Frame-Options'.",
+      "remediation": "Missing X-Frame-Options header allows the page to be embedded in a frame, enabling clickjacking attacks."
+    },
+    {
+      "id": "SEC-VULN-029",
+      "name": "Missing Security Header: X-Content-Type-Options",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://otetmarkets.com/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'X-Content-Type-Options'.",
+      "remediation": "Missing X-Content-Type-Options header allows browsers to MIME-sniff responses, which can lead to content-type confusion attacks."
+    }
+  ],
+  "informational_observations": [
+    {
+      "name": "Public robots.txt Detected",
+      "category": "Informational",
+      "url": "https://otetmarkets.com/robots.txt",
+      "evidence": "HTTP 200 OK response received for '/robots.txt' with non-empty body content.",
+      "remediation": "No action required; this is a standard, benign publicly served file and its presence is not a vulnerability."
+    }
+  ],
+  "api_security": {
+    "documentation_targets": [
+      {
+        "requested_url": "https://otetmarkets.com/swagger",
+        "final_url": "https://otetmarkets.com/swagger",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70919,
+        "response_time_ms": 3014.67,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger/",
+        "final_url": "https://otetmarkets.com/swagger/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70919,
+        "response_time_ms": 2351.05,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger/index.html",
+        "final_url": "https://otetmarkets.com/swagger/index.html",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70963,
+        "response_time_ms": 3412.02,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger-ui",
+        "final_url": "https://otetmarkets.com/swagger-ui",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 139264,
+        "response_time_ms": 2541.73,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger-ui/",
+        "final_url": "https://otetmarkets.com/swagger-ui/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70931,
+        "response_time_ms": 3369.61,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger-ui.html",
+        "final_url": "https://otetmarkets.com/swagger-ui.html",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70951,
+        "response_time_ms": 3547.67,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger.json",
+        "final_url": "https://otetmarkets.com/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70939,
+        "response_time_ms": 3255.47,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger.yaml",
+        "final_url": "https://otetmarkets.com/swagger.yaml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70939,
+        "response_time_ms": 3141.57,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger/v1/swagger.json",
+        "final_url": "https://otetmarkets.com/swagger/v1/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70983,
+        "response_time_ms": 2745.44,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger/v2/swagger.json",
+        "final_url": "https://otetmarkets.com/swagger/v2/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70983,
+        "response_time_ms": 3254.65,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger/v3/swagger.json",
+        "final_url": "https://otetmarkets.com/swagger/v3/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70983,
+        "response_time_ms": 2577.0,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/openapi.json",
+        "final_url": "https://otetmarkets.com/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 284524,
+        "response_time_ms": 2723.28,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/openapi.yaml",
+        "final_url": "https://otetmarkets.com/openapi.yaml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70939,
+        "response_time_ms": 3630.68,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/openapi.yml",
+        "final_url": "https://otetmarkets.com/openapi.yml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70935,
+        "response_time_ms": 2964.41,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/api-docs",
+        "final_url": "https://otetmarkets.com/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70923,
+        "response_time_ms": 2922.82,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/api-docs/",
+        "final_url": "https://otetmarkets.com/api-docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70923,
+        "response_time_ms": 2891.67,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/docs",
+        "final_url": "https://otetmarkets.com/docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70907,
+        "response_time_ms": 2893.93,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/docs/",
+        "final_url": "https://otetmarkets.com/docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70907,
+        "response_time_ms": 2703.9,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/redoc",
+        "final_url": "https://otetmarkets.com/redoc",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70911,
+        "response_time_ms": 2868.25,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/redoc/",
+        "final_url": "https://otetmarkets.com/redoc/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70911,
+        "response_time_ms": 2529.14,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v2/api-docs",
+        "final_url": "https://otetmarkets.com/v2/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70935,
+        "response_time_ms": 1916.6,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v3/api-docs",
+        "final_url": "https://otetmarkets.com/v3/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70935,
+        "response_time_ms": 1113.63,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/api/swagger.json",
+        "final_url": "https://otetmarkets.com/api/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70955,
+        "response_time_ms": 3397.56,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/api/openapi.json",
+        "final_url": "https://otetmarkets.com/api/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70955,
+        "response_time_ms": 3880.98,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/api/docs",
+        "final_url": "https://otetmarkets.com/api/docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 95499,
+        "response_time_ms": 4200.06,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/api/docs/openapi.json",
+        "final_url": "https://otetmarkets.com/api/docs/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70975,
+        "response_time_ms": 4045.03,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v1/swagger.json",
+        "final_url": "https://otetmarkets.com/v1/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70951,
+        "response_time_ms": 4068.11,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v2/swagger.json",
+        "final_url": "https://otetmarkets.com/v2/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70951,
+        "response_time_ms": 4105.65,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v3/swagger.json",
+        "final_url": "https://otetmarkets.com/v3/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 139264,
+        "response_time_ms": 4056.35,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v1/openapi.json",
+        "final_url": "https://otetmarkets.com/v1/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70951,
+        "response_time_ms": 4045.32,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v2/openapi.json",
+        "final_url": "https://otetmarkets.com/v2/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 284536,
+        "response_time_ms": 3203.39,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v3/openapi.json",
+        "final_url": "https://otetmarkets.com/v3/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70951,
+        "response_time_ms": 3010.61,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v1/api-docs",
+        "final_url": "https://otetmarkets.com/v1/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70935,
+        "response_time_ms": 2365.92,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      }
+    ],
+    "openapi_schemas": [],
+    "endpoint_inventory": [
+      {
+        "method": "GET",
+        "path": "/https://mt5web.otetmarkets.com/terminal",
+        "source_url": "https://mt5web.otetmarkets.com/terminal",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://my.otetmarkets.com/register",
+        "source_url": "https://my.otetmarkets.com/register",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/",
+        "source_url": "https://otetmarkets.com/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/about-us/",
+        "source_url": "https://otetmarkets.com/about-us/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/accounts/",
+        "source_url": "https://otetmarkets.com/accounts/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "account"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/assets-crypto",
+        "source_url": "https://otetmarkets.com/assets-crypto",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets-crypto/",
+        "source_url": "https://otetmarkets.com/assets-crypto/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets-energy",
+        "source_url": "https://otetmarkets.com/assets-energy",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets-energy/",
+        "source_url": "https://otetmarkets.com/assets-energy/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets-eustocks",
+        "source_url": "https://otetmarkets.com/assets-eustocks",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets-eustocks/",
+        "source_url": "https://otetmarkets.com/assets-eustocks/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets-usstocks",
+        "source_url": "https://otetmarkets.com/assets-usstocks",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets-usstocks/",
+        "source_url": "https://otetmarkets.com/assets-usstocks/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets/",
+        "source_url": "https://otetmarkets.com/assets/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog/",
+        "source_url": "https://otetmarkets.com/blog/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog/articles/forex-execution-models/",
+        "source_url": "https://otetmarkets.com/blog/articles/forex-execution-models/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog/articles/how-do-forex-brokers-make-money/",
+        "source_url": "https://otetmarkets.com/blog/articles/how-do-forex-brokers-make-money/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog/news/general-economic-news/jp-morgan-sp500-ai/",
+        "source_url": "https://otetmarkets.com/blog/news/general-economic-news/jp-morgan-sp500-ai/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog/news/gold-market-news/gold-rises-hormuz-fed/",
+        "source_url": "https://otetmarkets.com/blog/news/gold-market-news/gold-rises-hormuz-fed/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog/news/oil-market-news/oil-prices-hormuz-tensions-2/",
+        "source_url": "https://otetmarkets.com/blog/news/oil-market-news/oil-prices-hormuz-tensions-2/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/cdn-cgi/l/email-protection",
+        "source_url": "https://otetmarkets.com/cdn-cgi/l/email-protection",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/contact/",
+        "source_url": "https://otetmarkets.com/contact/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/ctrader/",
+        "source_url": "https://otetmarkets.com/ctrader/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/deposit/",
+        "source_url": "https://otetmarkets.com/deposit/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/ecn-account/",
+        "source_url": "https://otetmarkets.com/ecn-account/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "account"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/ecn-plus-account/",
+        "source_url": "https://otetmarkets.com/ecn-plus-account/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "account"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/festival-account/",
+        "source_url": "https://otetmarkets.com/festival-account/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "account"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/forex-assets",
+        "source_url": "https://otetmarkets.com/forex-assets",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/forex-assets/",
+        "source_url": "https://otetmarkets.com/forex-assets/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/ib",
+        "source_url": "https://otetmarkets.com/ib",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/ib/",
+        "source_url": "https://otetmarkets.com/ib/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/indexes-assets",
+        "source_url": "https://otetmarkets.com/indexes-assets",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/indexes-assets/",
+        "source_url": "https://otetmarkets.com/indexes-assets/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/join-us/",
+        "source_url": "https://otetmarkets.com/join-us/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/metals-assets",
+        "source_url": "https://otetmarkets.com/metals-assets",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/metals-assets/",
+        "source_url": "https://otetmarkets.com/metals-assets/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/mission/",
+        "source_url": "https://otetmarkets.com/mission/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/otet-plus-account/",
+        "source_url": "https://otetmarkets.com/otet-plus-account/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "account"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/platform-ctrader/",
+        "source_url": "https://otetmarkets.com/platform-ctrader/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/platform-metatrader/",
+        "source_url": "https://otetmarkets.com/platform-metatrader/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/platforms/",
+        "source_url": "https://otetmarkets.com/platforms/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/regulations/",
+        "source_url": "https://otetmarkets.com/regulations/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/robots.txt",
+        "source_url": "https://otetmarkets.com/robots.txt",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/social-trade-account/",
+        "source_url": "https://otetmarkets.com/social-trade-account/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "account"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/terms-and-conditions/",
+        "source_url": "https://otetmarkets.com/terms-and-conditions/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/values/",
+        "source_url": "https://otetmarkets.com/values/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/vision/",
+        "source_url": "https://otetmarkets.com/vision/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://portal.otetmarkets.com/",
+        "source_url": "https://portal.otetmarkets.com/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      }
+    ],
+    "authentication_analysis": [],
+    "rate_limit_observations": [
+      {
+        "endpoint": "/https://mt5web.otetmarkets.com/terminal",
+        "method": "GET",
+        "status_codes": [
+          404,
+          404
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          2319.55,
+          3282.78
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/https://my.otetmarkets.com/register",
+        "method": "GET",
+        "status_codes": [
+          404,
+          404
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          2507.5,
+          3496.73
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          4373.35,
+          2235.8
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/about-us/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          2316.61,
+          2412.8
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/accounts/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          3098.11,
+          2147.64
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/assets-crypto",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          2490.69,
+          3645.0
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/assets-crypto/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          3800.57,
+          3439.76
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/assets-energy",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          3791.99,
+          2798.59
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/assets-energy/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          3572.94,
+          2302.18
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/assets-eustocks",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          3322.5,
+          3588.43
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      }
+    ],
+    "findings": [],
+    "limitations": [
+      "Authorized safe BOLA comparison check was not enabled; only passive path-based indicators were analyzed."
+    ]
+  },
+  "metrics": {
+    "total_endpoints_scanned": 107,
+    "discovered_endpoints_count": 48,
+    "auxiliary_probe_targets_count": 0,
+    "vulnerabilities_by_severity": {
+      "critical": 0,
+      "high": 25,
+      "medium": 0,
+      "low": 4,
+      "info": 0
+    },
+    "overall_security_score": 0,
+    "coverage_percent": 87.4,
+    "confidence_score": 87,
+    "scan_quality": "PARTIAL",
+    "total_requests": 175,
+    "successful_requests": 153,
+    "failed_requests": 4,
+    "timeout_count": 4
+  }
+}

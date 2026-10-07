@@ -1,0 +1,1574 @@
+{
+  "scan_metadata": {
+    "tool_name": "AutoSecurityPro",
+    "version": "1.0.0",
+    "target": "lnrbda.gov.ng",
+    "target_ip": "66.96.147.168",
+    "scan_started": "2026-09-21T21:01:51Z",
+    "scan_finished": "2026-09-21T21:06:35Z",
+    "tor_enabled": false
+  },
+  "attack_surface_recon": {
+    "server": null,
+    "operating_system": null,
+    "detected_technologies": [
+      "PHP"
+    ],
+    "discovered_subdomains": [
+      "www.lnrbda.gov.ng"
+    ],
+    "dangling_subdomains": [],
+    "discovered_endpoints": [
+      "https://lnrbda.gov.ng/",
+      "https://lnrbda.gov.ng/about.html",
+      "https://lnrbda.gov.ng/about.php",
+      "https://lnrbda.gov.ng/agricultural_services.php",
+      "https://lnrbda.gov.ng/blog-details.html",
+      "https://lnrbda.gov.ng/contact.html",
+      "https://lnrbda.gov.ng/contact.php",
+      "https://lnrbda.gov.ng/dams.php",
+      "https://lnrbda.gov.ng/directors.php",
+      "https://lnrbda.gov.ng/flood & erosion control.php",
+      "https://lnrbda.gov.ng/gallery.html",
+      "https://lnrbda.gov.ng/gallery_event.php",
+      "https://lnrbda.gov.ng/gyes_validation.php",
+      "https://lnrbda.gov.ng/index.html",
+      "https://lnrbda.gov.ng/index.php",
+      "https://lnrbda.gov.ng/irrigation.php",
+      "https://lnrbda.gov.ng/news.php?do=",
+      "https://lnrbda.gov.ng/news.php?do=1",
+      "https://lnrbda.gov.ng/news.php?do=10",
+      "https://lnrbda.gov.ng/news.php?do=11",
+      "https://lnrbda.gov.ng/news.php?do=12",
+      "https://lnrbda.gov.ng/news.php?do=13",
+      "https://lnrbda.gov.ng/news.php?do=14",
+      "https://lnrbda.gov.ng/news.php?do=15",
+      "https://lnrbda.gov.ng/news.php?do=16",
+      "https://lnrbda.gov.ng/news.php?do=17",
+      "https://lnrbda.gov.ng/news.php?do=18",
+      "https://lnrbda.gov.ng/news.php?do=19",
+      "https://lnrbda.gov.ng/news.php?do=20",
+      "https://lnrbda.gov.ng/news.php?do=21",
+      "https://lnrbda.gov.ng/news.php?do=3",
+      "https://lnrbda.gov.ng/news.php?do=4",
+      "https://lnrbda.gov.ng/news.php?do=5",
+      "https://lnrbda.gov.ng/news.php?do=6",
+      "https://lnrbda.gov.ng/news.php?do=7",
+      "https://lnrbda.gov.ng/news.php?do=8",
+      "https://lnrbda.gov.ng/news.php?do=9",
+      "https://lnrbda.gov.ng/news1.php",
+      "https://lnrbda.gov.ng/project_gallery.php",
+      "https://lnrbda.gov.ng/service-single.html",
+      "https://lnrbda.gov.ng/tender.php",
+      "https://lnrbda.gov.ng/water_supply.php"
+    ],
+    "auxiliary_probe_targets": [],
+    "discovered_js_files": [
+      "https://lnrbda.gov.ng/10.71.184.6_8080/www/default/base.js",
+      "https://lnrbda.gov.ng/assets/revolution/js/extensions/revolution.extension.actions.min.js",
+      "https://lnrbda.gov.ng/assets/revolution/js/extensions/revolution.extension.carousel.min.js",
+      "https://lnrbda.gov.ng/assets/revolution/js/extensions/revolution.extension.kenburn.min.js",
+      "https://lnrbda.gov.ng/assets/revolution/js/extensions/revolution.extension.layeranimation.min.js",
+      "https://lnrbda.gov.ng/assets/revolution/js/extensions/revolution.extension.migration.min.js",
+      "https://lnrbda.gov.ng/assets/revolution/js/extensions/revolution.extension.navigation.min.js",
+      "https://lnrbda.gov.ng/assets/revolution/js/extensions/revolution.extension.parallax.min.js",
+      "https://lnrbda.gov.ng/assets/revolution/js/extensions/revolution.extension.slideanims.min.js",
+      "https://lnrbda.gov.ng/assets/revolution/js/extensions/revolution.extension.video.min.js",
+      "https://lnrbda.gov.ng/assets/revolution/js/jquery.themepunch.revolution.min.js",
+      "https://lnrbda.gov.ng/assets/revolution/js/jquery.themepunch.tools.min.js",
+      "https://lnrbda.gov.ng/js/SmoothScroll.js",
+      "https://lnrbda.gov.ng/js/bootstrap-select.min.js",
+      "https://lnrbda.gov.ng/js/bootstrap.min.js",
+      "https://lnrbda.gov.ng/js/custom.js",
+      "https://lnrbda.gov.ng/js/default-map.js",
+      "https://lnrbda.gov.ng/js/gmap.js",
+      "https://lnrbda.gov.ng/js/imagezoom.js",
+      "https://lnrbda.gov.ng/js/isotope.js",
+      "https://lnrbda.gov.ng/js/jquery-ui.js",
+      "https://lnrbda.gov.ng/js/jquery.appear.js",
+      "https://lnrbda.gov.ng/js/jquery.bootstrap-touchspin.js",
+      "https://lnrbda.gov.ng/js/jquery.countTo.js",
+      "https://lnrbda.gov.ng/js/jquery.fancybox.pack.js",
+      "https://lnrbda.gov.ng/js/jquery.fitvids.js",
+      "https://lnrbda.gov.ng/js/jquery.flexslider.js",
+      "https://lnrbda.gov.ng/js/jquery.js",
+      "https://lnrbda.gov.ng/js/jquery.mixitup.min.js",
+      "https://lnrbda.gov.ng/js/jquery.polyglot.language.switcher.js",
+      "https://lnrbda.gov.ng/js/jquery.validate.min.js",
+      "https://lnrbda.gov.ng/js/nouislider.js",
+      "https://lnrbda.gov.ng/js/owl.carousel.min.js",
+      "https://lnrbda.gov.ng/js/validation.js",
+      "https://lnrbda.gov.ng/js/wow.js"
+    ],
+    "discovered_forms": [
+      {
+        "action": "https://lnrbda.gov.ng/#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/gyes_validation.php#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/gyes_validation.php",
+        "method": "POST",
+        "parameters": [
+          "phone",
+          "passc",
+          "form_botcheck"
+        ]
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=8#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=8#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/index.php#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/about.php#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=9#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=9#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=15#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=15#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=14#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=14#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=6#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=6#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=17#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=17#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/dams.php#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/project_gallery.php#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/water_supply.php#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=18#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=18#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/gallery_event.php#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/agricultural_services.php#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/irrigation.php#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/directors.php#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=21#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=21#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=16#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=3#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=3#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=19#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=19#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=10#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=10#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/tender.php#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=1#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=1#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news1.php#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=11#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=11#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=5#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=5#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=4#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=4#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=13#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=13#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=20#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=20#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=7#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=7#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=12#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=12#",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://lnrbda.gov.ng/news.php?do=#",
+        "method": "GET",
+        "parameters": []
+      }
+    ],
+    "graphql_schema_detected": false,
+    "google_dorks_found": [
+      {
+        "query": "site:lnrbda.gov.ng inurl:admin",
+        "google_url": "https://www.google.com/search?q=site%3Alnrbda.gov.ng+inurl%3Aadmin",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Flnrbda.gov.ng%2F&rut=ed3ac3eeb1cd8111f0e843fe3f325623ed18f038cd2b9050b452031fa3ea10f0",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.lnrbda.gov.ng%2Fnews1.php&rut=73069b228b47fd897ce19c8d529ed6e666c75a2c9c2cde0f3833a9e48c58237d",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Flnrbda.gov.ng%2Fgyes_validation.php&rut=b4c63c9214e72db5febf0d4430db95e7254b6a965011d050ab2877bc3832afc7",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.lnrbda.gov.ng%2Freadnews.php&rut=b73775a57da7bb0ab6f8871850880d909477295e0dfff4f55070c9d1282326b8",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Flnrbda.gov.ng%2Fdirectors.php&rut=e36376c51e09e0a7f4eba8e3c868b3f3f68ebc8b09b9454f236361ecffa58db6"
+        ]
+      },
+      {
+        "query": "site:lnrbda.gov.ng inurl:login",
+        "google_url": "https://www.google.com/search?q=site%3Alnrbda.gov.ng+inurl%3Alogin",
+        "results": [
+          "//duckduckgo.com/l/?uddg=http%3A%2F%2Fwww.lnrbda.gov.ng%2F&rut=aa79d809717d2d02625f097fec16fc91e311b7ac169c4d4320d7ee540463d8c9"
+        ]
+      },
+      {
+        "query": "site:lnrbda.gov.ng intitle:\"index of\"",
+        "google_url": "https://www.google.com/search?q=site%3Alnrbda.gov.ng+intitle%3A%22index+of%22",
+        "results": [
+          "http://www.lnrbda.gov.ng/readnews.php?id=1"
+        ]
+      },
+      {
+        "query": "site:lnrbda.gov.ng ext:sql",
+        "google_url": "https://www.google.com/search?q=site%3Alnrbda.gov.ng+ext%3Asql",
+        "results": [
+          "//duckduckgo.com/l/?uddg=http%3A%2F%2Fwww.lnrbda.gov.ng%2Freadnews.php%3Fid%3D1&rut=d6f464160543e97db7d7d44a1d35666a389a7340ae3480952b09946bb196e334"
+        ]
+      },
+      {
+        "query": "site:lnrbda.gov.ng ext:log",
+        "google_url": "https://www.google.com/search?q=site%3Alnrbda.gov.ng+ext%3Alog",
+        "results": [
+          "//duckduckgo.com/l/?uddg=http%3A%2F%2Fwww.lnrbda.gov.ng%2Freadnews.php%3Fid%3D1&rut=d6f464160543e97db7d7d44a1d35666a389a7340ae3480952b09946bb196e334"
+        ]
+      },
+      {
+        "query": "site:lnrbda.gov.ng ext:bak",
+        "google_url": "https://www.google.com/search?q=site%3Alnrbda.gov.ng+ext%3Abak",
+        "results": [
+          "http://www.lnrbda.gov.ng/readnews.php?id=1"
+        ]
+      },
+      {
+        "query": "site:lnrbda.gov.ng filetype:env",
+        "google_url": "https://www.google.com/search?q=site%3Alnrbda.gov.ng+filetype%3Aenv",
+        "results": []
+      },
+      {
+        "query": "site:lnrbda.gov.ng inurl:wp-content",
+        "google_url": "https://www.google.com/search?q=site%3Alnrbda.gov.ng+inurl%3Awp-content",
+        "results": []
+      },
+      {
+        "query": "site:lnrbda.gov.ng inurl:config",
+        "google_url": "https://www.google.com/search?q=site%3Alnrbda.gov.ng+inurl%3Aconfig",
+        "results": []
+      },
+      {
+        "query": "site:lnrbda.gov.ng intext:\"sql syntax near\"",
+        "google_url": "https://www.google.com/search?q=site%3Alnrbda.gov.ng+intext%3A%22sql+syntax+near%22",
+        "results": []
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "id": "SEC-VULN-001",
+      "name": "Missing Security Header: Content-Security-Policy",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://lnrbda.gov.ng/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Content-Security-Policy'.",
+      "remediation": "Missing Content-Security-Policy (CSP) header allows a broader attack surface for injection-based attacks such as XSS."
+    },
+    {
+      "id": "SEC-VULN-002",
+      "name": "Missing Security Header: Strict-Transport-Security",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 2.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "url": "https://lnrbda.gov.ng/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Strict-Transport-Security'.",
+      "remediation": "Missing HTTP Strict-Transport-Security (HSTS) header exposes users to SSL-stripping / downgrade attacks."
+    },
+    {
+      "id": "SEC-VULN-003",
+      "name": "Missing Security Header: X-Frame-Options",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://lnrbda.gov.ng/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'X-Frame-Options'.",
+      "remediation": "Missing X-Frame-Options header allows the page to be embedded in a frame, enabling clickjacking attacks."
+    },
+    {
+      "id": "SEC-VULN-004",
+      "name": "Missing Security Header: X-Content-Type-Options",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://lnrbda.gov.ng/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'X-Content-Type-Options'.",
+      "remediation": "Missing X-Content-Type-Options header allows browsers to MIME-sniff responses, which can lead to content-type confusion attacks."
+    }
+  ],
+  "informational_observations": [],
+  "api_security": {
+    "documentation_targets": [
+      {
+        "requested_url": "https://lnrbda.gov.ng/swagger",
+        "final_url": "https://lnrbda.gov.ng/swagger",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 1237.74,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/swagger/",
+        "final_url": "https://lnrbda.gov.ng/swagger/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 1238.43,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/swagger/index.html",
+        "final_url": "https://lnrbda.gov.ng/swagger/index.html",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 1231.88,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/swagger-ui",
+        "final_url": "https://lnrbda.gov.ng/swagger-ui",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 1231.83,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/swagger-ui/",
+        "final_url": "https://lnrbda.gov.ng/swagger-ui/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 480.69,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/swagger-ui.html",
+        "final_url": "https://lnrbda.gov.ng/swagger-ui.html",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 481.16,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/swagger.json",
+        "final_url": "https://lnrbda.gov.ng/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 1230.61,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/swagger.yaml",
+        "final_url": "https://lnrbda.gov.ng/swagger.yaml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 751.43,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/swagger/v1/swagger.json",
+        "final_url": "https://lnrbda.gov.ng/swagger/v1/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 843.23,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/swagger/v2/swagger.json",
+        "final_url": "https://lnrbda.gov.ng/swagger/v2/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 445.63,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/swagger/v3/swagger.json",
+        "final_url": "https://lnrbda.gov.ng/swagger/v3/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 643.4,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/openapi.json",
+        "final_url": "https://lnrbda.gov.ng/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 1170.04,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/openapi.yaml",
+        "final_url": "https://lnrbda.gov.ng/openapi.yaml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 628.39,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/openapi.yml",
+        "final_url": "https://lnrbda.gov.ng/openapi.yml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 899.6,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/api-docs",
+        "final_url": "https://lnrbda.gov.ng/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 344.55,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/api-docs/",
+        "final_url": "https://lnrbda.gov.ng/api-docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 540.08,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/docs",
+        "final_url": "https://lnrbda.gov.ng/docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 800.52,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/docs/",
+        "final_url": "https://lnrbda.gov.ng/docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 622.25,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/redoc",
+        "final_url": "https://lnrbda.gov.ng/redoc",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 360.29,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/redoc/",
+        "final_url": "https://lnrbda.gov.ng/redoc/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 405.43,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/v2/api-docs",
+        "final_url": "https://lnrbda.gov.ng/v2/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 615.36,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/v3/api-docs",
+        "final_url": "https://lnrbda.gov.ng/v3/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 631.11,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/api/swagger.json",
+        "final_url": "https://lnrbda.gov.ng/api/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 470.7,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/api/openapi.json",
+        "final_url": "https://lnrbda.gov.ng/api/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 808.9,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/api/docs",
+        "final_url": "https://lnrbda.gov.ng/api/docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 638.8,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/api/docs/openapi.json",
+        "final_url": "https://lnrbda.gov.ng/api/docs/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 591.79,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/v1/swagger.json",
+        "final_url": "https://lnrbda.gov.ng/v1/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 370.79,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/v2/swagger.json",
+        "final_url": "https://lnrbda.gov.ng/v2/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 462.8,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/v3/swagger.json",
+        "final_url": "https://lnrbda.gov.ng/v3/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 690.62,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/v1/openapi.json",
+        "final_url": "https://lnrbda.gov.ng/v1/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 712.59,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/v2/openapi.json",
+        "final_url": "https://lnrbda.gov.ng/v2/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 422.83,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/v3/openapi.json",
+        "final_url": "https://lnrbda.gov.ng/v3/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 397.96,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://lnrbda.gov.ng/v1/api-docs",
+        "final_url": "https://lnrbda.gov.ng/v1/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html",
+        "content_length": 867,
+        "response_time_ms": 704.89,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      }
+    ],
+    "openapi_schemas": [],
+    "endpoint_inventory": [
+      {
+        "method": "GET",
+        "path": "/",
+        "source_url": "https://lnrbda.gov.ng/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/about.html",
+        "source_url": "https://lnrbda.gov.ng/about.html",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/about.php",
+        "source_url": "https://lnrbda.gov.ng/about.php",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/agricultural_services.php",
+        "source_url": "https://lnrbda.gov.ng/agricultural_services.php",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog-details.html",
+        "source_url": "https://lnrbda.gov.ng/blog-details.html",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/contact.html",
+        "source_url": "https://lnrbda.gov.ng/contact.html",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/contact.php",
+        "source_url": "https://lnrbda.gov.ng/contact.php",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/dams.php",
+        "source_url": "https://lnrbda.gov.ng/dams.php",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/directors.php",
+        "source_url": "https://lnrbda.gov.ng/directors.php",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/flood & erosion control.php",
+        "source_url": "https://lnrbda.gov.ng/flood & erosion control.php",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/gallery.html",
+        "source_url": "https://lnrbda.gov.ng/gallery.html",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/gallery_event.php",
+        "source_url": "https://lnrbda.gov.ng/gallery_event.php",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/gyes_validation.php",
+        "source_url": "https://lnrbda.gov.ng/gyes_validation.php",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/index.html",
+        "source_url": "https://lnrbda.gov.ng/index.html",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/index.php",
+        "source_url": "https://lnrbda.gov.ng/index.php",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/irrigation.php",
+        "source_url": "https://lnrbda.gov.ng/irrigation.php",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/news.php",
+        "source_url": "https://lnrbda.gov.ng/news.php?do=",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/news1.php",
+        "source_url": "https://lnrbda.gov.ng/news1.php",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/project_gallery.php",
+        "source_url": "https://lnrbda.gov.ng/project_gallery.php",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/service-single.html",
+        "source_url": "https://lnrbda.gov.ng/service-single.html",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/tender.php",
+        "source_url": "https://lnrbda.gov.ng/tender.php",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/water_supply.php",
+        "source_url": "https://lnrbda.gov.ng/water_supply.php",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      }
+    ],
+    "authentication_analysis": [],
+    "rate_limit_observations": [
+      {
+        "endpoint": "/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          672.44,
+          985.35
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/about.html",
+        "method": "GET",
+        "status_codes": [
+          404,
+          404
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          679.24,
+          621.18
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/about.php",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          393.82,
+          701.34
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/agricultural_services.php",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          564.81,
+          840.83
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/blog-details.html",
+        "method": "GET",
+        "status_codes": [
+          404,
+          404
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          764.12,
+          476.23
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/contact.html",
+        "method": "GET",
+        "status_codes": [
+          404,
+          404
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          594.3,
+          674.23
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/contact.php",
+        "method": "GET",
+        "status_codes": [
+          409,
+          409
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          523.98,
+          830.94
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/dams.php",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          714.98,
+          748.55
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/directors.php",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          644.83,
+          886.22
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/flood & erosion control.php",
+        "method": "GET",
+        "status_codes": [
+          500,
+          500
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          665.58,
+          616.78
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      }
+    ],
+    "findings": [],
+    "limitations": [
+      "Authorized safe BOLA comparison check was not enabled; only passive path-based indicators were analyzed."
+    ]
+  },
+  "metrics": {
+    "total_endpoints_scanned": 102,
+    "discovered_endpoints_count": 42,
+    "auxiliary_probe_targets_count": 0,
+    "vulnerabilities_by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 4,
+      "info": 0
+    },
+    "overall_security_score": 88,
+    "coverage_percent": 99.3,
+    "confidence_score": 99,
+    "scan_quality": "COMPLETE",
+    "total_requests": 451,
+    "successful_requests": 448,
+    "failed_requests": 0,
+    "timeout_count": 0
+  }
+}

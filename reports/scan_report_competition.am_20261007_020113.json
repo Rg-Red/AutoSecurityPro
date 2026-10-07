@@ -1,0 +1,1883 @@
+{
+  "scan_metadata": {
+    "tool_name": "AutoSecurityPro",
+    "version": "1.0.0",
+    "target": "competition.am",
+    "target_ip": "83.139.46.201",
+    "scan_started": "2026-10-07T05:56:05Z",
+    "scan_finished": "2026-10-07T06:01:13Z",
+    "tor_enabled": false
+  },
+  "attack_surface_recon": {
+    "server": "Apache",
+    "operating_system": "Linux (heuristic)",
+    "detected_technologies": [
+      "PHP",
+      "WordPress"
+    ],
+    "discovered_subdomains": [
+      "autodiscover.competition.am",
+      "cpanel.competition.am",
+      "cpcalendars.competition.am",
+      "cpcontacts.competition.am",
+      "ef.competition.am",
+      "mail.competition.am",
+      "ms.competition.am",
+      "webdisk.competition.am",
+      "webmail.competition.am",
+      "www.competition.am",
+      "www.ef.competition.am",
+      "www.ms.competition.am"
+    ],
+    "dangling_subdomains": [
+      "www.ef.competition.am",
+      "www.ms.competition.am"
+    ],
+    "discovered_endpoints": [
+      "https://competition.am/",
+      "https://competition.am/.DS_Store",
+      "https://competition.am/hy/",
+      "https://competition.am/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%a1%d5%b6%d5%a2%d5%a1%d6%80%d5%a5%d5%ad%d5%ab%d5%b2%d5%b3-%d5%b4%d6%80%d6%81%d5%a1%d5%af%d6%81%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/",
+      "https://competition.am/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%a2%d5%a1%d5%b6%d5%a1%d5%af%d6%81%d5%a1%d5%b5%d5%ab%d5%b6-%d5%b8%d6%82%d5%aa%d5%a5%d5%b2-%d5%a4%d5%ab%d6%80%d6%84/",
+      "https://competition.am/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%b0%d5%a1%d5%b4%d5%a1%d5%af%d5%a5%d5%b6%d5%bf%d6%80%d5%b8%d5%b6%d5%a1%d6%81%d5%b8%d6%82%d5%b4/",
+      "https://competition.am/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%ba%d5%a5%d5%bf%d5%a1%d5%af%d5%a1%d5%b6-%d6%85%d5%aa%d5%a1%d5%b6%d5%a4%d5%a1%d5%af%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/",
+      "https://competition.am/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%bf%d5%a1%d6%80%d5%a5%d5%af%d5%a1%d5%b6-%d5%b0%d5%a1%d5%b7%d5%be%d5%a5%d5%bf%d5%be%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6%d5%b6%d5%a5%d6%80/",
+      "https://competition.am/hy/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84-%d6%87-%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/",
+      "https://competition.am/hy/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84-%d6%87-%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84/",
+      "https://competition.am/hy/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84-%d6%87-%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/",
+      "https://competition.am/hy/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84-%d6%87-%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/%d5%bf%d5%b8%d6%82%d5%a3%d5%a1%d5%b6%d6%84%d5%b6%d5%a5%d6%80%d5%ab-%d5%be%d5%b3%d5%a1%d6%80%d5%b4%d5%a1%d5%b6-%d5%bc%d5%a5%d5%af%d5%be%d5%ab%d5%a6%d5%ab%d5%bf%d5%b6%d5%a5%d6%80/",
+      "https://competition.am/hy/%d5%b0%d5%bf%d5%b0/",
+      "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/",
+      "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%af%d5%a1%d5%a6%d5%b4%d5%ab-%d5%b0%d5%a1%d5%b4%d5%a1%d5%ac%d6%80%d5%b8%d6%82%d5%b4/",
+      "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%af%d5%a1%d5%a6%d5%b4%d5%ab-%d5%b0%d5%a1%d5%b4%d5%a1%d5%ac%d6%80%d5%b8%d6%82%d5%b4/%d5%a9%d5%a1%d6%83%d5%b8%d6%82%d6%80-%d5%a1%d5%b7%d5%ad%d5%a1%d5%bf%d5%a1%d5%bf%d5%a5%d5%b2%d5%a5%d6%80/%d6%83%d5%b8%d6%80%d5%b1%d5%a1%d5%a3%d5%a5%d5%bf%d5%b6%d5%a5%d6%80%d5%ab-%d5%b6%d5%a5%d6%80%d5%a3%d6%80%d5%a1%d5%be%d5%be%d5%b8%d6%82%d5%b4/",
+      "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%b0%d5%a1%d5%b4%d5%a1%d5%a3%d5%b8%d6%80%d5%ae%d5%a1%d5%af%d6%81%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6-%d5%a1%d5%b5%d5%ac-%d5%b4%d5%a1%d6%80%d5%b4%d5%ab%d5%b6%d5%b6%d5%a5%d6%80%d5%ab-%d5%b0/",
+      "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%b0%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%aa%d5%b8%d5%b2%d5%b8%d5%be%d5%ab%d5%b6-%d5%af%d5%ab%d6%81-%d5%b0%d5%a1%d5%bd%d5%a1%d6%80%d5%a1%d5%af%d5%a1%d5%af%d5%a1%d5%b6-%d5%ad%d5%b8%d6%80%d5%b0%d5%b8/",
+      "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%b0%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%aa%d5%b8%d5%b2%d5%b8%d5%be%d5%ab-%d5%af%d5%a1%d5%a6%d5%b4%d5%a8/",
+      "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%b4%d5%ab%d5%bb%d5%a1%d5%a6%d5%a3%d5%a1%d5%b5%d5%ab%d5%b6-%d5%b0%d5%a1%d5%b4%d5%a1%d5%a3%d5%b8%d6%80%d5%ae%d5%a1%d5%af%d6%81%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b2%d5%b8%d6%82%d5%b4%d5%b6%d5%a5%d6%80%d5%ab-%d5%b0%d5%a1%d5%b7%d5%be%d5%a5%d5%bf%d5%be%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6%d5%b6%d5%a5%d6%80/",
+      "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%ba%d5%a1%d5%bf%d5%b4%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/",
+      "https://competition.am/hy/%d5%bf%d5%a5%d5%b2%d5%a5%d5%af%d5%a1%d5%bf%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%af%d5%a5%d5%b6%d5%bf%d6%80%d5%b8%d5%b6/%d5%b0%d6%80%d5%a1%d5%ba%d5%a1%d6%80%d5%a1%d5%af%d5%b8%d6%82%d5%b4%d5%b6%d5%a5%d6%80/",
+      "https://competition.am/hy/%d5%bf%d5%a5%d5%b2%d5%a5%d5%af%d5%a1%d5%bf%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%af%d5%a5%d5%b6%d5%bf%d6%80%d5%b8%d5%b6/%d5%b3%d5%a5%d5%ba%d5%a1%d5%a6%d6%80%d5%b8%d6%82%d5%b5%d6%81%d5%b6%d5%a5%d6%80-%d6%87-%d5%a1%d5%bd%d5%b8%d6%82%d5%ac%d5%ab%d5%bd%d5%b6%d5%a5%d6%80/",
+      "https://competition.am/hy/%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80-%d6%87-%d5%ab%d6%80%d5%a1%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%a1%d5%af%d5%bf%d5%a5%d6%80/",
+      "https://competition.am/hy/%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80-%d6%87-%d5%ab%d6%80%d5%a1%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%a1%d5%af%d5%bf%d5%a5%d6%80/%d5%b0%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%aa%d5%b8%d5%b2%d5%b8%d5%be%d5%ab-%d5%a1%d5%b7%d5%ad%d5%a1%d5%bf%d5%a1%d5%af%d5%a1%d6%80%d5%a3%d5%a8-%d6%87-%d5%a1%d5%b5%d5%ac-%d5%b6%d5%b8%d6%80%d5%b4%d5%a1/",
+      "https://competition.am/hy/%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80-%d6%87-%d5%ab%d6%80%d5%a1%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%a1%d5%af%d5%bf%d5%a5%d6%80/%d5%b0%d5%b0-%d5%a1%d5%b5%d5%ac-%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80/",
+      "https://competition.am/hy/%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80-%d6%87-%d5%ab%d6%80%d5%a1%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%a1%d5%af%d5%bf%d5%a5%d6%80/%d5%b0%d5%b0-%d5%bd%d5%a1%d5%b0%d5%b4%d5%a1%d5%b6%d5%a1%d5%a4%d6%80%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/",
+      "https://competition.am/hy/2026/09/04/%d5%b4%d5%bd%d5%b7%d5%ba%d5%b0-%d5%ab-%d5%b6%d5%a1%d5%ad%d5%a1%d5%b1%d5%a5%d5%bc%d5%b6%d5%b8%d6%82%d5%a9%d5%b5%d5%a1%d5%b4%d5%a2-%d5%bf%d5%a5%d5%b2%d5%ab-%d5%b8%d6%82%d5%b6%d5%a5%d6%81%d5%a1%d5%be/",
+      "https://competition.am/hy/2026/09/04/%d5%b4%d5%bd%d5%b7%d5%ba%d5%b0-%d5%b6-%d5%bf%d5%b8%d6%82%d5%a3%d5%a1%d5%b6%d5%a5%d5%ac-%d5%a7-%d6%84%d5%a8%d6%80%d6%84-%d6%84%d5%a8%d6%80%d6%84%d5%b8%d6%80%d5%b5%d5%a1%d5%b6-27-7-%d5%b0%d5%a1%d5%bd/",
+      "https://competition.am/hy/2026/09/23/%d5%a3%d5%a5%d5%b2%d5%a1%d5%b4-%d5%a3%d6%87%d5%b8%d6%80%d5%a3%d5%b5%d5%a1%d5%b6%d5%a8-%d5%a5%d5%ac%d5%b8%d6%82%d5%b5%d5%a9-%d5%a7-%d5%b8%d6%82%d5%b6%d5%a5%d6%81%d5%a5%d5%ac-icpen-%d5%ab-%d5%b0%d5%a1/",
+      "https://competition.am/hy/գների-մոնիթորինգ",
+      "https://competition.am/robots.txt",
+      "https://competition.am/ru/",
+      "https://competition.am/useful-links",
+      "https://ef.competition.am/"
+    ],
+    "auxiliary_probe_targets": [],
+    "discovered_js_files": [
+      "https://competition.am/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.6.2",
+      "https://competition.am/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.6.2",
+      "https://competition.am/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.6.2",
+      "https://competition.am/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1",
+      "https://competition.am/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.6.2",
+      "https://competition.am/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.5.5",
+      "https://competition.am/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.5.5",
+      "https://competition.am/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.5.5",
+      "https://competition.am/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.5.5",
+      "https://competition.am/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0",
+      "https://competition.am/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.5.5",
+      "https://competition.am/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6",
+      "https://competition.am/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2",
+      "https://competition.am/wp-content/plugins/wpfront-scroll-top/js/wpfront-scroll-top.min.js?ver=2.0.7.08086",
+      "https://competition.am/wp-includes/js/dist/hooks.min.js?ver=a7edae857aab69d69fa10d5aef23a5de",
+      "https://competition.am/wp-includes/js/dist/i18n.min.js?ver=5f1269854226b4dd90450db411a12b79",
+      "https://competition.am/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7",
+      "https://competition.am/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0",
+      "https://competition.am/wp-includes/js/imagesloaded.min.js?ver=4.1.4",
+      "https://competition.am/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2",
+      "https://competition.am/wp-includes/js/jquery/jquery.min.js?ver=3.6.0",
+      "https://competition.am/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1",
+      "https://competition.am/wp-includes/js/wp-embed.min.js?ver=5.8.13",
+      "https://ef.competition.am/main.52bb55c03d5102c0d33f.js",
+      "https://ef.competition.am/polyfills-es5.ff9bfa439e67113ff872.js",
+      "https://ef.competition.am/polyfills.3a8e5198fdeaacade1e1.js",
+      "https://ef.competition.am/runtime.817c35edc09f3b06ea4b.js"
+    ],
+    "discovered_forms": [
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/ru/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      },
+      {
+        "action": "https://competition.am/hy/",
+        "method": "GET",
+        "parameters": [
+          "s",
+          "lang"
+        ]
+      }
+    ],
+    "graphql_schema_detected": false,
+    "google_dorks_found": [
+      {
+        "query": "site:competition.am inurl:admin",
+        "google_url": "https://www.google.com/search?q=site%3Acompetition.am+inurl%3Aadmin",
+        "results": []
+      },
+      {
+        "query": "site:competition.am inurl:login",
+        "google_url": "https://www.google.com/search?q=site%3Acompetition.am+inurl%3Alogin",
+        "results": []
+      },
+      {
+        "query": "site:competition.am intitle:\"index of\"",
+        "google_url": "https://www.google.com/search?q=site%3Acompetition.am+intitle%3A%22index+of%22",
+        "results": []
+      },
+      {
+        "query": "site:competition.am ext:sql",
+        "google_url": "https://www.google.com/search?q=site%3Acompetition.am+ext%3Asql",
+        "results": []
+      },
+      {
+        "query": "site:competition.am ext:log",
+        "google_url": "https://www.google.com/search?q=site%3Acompetition.am+ext%3Alog",
+        "results": []
+      },
+      {
+        "query": "site:competition.am ext:bak",
+        "google_url": "https://www.google.com/search?q=site%3Acompetition.am+ext%3Abak",
+        "results": []
+      },
+      {
+        "query": "site:competition.am filetype:env",
+        "google_url": "https://www.google.com/search?q=site%3Acompetition.am+filetype%3Aenv",
+        "results": []
+      },
+      {
+        "query": "site:competition.am inurl:wp-content",
+        "google_url": "https://www.google.com/search?q=site%3Acompetition.am+inurl%3Awp-content",
+        "results": []
+      },
+      {
+        "query": "site:competition.am inurl:config",
+        "google_url": "https://www.google.com/search?q=site%3Acompetition.am+inurl%3Aconfig",
+        "results": []
+      },
+      {
+        "query": "site:competition.am intext:\"sql syntax near\"",
+        "google_url": "https://www.google.com/search?q=site%3Acompetition.am+intext%3A%22sql+syntax+near%22",
+        "results": []
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "id": "SEC-VULN-001",
+      "name": "Potentially Dangling Subdomain: www.ef.competition.am",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://www.ef.competition.am",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'www.ef.competition.am', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-002",
+      "name": "Potentially Dangling Subdomain: www.ms.competition.am",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "HIGH",
+      "cvss_score": 8.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "url": "https://www.ms.competition.am",
+      "parameter": null,
+      "evidence_poc": "DNS resolution failed for 'www.ms.competition.am', which was discovered via passive Certificate Transparency log enumeration. This may indicate a dangling DNS record vulnerable to subdomain takeover if a CNAME still points to an unclaimed third-party resource.",
+      "remediation": "Manually verify the DNS record for this subdomain. Remove the record if it is unused, or reclaim/reconfigure the referenced third-party resource if still in use."
+    },
+    {
+      "id": "SEC-VULN-003",
+      "name": "Exposed Sensitive File: /.DS_Store",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "url": "https://competition.am/.DS_Store",
+      "parameter": null,
+      "evidence_poc": "HTTP 200 OK response received for '/.DS_Store' with non-empty body content.",
+      "remediation": "Remove or restrict public access to '/.DS_Store' via web server configuration or access control rules."
+    },
+    {
+      "id": "SEC-VULN-004",
+      "name": "Missing Security Header: Content-Security-Policy",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://competition.am/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Content-Security-Policy'.",
+      "remediation": "Missing Content-Security-Policy (CSP) header allows a broader attack surface for injection-based attacks such as XSS."
+    },
+    {
+      "id": "SEC-VULN-005",
+      "name": "Missing Security Header: Strict-Transport-Security",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 2.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "url": "https://competition.am/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Strict-Transport-Security'.",
+      "remediation": "Missing HTTP Strict-Transport-Security (HSTS) header exposes users to SSL-stripping / downgrade attacks."
+    },
+    {
+      "id": "SEC-VULN-006",
+      "name": "Missing Security Header: X-Content-Type-Options",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://competition.am/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'X-Content-Type-Options'.",
+      "remediation": "Missing X-Content-Type-Options header allows browsers to MIME-sniff responses, which can lead to content-type confusion attacks."
+    }
+  ],
+  "informational_observations": [
+    {
+      "name": "Public robots.txt Detected",
+      "category": "Informational",
+      "url": "https://competition.am/robots.txt",
+      "evidence": "HTTP 200 OK response received for '/robots.txt' with non-empty body content.",
+      "remediation": "No action required; this is a standard, benign publicly served file and its presence is not a vulnerability."
+    }
+  ],
+  "api_security": {
+    "documentation_targets": [
+      {
+        "requested_url": "https://competition.am/swagger",
+        "final_url": "https://competition.am/swagger",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3922.75,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/swagger/",
+        "final_url": "https://competition.am/swagger/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 5236.78,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/swagger/index.html",
+        "final_url": "https://competition.am/swagger/index.html",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 5826.23,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/swagger-ui",
+        "final_url": "https://competition.am/swagger-ui",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 4832.45,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/swagger-ui/",
+        "final_url": "https://competition.am/swagger-ui/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 5768.4,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/swagger-ui.html",
+        "final_url": "https://competition.am/swagger-ui.html",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3510.85,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/swagger.json",
+        "final_url": "https://competition.am/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 4831.99,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/swagger.yaml",
+        "final_url": "https://competition.am/swagger.yaml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 4822.64,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/swagger/v1/swagger.json",
+        "final_url": "https://competition.am/swagger/v1/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 4972.8,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/swagger/v2/swagger.json",
+        "final_url": "https://competition.am/swagger/v2/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 5337.25,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/swagger/v3/swagger.json",
+        "final_url": "https://competition.am/swagger/v3/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3280.8,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/openapi.json",
+        "final_url": "https://competition.am/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3226.59,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/openapi.yaml",
+        "final_url": "https://competition.am/openapi.yaml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3638.54,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/openapi.yml",
+        "final_url": "https://competition.am/openapi.yml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3747.69,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/api-docs",
+        "final_url": "https://competition.am/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 4737.21,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/api-docs/",
+        "final_url": "https://competition.am/api-docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3978.39,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/docs",
+        "final_url": "https://competition.am/docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 4490.76,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/docs/",
+        "final_url": "https://competition.am/docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3544.88,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/redoc",
+        "final_url": "https://competition.am/redoc",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 4535.69,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/redoc/",
+        "final_url": "https://competition.am/redoc/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3896.33,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/v2/api-docs",
+        "final_url": "https://competition.am/v2/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 5838.33,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/v3/api-docs",
+        "final_url": "https://competition.am/v3/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 4960.2,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/api/swagger.json",
+        "final_url": "https://competition.am/api/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3753.78,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/api/openapi.json",
+        "final_url": "https://competition.am/api/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 4150.64,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/api/docs",
+        "final_url": "https://competition.am/api/docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3689.72,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/api/docs/openapi.json",
+        "final_url": "https://competition.am/api/docs/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3913.66,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/v1/swagger.json",
+        "final_url": "https://competition.am/v1/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 4180.79,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/v2/swagger.json",
+        "final_url": "https://competition.am/v2/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3564.16,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/v3/swagger.json",
+        "final_url": "https://competition.am/v3/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3794.41,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/v1/openapi.json",
+        "final_url": "https://competition.am/v1/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3652.7,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/v2/openapi.json",
+        "final_url": "https://competition.am/v2/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3857.41,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/v3/openapi.json",
+        "final_url": "https://competition.am/v3/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 4139.99,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://competition.am/v1/api-docs",
+        "final_url": "https://competition.am/v1/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 7820,
+        "response_time_ms": 3566.46,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      }
+    ],
+    "openapi_schemas": [],
+    "endpoint_inventory": [
+      {
+        "method": "GET",
+        "path": "/",
+        "source_url": "https://competition.am/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/.DS_Store",
+        "source_url": "https://competition.am/.DS_Store",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/",
+        "source_url": "https://competition.am/hy/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%a1%d5%b6%d5%a2%d5%a1%d6%80%d5%a5%d5%ad%d5%ab%d5%b2%d5%b3-%d5%b4%d6%80%d6%81%d5%a1%d5%af%d6%81%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/",
+        "source_url": "https://competition.am/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%a1%d5%b6%d5%a2%d5%a1%d6%80%d5%a5%d5%ad%d5%ab%d5%b2%d5%b3-%d5%b4%d6%80%d6%81%d5%a1%d5%af%d6%81%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%a2%d5%a1%d5%b6%d5%a1%d5%af%d6%81%d5%a1%d5%b5%d5%ab%d5%b6-%d5%b8%d6%82%d5%aa%d5%a5%d5%b2-%d5%a4%d5%ab%d6%80%d6%84/",
+        "source_url": "https://competition.am/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%a2%d5%a1%d5%b6%d5%a1%d5%af%d6%81%d5%a1%d5%b5%d5%ab%d5%b6-%d5%b8%d6%82%d5%aa%d5%a5%d5%b2-%d5%a4%d5%ab%d6%80%d6%84/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%b0%d5%a1%d5%b4%d5%a1%d5%af%d5%a5%d5%b6%d5%bf%d6%80%d5%b8%d5%b6%d5%a1%d6%81%d5%b8%d6%82%d5%b4/",
+        "source_url": "https://competition.am/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%b0%d5%a1%d5%b4%d5%a1%d5%af%d5%a5%d5%b6%d5%bf%d6%80%d5%b8%d5%b6%d5%a1%d6%81%d5%b8%d6%82%d5%b4/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%ba%d5%a5%d5%bf%d5%a1%d5%af%d5%a1%d5%b6-%d6%85%d5%aa%d5%a1%d5%b6%d5%a4%d5%a1%d5%af%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/",
+        "source_url": "https://competition.am/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%ba%d5%a5%d5%bf%d5%a1%d5%af%d5%a1%d5%b6-%d6%85%d5%aa%d5%a1%d5%b6%d5%a4%d5%a1%d5%af%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%bf%d5%a1%d6%80%d5%a5%d5%af%d5%a1%d5%b6-%d5%b0%d5%a1%d5%b7%d5%be%d5%a5%d5%bf%d5%be%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6%d5%b6%d5%a5%d6%80/",
+        "source_url": "https://competition.am/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%bf%d5%a1%d6%80%d5%a5%d5%af%d5%a1%d5%b6-%d5%b0%d5%a1%d5%b7%d5%be%d5%a5%d5%bf%d5%be%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6%d5%b6%d5%a5%d6%80/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84-%d6%87-%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/",
+        "source_url": "https://competition.am/hy/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84-%d6%87-%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84-%d6%87-%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84/",
+        "source_url": "https://competition.am/hy/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84-%d6%87-%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84-%d6%87-%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/",
+        "source_url": "https://competition.am/hy/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84-%d6%87-%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84-%d6%87-%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/%d5%bf%d5%b8%d6%82%d5%a3%d5%a1%d5%b6%d6%84%d5%b6%d5%a5%d6%80%d5%ab-%d5%be%d5%b3%d5%a1%d6%80%d5%b4%d5%a1%d5%b6-%d5%bc%d5%a5%d5%af%d5%be%d5%ab%d5%a6%d5%ab%d5%bf%d5%b6%d5%a5%d6%80/",
+        "source_url": "https://competition.am/hy/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84-%d6%87-%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/%d5%bf%d5%b8%d6%82%d5%a3%d5%a1%d5%b6%d6%84%d5%b6%d5%a5%d6%80%d5%ab-%d5%be%d5%b3%d5%a1%d6%80%d5%b4%d5%a1%d5%b6-%d5%bc%d5%a5%d5%af%d5%be%d5%ab%d5%a6%d5%ab%d5%bf%d5%b6%d5%a5%d6%80/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%b0%d5%bf%d5%b0/",
+        "source_url": "https://competition.am/hy/%d5%b0%d5%bf%d5%b0/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/",
+        "source_url": "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%af%d5%a1%d5%a6%d5%b4%d5%ab-%d5%b0%d5%a1%d5%b4%d5%a1%d5%ac%d6%80%d5%b8%d6%82%d5%b4/",
+        "source_url": "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%af%d5%a1%d5%a6%d5%b4%d5%ab-%d5%b0%d5%a1%d5%b4%d5%a1%d5%ac%d6%80%d5%b8%d6%82%d5%b4/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%af%d5%a1%d5%a6%d5%b4%d5%ab-%d5%b0%d5%a1%d5%b4%d5%a1%d5%ac%d6%80%d5%b8%d6%82%d5%b4/%d5%a9%d5%a1%d6%83%d5%b8%d6%82%d6%80-%d5%a1%d5%b7%d5%ad%d5%a1%d5%bf%d5%a1%d5%bf%d5%a5%d5%b2%d5%a5%d6%80/%d6%83%d5%b8%d6%80%d5%b1%d5%a1%d5%a3%d5%a5%d5%bf%d5%b6%d5%a5%d6%80%d5%ab-%d5%b6%d5%a5%d6%80%d5%a3%d6%80%d5%a1%d5%be%d5%be%d5%b8%d6%82%d5%b4/",
+        "source_url": "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%af%d5%a1%d5%a6%d5%b4%d5%ab-%d5%b0%d5%a1%d5%b4%d5%a1%d5%ac%d6%80%d5%b8%d6%82%d5%b4/%d5%a9%d5%a1%d6%83%d5%b8%d6%82%d6%80-%d5%a1%d5%b7%d5%ad%d5%a1%d5%bf%d5%a1%d5%bf%d5%a5%d5%b2%d5%a5%d6%80/%d6%83%d5%b8%d6%80%d5%b1%d5%a1%d5%a3%d5%a5%d5%bf%d5%b6%d5%a5%d6%80%d5%ab-%d5%b6%d5%a5%d6%80%d5%a3%d6%80%d5%a1%d5%be%d5%be%d5%b8%d6%82%d5%b4/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%b0%d5%a1%d5%b4%d5%a1%d5%a3%d5%b8%d6%80%d5%ae%d5%a1%d5%af%d6%81%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6-%d5%a1%d5%b5%d5%ac-%d5%b4%d5%a1%d6%80%d5%b4%d5%ab%d5%b6%d5%b6%d5%a5%d6%80%d5%ab-%d5%b0/",
+        "source_url": "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%b0%d5%a1%d5%b4%d5%a1%d5%a3%d5%b8%d6%80%d5%ae%d5%a1%d5%af%d6%81%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6-%d5%a1%d5%b5%d5%ac-%d5%b4%d5%a1%d6%80%d5%b4%d5%ab%d5%b6%d5%b6%d5%a5%d6%80%d5%ab-%d5%b0/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%b0%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%aa%d5%b8%d5%b2%d5%b8%d5%be%d5%ab%d5%b6-%d5%af%d5%ab%d6%81-%d5%b0%d5%a1%d5%bd%d5%a1%d6%80%d5%a1%d5%af%d5%a1%d5%af%d5%a1%d5%b6-%d5%ad%d5%b8%d6%80%d5%b0%d5%b8/",
+        "source_url": "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%b0%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%aa%d5%b8%d5%b2%d5%b8%d5%be%d5%ab%d5%b6-%d5%af%d5%ab%d6%81-%d5%b0%d5%a1%d5%bd%d5%a1%d6%80%d5%a1%d5%af%d5%a1%d5%af%d5%a1%d5%b6-%d5%ad%d5%b8%d6%80%d5%b0%d5%b8/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%b0%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%aa%d5%b8%d5%b2%d5%b8%d5%be%d5%ab-%d5%af%d5%a1%d5%a6%d5%b4%d5%a8/",
+        "source_url": "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%b0%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%aa%d5%b8%d5%b2%d5%b8%d5%be%d5%ab-%d5%af%d5%a1%d5%a6%d5%b4%d5%a8/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%b4%d5%ab%d5%bb%d5%a1%d5%a6%d5%a3%d5%a1%d5%b5%d5%ab%d5%b6-%d5%b0%d5%a1%d5%b4%d5%a1%d5%a3%d5%b8%d6%80%d5%ae%d5%a1%d5%af%d6%81%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b2%d5%b8%d6%82%d5%b4%d5%b6%d5%a5%d6%80%d5%ab-%d5%b0%d5%a1%d5%b7%d5%be%d5%a5%d5%bf%d5%be%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6%d5%b6%d5%a5%d6%80/",
+        "source_url": "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%b4%d5%ab%d5%bb%d5%a1%d5%a6%d5%a3%d5%a1%d5%b5%d5%ab%d5%b6-%d5%b0%d5%a1%d5%b4%d5%a1%d5%a3%d5%b8%d6%80%d5%ae%d5%a1%d5%af%d6%81%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b2%d5%b8%d6%82%d5%b4%d5%b6%d5%a5%d6%80%d5%ab-%d5%b0%d5%a1%d5%b7%d5%be%d5%a5%d5%bf%d5%be%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6%d5%b6%d5%a5%d6%80/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%ba%d5%a1%d5%bf%d5%b4%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/",
+        "source_url": "https://competition.am/hy/%d5%b4%d5%a5%d6%80-%d5%b4%d5%a1%d5%bd%d5%ab%d5%b6/%d5%ba%d5%a1%d5%bf%d5%b4%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%bf%d5%a5%d5%b2%d5%a5%d5%af%d5%a1%d5%bf%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%af%d5%a5%d5%b6%d5%bf%d6%80%d5%b8%d5%b6/%d5%b0%d6%80%d5%a1%d5%ba%d5%a1%d6%80%d5%a1%d5%af%d5%b8%d6%82%d5%b4%d5%b6%d5%a5%d6%80/",
+        "source_url": "https://competition.am/hy/%d5%bf%d5%a5%d5%b2%d5%a5%d5%af%d5%a1%d5%bf%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%af%d5%a5%d5%b6%d5%bf%d6%80%d5%b8%d5%b6/%d5%b0%d6%80%d5%a1%d5%ba%d5%a1%d6%80%d5%a1%d5%af%d5%b8%d6%82%d5%b4%d5%b6%d5%a5%d6%80/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d5%bf%d5%a5%d5%b2%d5%a5%d5%af%d5%a1%d5%bf%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%af%d5%a5%d5%b6%d5%bf%d6%80%d5%b8%d5%b6/%d5%b3%d5%a5%d5%ba%d5%a1%d5%a6%d6%80%d5%b8%d6%82%d5%b5%d6%81%d5%b6%d5%a5%d6%80-%d6%87-%d5%a1%d5%bd%d5%b8%d6%82%d5%ac%d5%ab%d5%bd%d5%b6%d5%a5%d6%80/",
+        "source_url": "https://competition.am/hy/%d5%bf%d5%a5%d5%b2%d5%a5%d5%af%d5%a1%d5%bf%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%af%d5%a5%d5%b6%d5%bf%d6%80%d5%b8%d5%b6/%d5%b3%d5%a5%d5%ba%d5%a1%d5%a6%d6%80%d5%b8%d6%82%d5%b5%d6%81%d5%b6%d5%a5%d6%80-%d6%87-%d5%a1%d5%bd%d5%b8%d6%82%d5%ac%d5%ab%d5%bd%d5%b6%d5%a5%d6%80/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80-%d6%87-%d5%ab%d6%80%d5%a1%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%a1%d5%af%d5%bf%d5%a5%d6%80/",
+        "source_url": "https://competition.am/hy/%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80-%d6%87-%d5%ab%d6%80%d5%a1%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%a1%d5%af%d5%bf%d5%a5%d6%80/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80-%d6%87-%d5%ab%d6%80%d5%a1%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%a1%d5%af%d5%bf%d5%a5%d6%80/%d5%b0%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%aa%d5%b8%d5%b2%d5%b8%d5%be%d5%ab-%d5%a1%d5%b7%d5%ad%d5%a1%d5%bf%d5%a1%d5%af%d5%a1%d6%80%d5%a3%d5%a8-%d6%87-%d5%a1%d5%b5%d5%ac-%d5%b6%d5%b8%d6%80%d5%b4%d5%a1/",
+        "source_url": "https://competition.am/hy/%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80-%d6%87-%d5%ab%d6%80%d5%a1%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%a1%d5%af%d5%bf%d5%a5%d6%80/%d5%b0%d5%a1%d5%b6%d5%b1%d5%b6%d5%a1%d5%aa%d5%b8%d5%b2%d5%b8%d5%be%d5%ab-%d5%a1%d5%b7%d5%ad%d5%a1%d5%bf%d5%a1%d5%af%d5%a1%d6%80%d5%a3%d5%a8-%d6%87-%d5%a1%d5%b5%d5%ac-%d5%b6%d5%b8%d6%80%d5%b4%d5%a1/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80-%d6%87-%d5%ab%d6%80%d5%a1%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%a1%d5%af%d5%bf%d5%a5%d6%80/%d5%b0%d5%b0-%d5%a1%d5%b5%d5%ac-%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80/",
+        "source_url": "https://competition.am/hy/%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80-%d6%87-%d5%ab%d6%80%d5%a1%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%a1%d5%af%d5%bf%d5%a5%d6%80/%d5%b0%d5%b0-%d5%a1%d5%b5%d5%ac-%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80-%d6%87-%d5%ab%d6%80%d5%a1%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%a1%d5%af%d5%bf%d5%a5%d6%80/%d5%b0%d5%b0-%d5%bd%d5%a1%d5%b0%d5%b4%d5%a1%d5%b6%d5%a1%d5%a4%d6%80%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/",
+        "source_url": "https://competition.am/hy/%d6%85%d6%80%d5%a5%d5%b6%d6%84%d5%b6%d5%a5%d6%80-%d6%87-%d5%ab%d6%80%d5%a1%d5%be%d5%a1%d5%af%d5%a1%d5%b6-%d5%a1%d5%af%d5%bf%d5%a5%d6%80/%d5%b0%d5%b0-%d5%bd%d5%a1%d5%b0%d5%b4%d5%a1%d5%b6%d5%a1%d5%a4%d6%80%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/hy/2026/09/04/%d5%b4%d5%bd%d5%b7%d5%ba%d5%b0-%d5%ab-%d5%b6%d5%a1%d5%ad%d5%a1%d5%b1%d5%a5%d5%bc%d5%b6%d5%b8%d6%82%d5%a9%d5%b5%d5%a1%d5%b4%d5%a2-%d5%bf%d5%a5%d5%b2%d5%ab-%d5%b8%d6%82%d5%b6%d5%a5%d6%81%d5%a1%d5%be/",
+        "source_url": "https://competition.am/hy/2026/09/04/%d5%b4%d5%bd%d5%b7%d5%ba%d5%b0-%d5%ab-%d5%b6%d5%a1%d5%ad%d5%a1%d5%b1%d5%a5%d5%bc%d5%b6%d5%b8%d6%82%d5%a9%d5%b5%d5%a1%d5%b4%d5%a2-%d5%bf%d5%a5%d5%b2%d5%ab-%d5%b8%d6%82%d5%b6%d5%a5%d6%81%d5%a1%d5%be/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/hy/2026/09/04/%d5%b4%d5%bd%d5%b7%d5%ba%d5%b0-%d5%b6-%d5%bf%d5%b8%d6%82%d5%a3%d5%a1%d5%b6%d5%a5%d5%ac-%d5%a7-%d6%84%d5%a8%d6%80%d6%84-%d6%84%d5%a8%d6%80%d6%84%d5%b8%d6%80%d5%b5%d5%a1%d5%b6-27-7-%d5%b0%d5%a1%d5%bd/",
+        "source_url": "https://competition.am/hy/2026/09/04/%d5%b4%d5%bd%d5%b7%d5%ba%d5%b0-%d5%b6-%d5%bf%d5%b8%d6%82%d5%a3%d5%a1%d5%b6%d5%a5%d5%ac-%d5%a7-%d6%84%d5%a8%d6%80%d6%84-%d6%84%d5%a8%d6%80%d6%84%d5%b8%d6%80%d5%b5%d5%a1%d5%b6-27-7-%d5%b0%d5%a1%d5%bd/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/hy/2026/09/23/%d5%a3%d5%a5%d5%b2%d5%a1%d5%b4-%d5%a3%d6%87%d5%b8%d6%80%d5%a3%d5%b5%d5%a1%d5%b6%d5%a8-%d5%a5%d5%ac%d5%b8%d6%82%d5%b5%d5%a9-%d5%a7-%d5%b8%d6%82%d5%b6%d5%a5%d6%81%d5%a5%d5%ac-icpen-%d5%ab-%d5%b0%d5%a1/",
+        "source_url": "https://competition.am/hy/2026/09/23/%d5%a3%d5%a5%d5%b2%d5%a1%d5%b4-%d5%a3%d6%87%d5%b8%d6%80%d5%a3%d5%b5%d5%a1%d5%b6%d5%a8-%d5%a5%d5%ac%d5%b8%d6%82%d5%b5%d5%a9-%d5%a7-%d5%b8%d6%82%d5%b6%d5%a5%d6%81%d5%a5%d5%ac-icpen-%d5%ab-%d5%b0%d5%a1/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "object_identifier_in_path"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/hy/գների-մոնիթորինգ",
+        "source_url": "https://competition.am/hy/գների-մոնիթորինգ",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/robots.txt",
+        "source_url": "https://competition.am/robots.txt",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/ru/",
+        "source_url": "https://competition.am/ru/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/useful-links",
+        "source_url": "https://competition.am/useful-links",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://ef.competition.am/",
+        "source_url": "https://ef.competition.am/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      }
+    ],
+    "authentication_analysis": [],
+    "rate_limit_observations": [
+      {
+        "endpoint": "/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          5925.99,
+          5832.9
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/.DS_Store",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1246.71,
+          449.04
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/hy/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          3092.43,
+          3852.96
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%a1%d5%b6%d5%a2%d5%a1%d6%80%d5%a5%d5%ad%d5%ab%d5%b2%d5%b3-%d5%b4%d6%80%d6%81%d5%a1%d5%af%d6%81%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          4017.37,
+          4166.82
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%a2%d5%a1%d5%b6%d5%a1%d5%af%d6%81%d5%a1%d5%b5%d5%ab%d5%b6-%d5%b8%d6%82%d5%aa%d5%a5%d5%b2-%d5%a4%d5%ab%d6%80%d6%84/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          3211.21,
+          3659.75
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%b0%d5%a1%d5%b4%d5%a1%d5%af%d5%a5%d5%b6%d5%bf%d6%80%d5%b8%d5%b6%d5%a1%d6%81%d5%b8%d6%82%d5%b4/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          3539.55,
+          3216.59
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%ba%d5%a5%d5%bf%d5%a1%d5%af%d5%a1%d5%b6-%d6%85%d5%aa%d5%a1%d5%b6%d5%a4%d5%a1%d5%af%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          3469.3,
+          4657.44
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/hy/%d5%a3%d5%b8%d6%80%d5%ae%d5%b8%d6%82%d5%b6%d5%a5%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6/%d5%bf%d5%a1%d6%80%d5%a5%d5%af%d5%a1%d5%b6-%d5%b0%d5%a1%d5%b7%d5%be%d5%a5%d5%bf%d5%be%d5%b8%d6%82%d5%a9%d5%b5%d5%b8%d6%82%d5%b6%d5%b6%d5%a5%d6%80/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          3368.49,
+          3501.08
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/hy/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84-%d6%87-%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          3510.44,
+          3801.51
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/hy/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84-%d6%87-%d5%af%d5%b8%d5%b6%d5%bf%d5%a1%d5%af%d5%bf%d5%b6%d5%a5%d6%80/%d5%af%d5%a1%d5%bc%d5%b8%d6%82%d6%81%d5%be%d5%a1%d5%ae%d6%84/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          2931.79,
+          3664.04
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      }
+    ],
+    "findings": [
+      {
+        "id": "API-BOLA-001",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /hy/2026/09/04/%d5%b4%d5%bd%d5%b7%d5%ba%d5%b0-%d5%ab-%d5%b6%d5%a1%d5%ad%d5%a1%d5%b1%d5%a5%d5%bc%d5%b6%d5%b8%d6%82%d5%a9%d5%b5%d5%a1%d5%b4%d5%a2-%d5%bf%d5%a5%d5%b2%d5%ab-%d5%b8%d6%82%d5%b6%d5%a5%d6%81%d5%a1%d5%be/",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "https://competition.am/hy/2026/09/04/%d5%b4%d5%bd%d5%b7%d5%ba%d5%b0-%d5%ab-%d5%b6%d5%a1%d5%ad%d5%a1%d5%b1%d5%a5%d5%bc%d5%b6%d5%b8%d6%82%d5%a9%d5%b5%d5%a1%d5%b4%d5%a2-%d5%bf%d5%a5%d5%b2%d5%ab-%d5%b8%d6%82%d5%b6%d5%a5%d6%81%d5%a1%d5%be/",
+        "evidence": [
+          "Path contains an object identifier segment: /hy/2026/09/04/%d5%b4%d5%bd%d5%b7%d5%ba%d5%b0-%d5%ab-%d5%b6%d5%a1%d5%ad%d5%a1%d5%b1%d5%a5%d5%bc%d5%b6%d5%b8%d6%82%d5%a9%d5%b5%d5%a1%d5%b4%d5%a2-%d5%bf%d5%a5%d5%b2%d5%ab-%d5%b8%d6%82%d5%b6%d5%a5%d6%81%d5%a1%d5%be/"
+        ],
+        "affected_endpoints": [
+          "/hy/2026/09/04/%d5%b4%d5%bd%d5%b7%d5%ba%d5%b0-%d5%ab-%d5%b6%d5%a1%d5%ad%d5%a1%d5%b1%d5%a5%d5%bc%d5%b6%d5%b8%d6%82%d5%a9%d5%b5%d5%a1%d5%b4%d5%a2-%d5%bf%d5%a5%d5%b2%d5%ab-%d5%b8%d6%82%d5%b6%d5%a5%d6%81%d5%a1%d5%be/"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:00:02Z"
+      },
+      {
+        "id": "API-BOLA-002",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /hy/2026/09/04/%d5%b4%d5%bd%d5%b7%d5%ba%d5%b0-%d5%b6-%d5%bf%d5%b8%d6%82%d5%a3%d5%a1%d5%b6%d5%a5%d5%ac-%d5%a7-%d6%84%d5%a8%d6%80%d6%84-%d6%84%d5%a8%d6%80%d6%84%d5%b8%d6%80%d5%b5%d5%a1%d5%b6-27-7-%d5%b0%d5%a1%d5%bd/",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "https://competition.am/hy/2026/09/04/%d5%b4%d5%bd%d5%b7%d5%ba%d5%b0-%d5%b6-%d5%bf%d5%b8%d6%82%d5%a3%d5%a1%d5%b6%d5%a5%d5%ac-%d5%a7-%d6%84%d5%a8%d6%80%d6%84-%d6%84%d5%a8%d6%80%d6%84%d5%b8%d6%80%d5%b5%d5%a1%d5%b6-27-7-%d5%b0%d5%a1%d5%bd/",
+        "evidence": [
+          "Path contains an object identifier segment: /hy/2026/09/04/%d5%b4%d5%bd%d5%b7%d5%ba%d5%b0-%d5%b6-%d5%bf%d5%b8%d6%82%d5%a3%d5%a1%d5%b6%d5%a5%d5%ac-%d5%a7-%d6%84%d5%a8%d6%80%d6%84-%d6%84%d5%a8%d6%80%d6%84%d5%b8%d6%80%d5%b5%d5%a1%d5%b6-27-7-%d5%b0%d5%a1%d5%bd/"
+        ],
+        "affected_endpoints": [
+          "/hy/2026/09/04/%d5%b4%d5%bd%d5%b7%d5%ba%d5%b0-%d5%b6-%d5%bf%d5%b8%d6%82%d5%a3%d5%a1%d5%b6%d5%a5%d5%ac-%d5%a7-%d6%84%d5%a8%d6%80%d6%84-%d6%84%d5%a8%d6%80%d6%84%d5%b8%d6%80%d5%b5%d5%a1%d5%b6-27-7-%d5%b0%d5%a1%d5%bd/"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:00:02Z"
+      },
+      {
+        "id": "API-BOLA-003",
+        "category": "Broken Object Level Authorization",
+        "title": "Potential BOLA/IDOR exposure on GET /hy/2026/09/23/%d5%a3%d5%a5%d5%b2%d5%a1%d5%b4-%d5%a3%d6%87%d5%b8%d6%80%d5%a3%d5%b5%d5%a1%d5%b6%d5%a8-%d5%a5%d5%ac%d5%b8%d6%82%d5%b5%d5%a9-%d5%a7-%d5%b8%d6%82%d5%b6%d5%a5%d6%81%d5%a5%d5%ac-icpen-%d5%ab-%d5%b0%d5%a1/",
+        "severity": "LOW",
+        "confidence": "LOW",
+        "cvss": {
+          "version": "3.1",
+          "vector": null,
+          "base_score": 0.0
+        },
+        "asset": "https://competition.am/hy/2026/09/23/%d5%a3%d5%a5%d5%b2%d5%a1%d5%b4-%d5%a3%d6%87%d5%b8%d6%80%d5%a3%d5%b5%d5%a1%d5%b6%d5%a8-%d5%a5%d5%ac%d5%b8%d6%82%d5%b5%d5%a9-%d5%a7-%d5%b8%d6%82%d5%b6%d5%a5%d6%81%d5%a5%d5%ac-icpen-%d5%ab-%d5%b0%d5%a1/",
+        "evidence": [
+          "Path contains an object identifier segment: /hy/2026/09/23/%d5%a3%d5%a5%d5%b2%d5%a1%d5%b4-%d5%a3%d6%87%d5%b8%d6%80%d5%a3%d5%b5%d5%a1%d5%b6%d5%a8-%d5%a5%d5%ac%d5%b8%d6%82%d5%b5%d5%a9-%d5%a7-%d5%b8%d6%82%d5%b6%d5%a5%d6%81%d5%a5%d5%ac-icpen-%d5%ab-%d5%b0%d5%a1/"
+        ],
+        "affected_endpoints": [
+          "/hy/2026/09/23/%d5%a3%d5%a5%d5%b2%d5%a1%d5%b4-%d5%a3%d6%87%d5%b8%d6%80%d5%a3%d5%b5%d5%a1%d5%b6%d5%a8-%d5%a5%d5%ac%d5%b8%d6%82%d5%b5%d5%a9-%d5%a7-%d5%b8%d6%82%d5%b6%d5%a5%d6%81%d5%a5%d5%ac-icpen-%d5%ab-%d5%b0%d5%a1/"
+        ],
+        "verification_status": "potential",
+        "safe_poc_steps": [
+          "Manually review whether object ownership is enforced server-side for this identifier.",
+          "No authorization bypass was attempted automatically."
+        ],
+        "impact": "If ownership checks are missing, an authenticated user could access or modify objects belonging to other users by changing the identifier.",
+        "remediation": [
+          "Enforce server-side object ownership checks on every request that accepts an object identifier.",
+          "Prefer indirect, non-guessable references (e.g. per-user opaque tokens) over sequential IDs."
+        ],
+        "references": [],
+        "false_positive_notes": "Automatically flagged from public path/query structure only; no authenticated requests, tokens, or credentials were used, and no request testing was performed.",
+        "timestamp": "2026-10-07T06:00:02Z"
+      }
+    ],
+    "limitations": [
+      "Authorized safe BOLA comparison check was not enabled; only passive path-based indicators were analyzed."
+    ]
+  },
+  "metrics": {
+    "total_endpoints_scanned": 93,
+    "discovered_endpoints_count": 35,
+    "auxiliary_probe_targets_count": 0,
+    "vulnerabilities_by_severity": {
+      "critical": 0,
+      "high": 2,
+      "medium": 0,
+      "low": 4,
+      "info": 0
+    },
+    "overall_security_score": 54,
+    "coverage_percent": 98.1,
+    "confidence_score": 98,
+    "scan_quality": "COMPLETE",
+    "total_requests": 157,
+    "successful_requests": 154,
+    "failed_requests": 0,
+    "timeout_count": 0
+  }
+}

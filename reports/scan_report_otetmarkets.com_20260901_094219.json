@@ -1,0 +1,2115 @@
+{
+  "scan_metadata": {
+    "tool_name": "AutoSecurityPro",
+    "version": "1.0.0",
+    "target": "otetmarkets.com",
+    "target_ip": "188.114.99.0",
+    "scan_started": "2026-09-01T13:38:00Z",
+    "scan_finished": "2026-09-01T13:42:19Z",
+    "tor_enabled": false
+  },
+  "attack_surface_recon": {
+    "server": "cloudflare",
+    "operating_system": null,
+    "detected_technologies": [
+      "Cloudflare",
+      "WordPress"
+    ],
+    "discovered_subdomains": [],
+    "dangling_subdomains": [],
+    "discovered_endpoints": [
+      "https://help.otetmarkets.com/",
+      "https://mt5web.otetmarkets.com/terminal",
+      "https://my.otetmarkets.com/register",
+      "https://otetmarkets.com/",
+      "https://otetmarkets.com/about-us/",
+      "https://otetmarkets.com/accounts/",
+      "https://otetmarkets.com/assets-crypto",
+      "https://otetmarkets.com/assets-crypto/",
+      "https://otetmarkets.com/assets-energy/",
+      "https://otetmarkets.com/assets-eustocks",
+      "https://otetmarkets.com/assets-eustocks/",
+      "https://otetmarkets.com/assets-usstocks",
+      "https://otetmarkets.com/assets-usstocks/",
+      "https://otetmarkets.com/assets/",
+      "https://otetmarkets.com/blog",
+      "https://otetmarkets.com/blog/",
+      "https://otetmarkets.com/blog/articles/forex-execution-models/",
+      "https://otetmarkets.com/blog/articles/how-do-forex-brokers-make-money/",
+      "https://otetmarkets.com/blog/articles/what-is-liquidity-provider/",
+      "https://otetmarkets.com/blog/news/general-economic-news/jp-morgan-sp500-ai/",
+      "https://otetmarkets.com/blog/news/gold-market-news/gold-rises-hormuz-fed/",
+      "https://otetmarkets.com/blog/news/oil-market-news/oil-prices-hormuz-tensions-2/",
+      "https://otetmarkets.com/cdn-cgi/l/email-protection",
+      "https://otetmarkets.com/contact/",
+      "https://otetmarkets.com/ctrader/",
+      "https://otetmarkets.com/deposit/",
+      "https://otetmarkets.com/ecn-account/",
+      "https://otetmarkets.com/festival-account/",
+      "https://otetmarkets.com/financial-holidays/",
+      "https://otetmarkets.com/forex-assets/",
+      "https://otetmarkets.com/ib",
+      "https://otetmarkets.com/ib/",
+      "https://otetmarkets.com/indexes-assets/",
+      "https://otetmarkets.com/metals-assets",
+      "https://otetmarkets.com/metals-assets/",
+      "https://otetmarkets.com/mission/",
+      "https://otetmarkets.com/no-swap-account/",
+      "https://otetmarkets.com/otet-plus-account/",
+      "https://otetmarkets.com/platform-ctrader/",
+      "https://otetmarkets.com/regulations/",
+      "https://otetmarkets.com/robots.txt",
+      "https://otetmarkets.com/social-trade-account/",
+      "https://otetmarkets.com/terms-and-conditions/",
+      "https://otetmarkets.com/values/",
+      "https://otetmarkets.com/vision/",
+      "https://otetmarkets.com/withdrawal/",
+      "https://portal.otetmarkets.com/"
+    ],
+    "auxiliary_probe_targets": [],
+    "discovered_js_files": [
+      "https://help.otetmarkets.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "https://mt5web.otetmarkets.com/terminal/Cg-Y2_dA.js",
+      "https://my.otetmarkets.com/assets/index-B790mTec.js",
+      "https://otetmarkets.com/blog/wp-content/themes/otet-blog/js/bootstrap.bundle.min.js?ver=7.1",
+      "https://otetmarkets.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "https://otetmarkets.com/wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js?ver=3.5.4",
+      "https://otetmarkets.com/wp-content/themes/beta3/bundle/app.js?ver=1788162822",
+      "https://otetmarkets.com/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255",
+      "https://otetmarkets.com/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216",
+      "https://portal.otetmarkets.com/assets/index-B790mTec.js"
+    ],
+    "discovered_forms": [
+      {
+        "action": "https://otetmarkets.com/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/blog/",
+        "method": "GET",
+        "parameters": [
+          "s"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-comments-post.php",
+        "method": "POST",
+        "parameters": [
+          "author",
+          "email",
+          "comment",
+          "wp-comment-cookies-consent",
+          "comment_post_ID",
+          "comment_parent"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "email"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/",
+        "method": "GET",
+        "parameters": [
+          "s"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "email"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "full_name",
+          "email",
+          "message"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/contact/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/otet-plus-account/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/social-trade-account/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/about-us/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/assets-energy/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/ctrader/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/blog/",
+        "method": "GET",
+        "parameters": [
+          "s"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-comments-post.php",
+        "method": "POST",
+        "parameters": [
+          "author",
+          "email",
+          "comment",
+          "wp-comment-cookies-consent",
+          "comment_post_ID",
+          "comment_parent"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "email"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/",
+        "method": "GET",
+        "parameters": [
+          "s"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "email"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/platform-ctrader/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/ecn-account/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/assets-usstocks/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/accounts/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/assets-crypto/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/financial-holidays/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/assets-eustocks",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/deposit/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/withdrawal/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://help.otetmarkets.com/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/mission/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/values/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/forex-assets/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/assets-crypto",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/ib/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/vision/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/blog/",
+        "method": "GET",
+        "parameters": [
+          "s"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-comments-post.php",
+        "method": "POST",
+        "parameters": [
+          "author",
+          "email",
+          "comment",
+          "wp-comment-cookies-consent",
+          "comment_post_ID",
+          "comment_parent"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "email"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/no-swap-account/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/blog/",
+        "method": "GET",
+        "parameters": [
+          "s"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-comments-post.php",
+        "method": "POST",
+        "parameters": [
+          "author",
+          "email",
+          "comment",
+          "wp-comment-cookies-consent",
+          "comment_post_ID",
+          "comment_parent"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "email"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/assets-eustocks/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/regulations/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/festival-account/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/assets/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/indexes-assets/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/blog/",
+        "method": "GET",
+        "parameters": [
+          "s"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-comments-post.php",
+        "method": "POST",
+        "parameters": [
+          "author",
+          "email",
+          "comment",
+          "wp-comment-cookies-consent",
+          "comment_post_ID",
+          "comment_parent"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "email"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/assets-usstocks",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/metals-assets/",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/metals-assets",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/ib",
+        "method": "GET",
+        "parameters": []
+      },
+      {
+        "action": "https://otetmarkets.com/blog/",
+        "method": "GET",
+        "parameters": [
+          "s"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-comments-post.php",
+        "method": "POST",
+        "parameters": [
+          "author",
+          "email",
+          "comment",
+          "wp-comment-cookies-consent",
+          "comment_post_ID",
+          "comment_parent"
+        ]
+      },
+      {
+        "action": "https://otetmarkets.com/blog/wp-admin/admin-post.php",
+        "method": "POST",
+        "parameters": [
+          "action",
+          "contact_form_nonce",
+          "_wp_http_referer",
+          "email"
+        ]
+      }
+    ],
+    "graphql_schema_detected": false,
+    "google_dorks_found": [
+      {
+        "query": "site:otetmarkets.com inurl:admin",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+inurl%3Aadmin",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2Ftransfer&rut=77edd7ada38305b88c4e1143d1044ff54d8657ab6cf699db5a942ee97b1bcc6d",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmy.otetmarkets.com%2Fen%2Fdashboard%3Fbrand_id%3D23040781850898%26locale_id%3D1%26return_to%3D%252Fhc%252F&rut=229769e353138c570d191f52d86d9532ee2e09e655bed001dee2f8fcb1c2bf0e",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmy.otetmarkets.com%2Fen%2Fauth%2Fsign%2Din%3Fpartner%3D0194b791%2D9c1c%2D71c3%2Db5a8%2D47d8834e4a53&rut=5cb8b16880af6f16b9d485798d162a21e61388875177c8d804269e3ddc35d176",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2F&rut=82b2ef512a96538c6abedd6540b3959d8798f7d25b1e8b6bab8e56e52ea5ca66",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fid%2Dct.otetmarkets.com%2Flogin&rut=2e5bcfbb06c28a503aec484a54dd34ed4ef73346d3e6ef3114e9066e2c0bc1d9"
+        ]
+      },
+      {
+        "query": "site:otetmarkets.com inurl:login",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+inurl%3Alogin",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2Fdashboard&rut=d0836f945f38c75b46f5125438b34b419a6bdb80711c2a720c769dc75aa3d20e",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2Fen%2Flogin&rut=46c81cee11908ecd34489429c4ed79cd4dda3dee1e7e80cbd67b48cd1d7ecaa7",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2F&rut=82b2ef512a96538c6abedd6540b3959d8798f7d25b1e8b6bab8e56e52ea5ca66",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmt5web.otetmarkets.com%2Fterminal&rut=6566ded39743d6d5954324339456bb78aa7e8ec269c098a6775469f39a124495",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fid%2Dct.otetmarkets.com%2Flogin&rut=2e5bcfbb06c28a503aec484a54dd34ed4ef73346d3e6ef3114e9066e2c0bc1d9"
+        ]
+      },
+      {
+        "query": "site:otetmarkets.com intitle:\"index of\"",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+intitle%3A%22index+of%22",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2F&rut=82b2ef512a96538c6abedd6540b3959d8798f7d25b1e8b6bab8e56e52ea5ca66",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fct.otetmarkets.com%2F&rut=0dd32d516bad232da3df090436d95ce0d5da40df08eb0c0bfd66c595946a0865",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2F&rut=75dfbe805628b814c3803341ae788ebf88bf81ef0355854a6c5d587c2d838112",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmt5web.otetmarkets.com%2Fterminal&rut=6566ded39743d6d5954324339456bb78aa7e8ec269c098a6775469f39a124495"
+        ]
+      },
+      {
+        "query": "site:otetmarkets.com ext:sql",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+ext%3Asql",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2F&rut=82b2ef512a96538c6abedd6540b3959d8798f7d25b1e8b6bab8e56e52ea5ca66",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fct.otetmarkets.com%2F&rut=0dd32d516bad232da3df090436d95ce0d5da40df08eb0c0bfd66c595946a0865",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmt5web.otetmarkets.com%2Fterminal&rut=6566ded39743d6d5954324339456bb78aa7e8ec269c098a6775469f39a124495",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2Fdashboard&rut=d0836f945f38c75b46f5125438b34b419a6bdb80711c2a720c769dc75aa3d20e",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2Fblog%2Fnews%2Feconomy%2Dnews%2Fgerman%2Dbund%2Dyield%2Dsurge%2F&rut=31a1611eed5b8de7988485316849dc36a7704d9f63356dadfa20343123ddd048"
+        ]
+      },
+      {
+        "query": "site:otetmarkets.com ext:log",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+ext%3Alog",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2F&rut=82b2ef512a96538c6abedd6540b3959d8798f7d25b1e8b6bab8e56e52ea5ca66",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2F&rut=75dfbe805628b814c3803341ae788ebf88bf81ef0355854a6c5d587c2d838112",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmt5web.otetmarkets.com%2Fterminal&rut=6566ded39743d6d5954324339456bb78aa7e8ec269c098a6775469f39a124495",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fct.otetmarkets.com%2F&rut=0dd32d516bad232da3df090436d95ce0d5da40df08eb0c0bfd66c595946a0865",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2Fblog%2Fnews%2Feconomy%2Dnews%2Fgoldman%2Dsachs%2Draises%2Dus%2Dinflation%2Dcuts%2D2026%2Dgrowth%2Dforecast%2F&rut=ba8eb2ff3d068b607f90412d5abb5e2928f38784e04ad71aac42eff52063e2ff"
+        ]
+      },
+      {
+        "query": "site:otetmarkets.com ext:bak",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+ext%3Abak",
+        "results": [
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2F&rut=82b2ef512a96538c6abedd6540b3959d8798f7d25b1e8b6bab8e56e52ea5ca66",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fportal.otetmarkets.com%2F&rut=75dfbe805628b814c3803341ae788ebf88bf81ef0355854a6c5d587c2d838112",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fct.otetmarkets.com%2F&rut=0dd32d516bad232da3df090436d95ce0d5da40df08eb0c0bfd66c595946a0865",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmt5web.otetmarkets.com%2Fterminal&rut=6566ded39743d6d5954324339456bb78aa7e8ec269c098a6775469f39a124495",
+          "//duckduckgo.com/l/?uddg=https%3A%2F%2Fotetmarkets.com%2Fblog%2Fnews%2Fgeneral%2Deconomic%2Dnews%2Fbroadcom%2Dai%2Dchip%2Drevenue%2D2027%2Dforecast%2F&rut=1a451d2e85b794decc7465f944aa987f5eea5a93d97c141ce8fe96ba11900f35"
+        ]
+      },
+      {
+        "query": "site:otetmarkets.com filetype:env",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+filetype%3Aenv",
+        "results": []
+      },
+      {
+        "query": "site:otetmarkets.com inurl:wp-content",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+inurl%3Awp-content",
+        "results": []
+      },
+      {
+        "query": "site:otetmarkets.com inurl:config",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+inurl%3Aconfig",
+        "results": []
+      },
+      {
+        "query": "site:otetmarkets.com intext:\"sql syntax near\"",
+        "google_url": "https://www.google.com/search?q=site%3Aotetmarkets.com+intext%3A%22sql+syntax+near%22",
+        "results": []
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "id": "SEC-VULN-001",
+      "name": "Missing Security Header: Content-Security-Policy",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://otetmarkets.com/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Content-Security-Policy'.",
+      "remediation": "Missing Content-Security-Policy (CSP) header allows a broader attack surface for injection-based attacks such as XSS."
+    },
+    {
+      "id": "SEC-VULN-002",
+      "name": "Missing Security Header: Strict-Transport-Security",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 2.6,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "url": "https://otetmarkets.com/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'Strict-Transport-Security'.",
+      "remediation": "Missing HTTP Strict-Transport-Security (HSTS) header exposes users to SSL-stripping / downgrade attacks."
+    },
+    {
+      "id": "SEC-VULN-003",
+      "name": "Missing Security Header: X-Frame-Options",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://otetmarkets.com/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'X-Frame-Options'.",
+      "remediation": "Missing X-Frame-Options header allows the page to be embedded in a frame, enabling clickjacking attacks."
+    },
+    {
+      "id": "SEC-VULN-004",
+      "name": "Missing Security Header: X-Content-Type-Options",
+      "category": "OWASP A05:2021 - Security Misconfiguration",
+      "severity": "LOW",
+      "cvss_score": 3.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "url": "https://otetmarkets.com/",
+      "parameter": null,
+      "evidence_poc": "Response headers did not include 'X-Content-Type-Options'.",
+      "remediation": "Missing X-Content-Type-Options header allows browsers to MIME-sniff responses, which can lead to content-type confusion attacks."
+    }
+  ],
+  "informational_observations": [
+    {
+      "name": "Public robots.txt Detected",
+      "category": "Informational",
+      "url": "https://otetmarkets.com/robots.txt",
+      "evidence": "HTTP 200 OK response received for '/robots.txt' with non-empty body content.",
+      "remediation": "No action required; this is a standard, benign publicly served file and its presence is not a vulnerability."
+    }
+  ],
+  "api_security": {
+    "documentation_targets": [
+      {
+        "requested_url": "https://otetmarkets.com/swagger",
+        "final_url": "https://otetmarkets.com/swagger",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 139791,
+        "response_time_ms": 1905.02,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger/",
+        "final_url": "https://otetmarkets.com/swagger/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70919,
+        "response_time_ms": 1380.33,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger/index.html",
+        "final_url": "https://otetmarkets.com/swagger/index.html",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 247521,
+        "response_time_ms": 3241.27,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger-ui",
+        "final_url": "https://otetmarkets.com/swagger-ui",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 131072,
+        "response_time_ms": 2587.7,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger-ui/",
+        "final_url": "https://otetmarkets.com/swagger-ui/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70931,
+        "response_time_ms": 1482.18,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger-ui.html",
+        "final_url": "https://otetmarkets.com/swagger-ui.html",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70951,
+        "response_time_ms": 1669.07,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger.json",
+        "final_url": "https://otetmarkets.com/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70939,
+        "response_time_ms": 1756.28,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger.yaml",
+        "final_url": "https://otetmarkets.com/swagger.yaml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70939,
+        "response_time_ms": 1983.25,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger/v1/swagger.json",
+        "final_url": "https://otetmarkets.com/swagger/v1/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 206363,
+        "response_time_ms": 1557.56,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger/v2/swagger.json",
+        "final_url": "https://otetmarkets.com/swagger/v2/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70983,
+        "response_time_ms": 951.32,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/swagger/v3/swagger.json",
+        "final_url": "https://otetmarkets.com/swagger/v3/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 163840,
+        "response_time_ms": 1259.19,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/openapi.json",
+        "final_url": "https://otetmarkets.com/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70939,
+        "response_time_ms": 2216.78,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/openapi.yaml",
+        "final_url": "https://otetmarkets.com/openapi.yaml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70939,
+        "response_time_ms": 972.42,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/openapi.yml",
+        "final_url": "https://otetmarkets.com/openapi.yml",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 163840,
+        "response_time_ms": 1191.07,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/api-docs",
+        "final_url": "https://otetmarkets.com/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 163840,
+        "response_time_ms": 1221.24,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/api-docs/",
+        "final_url": "https://otetmarkets.com/api-docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70923,
+        "response_time_ms": 1144.42,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/docs",
+        "final_url": "https://otetmarkets.com/docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70907,
+        "response_time_ms": 1549.47,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/docs/",
+        "final_url": "https://otetmarkets.com/docs/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 139264,
+        "response_time_ms": 1558.6,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/redoc",
+        "final_url": "https://otetmarkets.com/redoc",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70911,
+        "response_time_ms": 1709.18,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/redoc/",
+        "final_url": "https://otetmarkets.com/redoc/",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 139264,
+        "response_time_ms": 1118.24,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v2/api-docs",
+        "final_url": "https://otetmarkets.com/v2/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 163840,
+        "response_time_ms": 989.46,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v3/api-docs",
+        "final_url": "https://otetmarkets.com/v3/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70935,
+        "response_time_ms": 1650.04,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/api/swagger.json",
+        "final_url": "https://otetmarkets.com/api/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 163840,
+        "response_time_ms": 1387.42,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/api/openapi.json",
+        "final_url": "https://otetmarkets.com/api/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70955,
+        "response_time_ms": 1184.24,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/api/docs",
+        "final_url": "https://otetmarkets.com/api/docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 139795,
+        "response_time_ms": 1447.5,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/api/docs/openapi.json",
+        "final_url": "https://otetmarkets.com/api/docs/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70975,
+        "response_time_ms": 1473.67,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v1/swagger.json",
+        "final_url": "https://otetmarkets.com/v1/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 139264,
+        "response_time_ms": 1154.03,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v2/swagger.json",
+        "final_url": "https://otetmarkets.com/v2/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 131072,
+        "response_time_ms": 2086.08,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v3/swagger.json",
+        "final_url": "https://otetmarkets.com/v3/swagger.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70951,
+        "response_time_ms": 1671.94,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v1/openapi.json",
+        "final_url": "https://otetmarkets.com/v1/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 139264,
+        "response_time_ms": 1172.89,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v2/openapi.json",
+        "final_url": "https://otetmarkets.com/v2/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 70951,
+        "response_time_ms": 1839.73,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v3/openapi.json",
+        "final_url": "https://otetmarkets.com/v3/openapi.json",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 139264,
+        "response_time_ms": 858.62,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      },
+      {
+        "requested_url": "https://otetmarkets.com/v1/api-docs",
+        "final_url": "https://otetmarkets.com/v1/api-docs",
+        "method": "GET",
+        "status_code": 404,
+        "content_type": "text/html; charset=UTF-8",
+        "content_length": 139807,
+        "response_time_ms": 1573.37,
+        "redirect_chain": [],
+        "auth_challenge": false,
+        "www_authenticate": null,
+        "looks_like_documentation": false,
+        "doc_kind": "",
+        "accessible_without_auth": false,
+        "error": null
+      }
+    ],
+    "openapi_schemas": [],
+    "endpoint_inventory": [
+      {
+        "method": "GET",
+        "path": "/https://help.otetmarkets.com/",
+        "source_url": "https://help.otetmarkets.com/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://mt5web.otetmarkets.com/terminal",
+        "source_url": "https://mt5web.otetmarkets.com/terminal",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://my.otetmarkets.com/register",
+        "source_url": "https://my.otetmarkets.com/register",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/",
+        "source_url": "https://otetmarkets.com/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/about-us/",
+        "source_url": "https://otetmarkets.com/about-us/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/accounts/",
+        "source_url": "https://otetmarkets.com/accounts/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "account"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/assets-crypto",
+        "source_url": "https://otetmarkets.com/assets-crypto",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets-crypto/",
+        "source_url": "https://otetmarkets.com/assets-crypto/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets-energy/",
+        "source_url": "https://otetmarkets.com/assets-energy/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets-eustocks",
+        "source_url": "https://otetmarkets.com/assets-eustocks",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets-eustocks/",
+        "source_url": "https://otetmarkets.com/assets-eustocks/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets-usstocks",
+        "source_url": "https://otetmarkets.com/assets-usstocks",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets-usstocks/",
+        "source_url": "https://otetmarkets.com/assets-usstocks/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/assets/",
+        "source_url": "https://otetmarkets.com/assets/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog",
+        "source_url": "https://otetmarkets.com/blog",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog/",
+        "source_url": "https://otetmarkets.com/blog/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog/articles/forex-execution-models/",
+        "source_url": "https://otetmarkets.com/blog/articles/forex-execution-models/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog/articles/how-do-forex-brokers-make-money/",
+        "source_url": "https://otetmarkets.com/blog/articles/how-do-forex-brokers-make-money/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog/articles/what-is-liquidity-provider/",
+        "source_url": "https://otetmarkets.com/blog/articles/what-is-liquidity-provider/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog/news/general-economic-news/jp-morgan-sp500-ai/",
+        "source_url": "https://otetmarkets.com/blog/news/general-economic-news/jp-morgan-sp500-ai/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog/news/gold-market-news/gold-rises-hormuz-fed/",
+        "source_url": "https://otetmarkets.com/blog/news/gold-market-news/gold-rises-hormuz-fed/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/blog/news/oil-market-news/oil-prices-hormuz-tensions-2/",
+        "source_url": "https://otetmarkets.com/blog/news/oil-market-news/oil-prices-hormuz-tensions-2/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/cdn-cgi/l/email-protection",
+        "source_url": "https://otetmarkets.com/cdn-cgi/l/email-protection",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/contact/",
+        "source_url": "https://otetmarkets.com/contact/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/ctrader/",
+        "source_url": "https://otetmarkets.com/ctrader/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/deposit/",
+        "source_url": "https://otetmarkets.com/deposit/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/ecn-account/",
+        "source_url": "https://otetmarkets.com/ecn-account/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "account"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/festival-account/",
+        "source_url": "https://otetmarkets.com/festival-account/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "account"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/financial-holidays/",
+        "source_url": "https://otetmarkets.com/financial-holidays/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/forex-assets/",
+        "source_url": "https://otetmarkets.com/forex-assets/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/ib",
+        "source_url": "https://otetmarkets.com/ib",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/ib/",
+        "source_url": "https://otetmarkets.com/ib/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/indexes-assets/",
+        "source_url": "https://otetmarkets.com/indexes-assets/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/metals-assets",
+        "source_url": "https://otetmarkets.com/metals-assets",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/metals-assets/",
+        "source_url": "https://otetmarkets.com/metals-assets/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/mission/",
+        "source_url": "https://otetmarkets.com/mission/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/no-swap-account/",
+        "source_url": "https://otetmarkets.com/no-swap-account/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "account"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/otet-plus-account/",
+        "source_url": "https://otetmarkets.com/otet-plus-account/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "account"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/platform-ctrader/",
+        "source_url": "https://otetmarkets.com/platform-ctrader/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/regulations/",
+        "source_url": "https://otetmarkets.com/regulations/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/robots.txt",
+        "source_url": "https://otetmarkets.com/robots.txt",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/social-trade-account/",
+        "source_url": "https://otetmarkets.com/social-trade-account/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [
+          "account"
+        ],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": [
+          "sensitive_resource_keyword"
+        ]
+      },
+      {
+        "method": "GET",
+        "path": "/terms-and-conditions/",
+        "source_url": "https://otetmarkets.com/terms-and-conditions/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/values/",
+        "source_url": "https://otetmarkets.com/values/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/vision/",
+        "source_url": "https://otetmarkets.com/vision/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/withdrawal/",
+        "source_url": "https://otetmarkets.com/withdrawal/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      },
+      {
+        "method": "GET",
+        "path": "/https://portal.otetmarkets.com/",
+        "source_url": "https://portal.otetmarkets.com/",
+        "operation_id": "",
+        "tags": [],
+        "sensitivity_tags": [],
+        "path_parameters": [],
+        "query_parameters": [],
+        "body_fields": [],
+        "response_fields": [],
+        "requires_auth": null,
+        "deprecated": false,
+        "external_refs": [],
+        "risk_indicators": []
+      }
+    ],
+    "authentication_analysis": [],
+    "rate_limit_observations": [
+      {
+        "endpoint": "/https://help.otetmarkets.com/",
+        "method": "GET",
+        "status_codes": [
+          404,
+          404
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1540.0,
+          1852.6
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/https://mt5web.otetmarkets.com/terminal",
+        "method": "GET",
+        "status_codes": [
+          404,
+          404
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1771.89,
+          1955.62
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/https://my.otetmarkets.com/register",
+        "method": "GET",
+        "status_codes": [
+          404,
+          404
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1778.04,
+          1753.45
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1565.94,
+          1530.31
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/about-us/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1715.37,
+          1215.39
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/accounts/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1461.09,
+          1682.62
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/assets-crypto",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1719.68,
+          1971.79
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/assets-crypto/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1704.07,
+          1746.23
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/assets-energy/",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1041.25,
+          1331.43
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      },
+      {
+        "endpoint": "/assets-eustocks",
+        "method": "GET",
+        "status_codes": [
+          200,
+          200
+        ],
+        "relevant_headers": {},
+        "timing_ms": [
+          1542.67,
+          1813.54
+        ],
+        "signal_observed": false,
+        "confidence": "LOW",
+        "limitations": "Low-volume, non-destructive sampling only; absence of a signal does not guarantee no rate limiting is configured."
+      }
+    ],
+    "findings": [],
+    "limitations": [
+      "Authorized safe BOLA comparison check was not enabled; only passive path-based indicators were analyzed."
+    ]
+  },
+  "metrics": {
+    "total_endpoints_scanned": 106,
+    "discovered_endpoints_count": 47,
+    "auxiliary_probe_targets_count": 0,
+    "vulnerabilities_by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 4,
+      "info": 0
+    },
+    "overall_security_score": 88,
+    "coverage_percent": 86.4,
+    "confidence_score": 85,
+    "scan_quality": "PARTIAL",
+    "total_requests": 177,
+    "successful_requests": 153,
+    "failed_requests": 6,
+    "timeout_count": 6
+  }
+}
